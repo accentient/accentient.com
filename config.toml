@@ -39,7 +39,7 @@ url = "/azure-devops/"
 
 [[params.navbar]]
 title = "Scrum"
-url = "/Scrum/"
+url = "/scrum/"
 
 [[params.navbar]]
 title = "Training"
