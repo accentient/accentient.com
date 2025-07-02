@@ -50,5 +50,9 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           npx wrangler pages deploy public \
+<<<<<<< HEAD
             --project-name=little-big-top \
+=======
+            --project-name=accentient-com \
+>>>>>>> 98eeb8b850cdb4771cfbda9ee9632e9bbda76985
             --branch=main
