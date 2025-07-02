@@ -22,4 +22,4 @@ Scrum experience required. Product Management experience helpful
 
 ### Downloads
 
-<a href="/downloads/syllabi/s4po.pdf" target="_blank">Syllabus</a> | Sample | Setup Guide
+<a href="/downloads/syllabi/s4po.pdf" target="_blank">Syllabus</a> | <a href="/downloads/samples/s4po.sample.pdf" target="_blank">Sample</a> | Setup Guide

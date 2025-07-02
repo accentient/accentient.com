@@ -64,6 +64,13 @@ body.home .content strong {
   overflow: visible;
 }
 
+.title-wrapper {
+  text-align: left;
+  margin-left: 0in;
+  margin-right: 0in;
+}
+
+
 .hero .title {
   font-size: 28pt;
   font-weight: bold;
@@ -203,6 +210,12 @@ body.home .content strong {
     transform: none !important;
     margin-top: 0 !important;
     padding-top: 1in;
+  }
+
+  .title-wrapper {
+    text-align: left;
+    margin-left: 0in;
+    margin-right: 0in;
   }
 
   .hero .title {
