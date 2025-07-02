@@ -8,7 +8,7 @@ title = "Accentient"
 
 [params.hero]
 enabled = true
-title = "Experts in Scrum, GitHub, Azure DevOps, AI and everything in between"
+title = "Experts in AI, GitHub, Azure DevOps, Scrum and everything in between"
 subtitle = "We help teams deliver high-quality products quickly and efficiently"
 
 # Enable footer
@@ -26,12 +26,20 @@ width = 150
 height = 70
 
 [[params.navbar]]
-title = "Scrum"
-url = "/Scrum/"
+title = "AI"
+url = "/AI/"
 
 [[params.navbar]]
-title = "DevOps"
-url = "/devops/"
+title = "GitHub"
+url = "/github/"
+
+[[params.navbar]]
+title = "Azure DevOps"
+url = "/azure-devops/"
+
+[[params.navbar]]
+title = "Scrum"
+url = "/Scrum/"
 
 [[params.navbar]]
 title = "Training"

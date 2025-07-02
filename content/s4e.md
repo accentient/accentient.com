@@ -1,22 +1,27 @@
 ---
-title: "Course: Managing Projects Using Scrum"
-date: 2025-07-01
+title: "Course: Scrum for Executives"
+date: 2025-07-02
 ---
 
 ## S4E | 1 Day or 1/2 Day
-This course will help take your team and project to the next level. Using a combination of lecture, demonstrations, hands-on activities, and team-based exercises, attendees will experience how to deliver software using the Scrum framework while reducing waste and developing an agile mindset. 
+This instructor-led class is intended to answer three questions commonly asked by executives, managers, and other decision makers: *What is Scrum?* *Why should I care?* and *What will be expected of me to properly adopt Scrum?* Through presentation and discussion, attendees will learn the answers to these questions. By forming into teams and collaborating on activities, attendees will further experience these truths.
 
 ### Audience
-This course is ideal for Product Owners, Scrum Masters, developers, testers, architects, business analysts, team leaders, and managers who aim to improve how their software is delivered. Both technical and non-technical professionals will find value in these discussions.
+This course is intended for executives, managers, and other leaders who want to learn more about Scrum, why it works, and a high-level approach to get started on their path to agility. Typical attendees are those who have never heard of Scrum, but want their organization to become agile or those who may be evaluating Scrum, to see if it’s right for their organization. Other attendees may be from organizations that are already on their way to adopting Scrum. Regardless of your current capabilities, this course is flexible enough to give you the knowledge that you require.
 
 ### Modules
-1. The Scrum Framework
-2. Scrum in Action
-3. Adopting Scrum
+1. Why Scrum?
+2. Scrum: An Executive Summary
+3. Top 10 Things You Should Know About Scrum
+4. Agile Metrics in the Enterprise
+5. Scrum Case Studies
+6. Myths and Misconceptions
+7. The Scrum Principles
+8. Where Scrum Fits and Where It Doesn’t
 
 ### Prerequisites
-While no prior Agile experience is required, a background in project management or software development – either as a team member or project lead – is recommended. Familiarity with Agile concepts and the - <a href="https://www.scrumguides.org" target="_blank">Scrum Guide</a> is helpful. Attendees should review the most recent version of the Scrum Guide before attending.
+IT or related management experience required.
 
 ### Downloads
 
-<a href="/downloads/syllabi/mps.pdf" target="_blank">Syllabus</a> | Sample | Setup Guide
+<a href="/downloads/syllabi/s4e.pdf" target="_blank">Syllabus</a> | Sample | Setup Guide

@@ -3,8 +3,9 @@ title: "Scrum Training"
 date: 2025-07-01
 ---
 
-## Why Scrum
+<img src="/images/scrum/scrum.png" alt="Scrum" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
+<br/><br/>
 The process wars are over. Agile won. By agile, we mean Scrum, because agile is not something that can be done. Agility is a mindset that is achieved. For software development teams and organizations, agility is achieved through Scrum. Scrum is a lightweight, empirical framework used for developing and sustaining complex products, such as software. This is why we have partnered with Scrum.org.
 
 - Higher Product Quality: Continuous testing and adaptation result in better quality products.
@@ -146,15 +147,22 @@ Originally developed in collaboration with Microsoft's Visual Studio team, the P
 
 Whether you're new to Scrum or looking to sharpen your development skills within an Agile context, APS-SD offers both the practical skills and Scrum foundation necessary to succeed in today’s fast-paced, team-driven software environments.
 
+### APS‑SD (PSD) Program Architects: Sam Guckenheimer and Ken Schwaber
+{{< youtube fWSvlw6furY >}}
+
+### APS‑SD (PSD) Course Architects: Thomas Schissler, Richard Hundhausen, Peter Goetz
+{{< youtube B_wfbeDnpT0 >}}
+
+### APS‑SD (PSD) Trainers
+{{< youtube H1hr6NHVGGo >}}
 
 ## Non Scrum.org Training
-
 While Accentient is proud to deliver official Scrum.org-certified training, we also recognize that not every team or organization requires a formal certification path. For those looking to build Scrum knowledge, improve collaboration, or adopt Agile practices more pragmatically, we've developed a suite of non-certified courses. These workshops are custom-designed by our experienced trainers and tailored for a variety of roles and organizational needs — from executives to stakeholders, developers, and product owners. They are ideal for teams that want to accelerate their Agile journey without the structure or cost of certification.
 
 - [Managing Projects Using Scrum (1 day)](/mps/)
-- **Scrum for Executives** (1 or ½ day)  
-- **Scrum for Product Owners** (1 day)  
-- **Scrum for Stakeholders** (1 day)  
-- **Delivering Products with Azure DevOps and Scrum** (3 days)
+- [Scrum for Executives (1 or ½ day)](/s4e/)
+- [Scrum for Product Owners (1 day)](/s4po/)
+- [Scrum for Stakeholders (1 day)](/s4s/)
+- [Delivering Products with Azure DevOps and Scrum (3 days)](/dpads/)
 
 These courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.
