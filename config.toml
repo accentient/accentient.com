@@ -1,0 +1,54 @@
+baseURL = "/"
+title = "Accentient"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params.hero]
+enabled = true
+title = "Experts in Scrum, GitHub, Azure DevOps, AI and everything in between"
+subtitle = "We help teams deliver high-quality products quickly and efficiently"
+
+# Enable footer
+[params.footer]
+enabled = true
+logo = "logo-150.png"
+content = "© 2025 Accentient, Inc. All rights reserved."
+
+# Add navbar links
+
+[params.navbarlogo]
+image = "logo-150.png"
+link = "/"
+width = 150
+height = 70
+
+[[params.navbar]]
+title = "Scrum"
+url = "/Scrum/"
+
+[[params.navbar]]
+title = "DevOps"
+url = "/devops/"
+
+[[params.navbar]]
+title = "Training"
+url = "/training/"
+
+[[params.navbar]]
+title = "Courseware"
+url = "/courseware/"
+
+[[params.navbar]]
+title = "Blog"
+url = "/blog/"
+
+[[params.navbar]]
+title = "About"
+url = "/about/"
+
+[[params.navbar]]
+title = "Contact"
+url = "/contact/"

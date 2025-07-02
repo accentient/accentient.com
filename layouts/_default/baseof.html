@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "meta.html" . }}
+    <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+    <!-- JetBrains Mono font -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ "/css/bulma.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/icons.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}">
+
+    {{ partial "css.html" . }}
+  </head>
+  <body class="{{ if .IsHome }}home{{ else }}{{ .Section }}{{ end }}">
+    {{ if ne .Site.Params.preloader false }}
+    <!-- Preloader -->
+    <!-- <div id="preloader"><div id="status"></div></div> -->
+    {{ end }}
+
+    {{ block "main" . }}
+    {{ end }}
+
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    <!-- Footer -->
+    {{ partial "footer.html" . }}
+
+    {{ partial "javascript.html" . }}
+  </body>
+</html>
