@@ -21,4 +21,9 @@ GitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI.
 
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [GitHub Copilot for Developers (1/2 day)](/gcd/)<br/>
 
+### PSPO-AI Essentials  
+A one-day hands-on course for Product Owners and related roles to learn how to responsibly apply AI tools like ChatGPT and Synthesia across product discovery, validation, and delivery efforts.
+
+<img src="/images/icons/class.png" alt="Class"> [Professional Scrum Product Owner: Applied AI](https://scrum.org/pspo-ai-essentials)
+
 These courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.

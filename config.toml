@@ -14,13 +14,13 @@ subtitle = "We help teams deliver high-quality products quickly and efficiently"
 # Enable footer
 [params.footer]
 enabled = true
-logo = "logo-150.png"
+logo = "/logo-150.png"
 content = "© 2025 Accentient, Inc. All rights reserved."
 
 # Add navbar links
 
 [params.navbarlogo]
-image = "logo-150.png"
+image = "/logo-150.png"
 link = "/"
 width = 150
 height = 70

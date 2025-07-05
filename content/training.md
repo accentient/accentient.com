@@ -27,23 +27,23 @@ date: 2025-07-05
 | **Professional Scrum**  | [Applying Professional Scrum](https://scrum.org/aps)                                                   | 2 days       | Team                                |
 |                         | [Applying Professional Scrum for Software Development](https://scrum.org/aps-sd)                       | 3 days       | Developers, Team                    |
 |                         | [Professional Agile Leadership Essentials](https://scrum.org/pal-e)                                    | 2 days       | Leaders, Managers                   |
-|                         | [PAL: Evidence-Based Management](https://www.scrum.org/courses/professional-agile-leadership-evidence-based-management-training) | 1 day        | Leaders, Stakeholders               |
+|                         | [PAL: Evidence-Based Management](https://scrum.org/pal-ebm)                                            | 1 day        | Leaders, Stakeholders               |
 |                         | [Professional Scrum Facilitation](https://scrum.org/psfs)                                              | 1 day        | Scrum Masters, Team                 |
 |                         | [Professional Scrum with Kanban](https://scrum.org/psk)                                                | 2 days       | Scrum Masters, Developers           |
 |                         | [Professional Scrum Master](https://scrum.org/psm)                                                     | 2 days       | Scrum Masters, Team                 |
 |                         | [Professional Scrum Master Advanced](https://scrum.org/psm-a)                                          | 2 days       | Experienced Scrum Masters           |
-|                         | [PSM + PSPO Combined](https://www.scrum.org/courses/professional-scrum-master-and-product-owner-training) | 3 days       | Scrum Masters, POs       |
+|                         | [PSM + PSPO Combined](https://scrum.org/psmpo)                                                         | 3 days       | Scrum Masters, POs       |
 |                         | [Professional Scrum Product Backlog Management](https://scrum.org/pspbm)                               | 1 day        | Product Owners, Team                |
 |                         | [Professional Scrum Product Owner](https://scrum.org/pspo)                                             | 2 days       | Product Owners                      |
-|                         | [Professional Scrum Product Owner Advanced](https://www.scrum.org/courses/professional-scrum-product-owner-advanced-mastering-product-owner-stances-training) | 2 days       | Experienced Product Owners          |
+|                         | [Professional Scrum Product Owner Advanced](https://scrum.org/pspo-a)                                  | 2 days       | Experienced Product Owners          |
 |                         | [Professional Product Discovery and Validation](https://scrum.org/ppdv)                                | 2 days       | POs, UX, Stakeholders    |
-|                         | [PSPO: Applied AI](https://www.scrum.org/courses/professional-scrum-product-owner-ai-essentials-training) | 1 day        | Product Owners, AI-curious          |
+|                         | [Professional Scrum Product Owner: Applied AI](https://scrum.org/pspo-ai-essentials)                                               | 1 day        | Product Owners, AI-curious          |
 |                         | [Professional Scrum with User Experience](https://scrum.org/psu)                                       | 2 days       | Developers, Designers               |
 |                         | [Scaled Professional Scrum](https://scrum.org/sps)                                                     | 2 days       | Team, Leaders                       |
 | **Non-Certified Scrum** | [Managing Projects Using Scrum](/mps/)                                                                 | 1 day        | Team, PMs                           |
-|                         | [Scrum for Executives](/s4e/)                                                                           | ½ - 1 day   | Executives                          |
+|                         | [Scrum for Executives](/s4e/)                                                                          | ½ - 1 day   | Executives                          |
 |                         | [Scrum for Product Owners](/s4po/)                                                                     | 1 day        | Product Owners                      |
-|                         | [Scrum for Stakeholders](/s4s/)                                                                         | 1 day        | Stakeholders                        |
+|                         | [Scrum for Stakeholders](/s4s/)                                                                        | 1 day        | Stakeholders                        |
 |                         | [Delivering Products with Azure DevOps and Scrum](/dpads/)                                             | 3 days       | Team                                |
      
 These courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.
