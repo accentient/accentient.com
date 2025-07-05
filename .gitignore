@@ -3,6 +3,9 @@
 /resources/_gen/
 /hugo_stats.json
 
+# Old backup site (if used)
+/!oldsite/
+
 # Build artifacts
 *.bak
 *.tmp
@@ -28,3 +31,6 @@ Thumbs.db
 
 # Other potential caches
 .cache/
+
+# Optional Hugo archetypes (ignore if not using `hugo new`)
+archetypes/

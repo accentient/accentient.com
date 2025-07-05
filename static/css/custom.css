@@ -54,14 +54,11 @@ body.home .content strong {
 }
 
 .landing-caption {
-  position: absolute;
-  top: 0in;
-  left: 50%;
-  transform: translateX(-50%);
+  position: static;
   text-align: center;
   width: 100%;
-  z-index: 1;
-  overflow: visible;
+  margin-top: 1rem;
+  margin-bottom: -5rem; /* add space above footer */
 }
 
 .title-wrapper {
@@ -70,14 +67,13 @@ body.home .content strong {
   margin-right: 0in;
 }
 
-
-.hero .title {
-  font-size: 28pt;
+.custom-title {
+  font-size: 26pt;
   font-weight: bold;
-  color: black;
   position: relative;
   margin-top: 0.5in;
-  font-family: 'JetBrains Mono', monospace; 
+  font-family: 'JetBrains Mono', monospace;
+  color: black;
 }
 
 .hero .subtitle {
@@ -199,28 +195,42 @@ body.home .content strong {
     padding-right: 1rem;
   }
 
+  section.hero.is-fullheight {
+    min-height: auto;
+    height: auto;
+  }
+
+  .footer,
+  .footer.footer-dark {
+    margin-top: 0;
+    padding-top: 1rem;
+  }
+
   .hero-body {
-    display: block !important;
-    padding: 2rem 1rem 1rem 1rem !important;
-    height: auto !important;
+    display: block;
+    padding: 2rem 1rem 1rem;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .landing-caption {
-    position: static !important;
-    transform: none !important;
-    margin-top: 0 !important;
-    padding-top: 1in;
+    position: static;
+    transform: none;
+    margin-top: -3rem;
+    padding-top: 0;
+    margin-bottom: 0;
   }
 
   .title-wrapper {
     text-align: left;
-    margin-left: 0in;
-    margin-right: 0in;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .hero .title {
     font-size: 1.75rem;
-    margin-top: -1in;
+    margin-top: -1rem;
   }
 
   .hero .subtitle {
@@ -229,21 +239,21 @@ body.home .content strong {
   }
 
   .navbar-menu {
-    background-color: white !important;
+    background-color: white;
   }
 
   .navbar-menu .navbar-item,
   .navbar-menu .navbar-link {
-    color: black !important;
+    color: black;
   }
 
   .navbar-menu .navbar-item:hover,
   .navbar-menu .navbar-link:hover {
-    background-color: #111 !important;
-    color: #ffdddd !important;
+    background-color: #111;
+    color: #ffdddd;
   }
 
   .navbar-burger span {
-    background-color: black !important;
+    background-color: black;
   }
 }
