@@ -288,4 +288,8 @@ table th {
   table th {
     color: #000 !important;
   }
+
+  .scrum-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
