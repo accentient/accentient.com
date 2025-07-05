@@ -3,6 +3,8 @@ title: "Course: Scrum for Executives"
 date: 2025-07-02
 ---
 
+<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+
 ## S4E | 1 Day or 1/2 Day
 This instructor-led class is intended to answer three questions commonly asked by executives, managers, and other decision makers: *What is Scrum?* *Why should I care?* and *What will be expected of me to properly adopt Scrum?* Through presentation and discussion, attendees will learn the answers to these questions. By forming into teams and collaborating on activities, attendees will further experience these truths.
 

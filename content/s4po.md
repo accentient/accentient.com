@@ -3,6 +3,8 @@ title: "Course: Scrum for Product Owners"
 date: 2025-07-02
 ---
 
+<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+
 ## S4PO | 1 Day
 This instructor-led class is intended to help Product Owners be more effective in their role. Through a combination of presentation, discussion, and hands-on activities, attendees will learn the responsibilities and preferred practices of being the member of the Scrum Team who drives the value.
 

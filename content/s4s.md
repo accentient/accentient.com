@@ -3,6 +3,8 @@ title: "Course: Scrum for Stakeholders"
 date: 2025-07-02
 ---
 
+<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+
 ## S4S | 1 Day
 This instructor-led class is intended to answer three questions commonly asked by Stakeholders: *What is Scrum?* *Why will Scrum be better for me?* *How will I work differently going forward.* Through presentation and discussion, attendees will learn the answers to these questions. By forming into teams and collaborating on activities and discussions, attendees will experience and see the truth behind those answers.
 

@@ -3,7 +3,7 @@ title: "Course: Mastering GitHub Actions"
 date: 2025-07-02
 ---
 
-<img src="/images/github/github-actions.png" alt="GitHub Actionsf" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/github-actions.png" alt="GitHub Actionsf" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 ## MGA | 1 Day
 Supercharge your automation capabilities with GitHub Actions. This one-day course is designed to help you unlock the full power of GitHub Actions to build, test, and deploy applications automatically and securely. Through hands-on labs and real-world examples, attendees will work in teams to learn how to create and manage workflows that streamline their development and release processes.

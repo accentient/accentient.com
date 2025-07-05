@@ -3,7 +3,7 @@ title: "Course: Practicing Kanban in Azure Boards"
 date: 2025-07-02
 ---
 
-<img src="/images/azure-devops/azure-boards.png" alt="Azure Boards" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/azure-boards.png" alt="Azure Boards" title="Azure Boards" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 ## PKAB | 1 Day
 All software development teams have a desire to increase their flow and throughput. With the powerful combination of Kanban and Azure Boards, they can do just that. This one day course will introduce Kanban and demonstrate how an agile team can configure and use Azure Boards to effectively practice Kanban, achieve flow, and begin improving throughput and predictability. To maximize learning, students will work in teams, in a common team project, on a common case study.

@@ -6,7 +6,7 @@
 <div class="hero-body">
   <div class="landing-caption">
     <!-- <h1 class="title is-1 is-bold is-spaced"> -->
-    <h1 class="custom-title">
+    <h1 class="custom-title{{ if .Params.nowrapTitle }} no-wrap-title{{ end }}">
       {{ $title }}
     </h1>
     {{ with $subtitle }}

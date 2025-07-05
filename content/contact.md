@@ -3,10 +3,10 @@ title: "Contact"
 date: 2025-07-02
 ---
 
-<img src="/images/ai/github-copilot.png" alt="GitHub Copilot" title="GitHub Copilot" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/ai/chatgpt.png" alt="ChatGPT" title="ChatGPT" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/ai/claude.png" alt="Claude" title="Claude" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/ai/cursor.png" alt="Cursor" title="Cursor" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/github-copilot.png" alt="GitHub Copilot" title="GitHub Copilot" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/chatgpt.png" alt="ChatGPT" title="ChatGPT" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/claude.png" alt="Claude" title="Claude" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/cursor.png" alt="Cursor" title="Cursor" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 ## We are in Boise, Idaho, USA
 Boise, known as the “City of Trees”, offers scenic mountain views, outdoor recreational activities, and a vibrant downtown area. The home of the famous Boise State Broncos football team (with their symbolic blue turf), Boise has become a hub for innovation and startup technology.

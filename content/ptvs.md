@@ -3,8 +3,9 @@ title: "Course: Professional Software Testing Using Visual Studio"
 date: 2025-07-02
 ---
 
-<img src="/images/azure-devops/azure-boards.png" alt="Azure Boards" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/azure-devops/azure-testplans.png" alt="Azure Test Plans" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/azure-boards.png" alt="Azure Boards" title="Azure Boards" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/azure-testplans.png" alt="Azure Test Plans" title="Azure Test Plans" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/visual-studio.png" alt="Visual Studio" title="Visual Studio" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 ## PTVS | 3 DayS
 This three-day course introduces contemporary agile testing practices and the corresponding tools in Visual Studio Enterprise edition and Azure DevOps Services used to deliver high-quality software products on a regular cadence.

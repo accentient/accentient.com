@@ -3,7 +3,7 @@ title: "Course: Managing Projects in Azure Boards"
 date: 2025-07-02
 ---
 
-<img src="/images/azure-devops/azure-boards.png" alt="Azure Boards" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/azure-boards.png" alt="Azure Boards" title="Azure Boards" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 ## MPAB | 1 Day
 This course is appropriate for all members of a software development team, especially those who are actively involved with creating and refining a product backlog as well as planning and executing work within a sprint. This course will also provide value for individuals outside the development team (managers, Scrum Masters, coaches, and other stakeholders) who want hands-on exposure to the capabilities of Azure Boards. Having some project management and software development experience, either as a team member or as a manager, is recommended. Experience with Agile software development, Scrum, and Visual Studio are also helpful, but not required. Attendees should read and be familiar with the [Scrum Guide](https://scrumguides.org) prior to class.

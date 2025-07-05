@@ -3,6 +3,8 @@ title: "Course: Managing Projects Using Scrum"
 date: 2025-07-01
 ---
 
+<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+
 ## MPS | 1 Day
 This course will help take your team and project to the next level. Using a combination of lecture, demonstrations, hands-on activities, and team-based exercises, attendees will experience how to deliver software using the Scrum framework while reducing waste and developing an agile mindset.
 

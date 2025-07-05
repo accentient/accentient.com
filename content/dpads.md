@@ -3,6 +3,10 @@ title: "Course: Delivering Products Using Azure DevOps and Scrum"
 date: 2025-07-02
 ---
 
+<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/azure-boards.png" alt="Azure Boards" title="Azure Boards" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/visual-studio.png" alt="Visual Studio" title="Visual Studio" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+
 ## DPADS | 3 Days
 This three‐day course will help take your team and product to the next level. Using a combination of lecture, demonstrations, hands‐on activities, and team‐based exercises, attendees will experience how to deliver software using the Scrum framework and the corresponding tools and practices in Azure DevOps and Visual Studio.
 
