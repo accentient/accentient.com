@@ -27,7 +27,7 @@ height = 70
 
 [[params.navbar]]
 title = "AI"
-url = "/AI/"
+url = "/ai/"
 
 [[params.navbar]]
 title = "GitHub"
