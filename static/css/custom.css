@@ -208,6 +208,10 @@ footer.footer,
   color: #0077b5; /* Adjust hover color if desired */
 }
 
+table th {
+  color: #000 !important;
+}
+
 /* === MOBILE RESPONSIVE STYLES === */
 
 @media screen and (max-width: 768px) {
@@ -265,6 +269,7 @@ footer.footer,
     background-color: white;
   }
 
+  
   .navbar-menu .navbar-item,
   .navbar-menu .navbar-link {
     color: black;
