@@ -389,4 +389,11 @@ table th {
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
   }
+
+  .timeline-content h3 {
+    font-size: 0.7rem;
+  }
+  .timeline-content p {
+    font-size: 0.5rem;
+  }
 }

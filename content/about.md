@@ -10,128 +10,164 @@ For the past 25 years, Accentient has been a trusted leader in developer enablem
   <div class="timeline-item left">
     <div class="timeline-content">
       <h3>2025</h3>
-      <p>Assisted City of Seattle in their Azure DevOps implementation.</p>
+      Assisted
+      <a href="https://www.seattle.gov/utilities">City of Seattle</a>
+      in their Azure DevOps implementation.
     </div>
   </div>
   <div class="timeline-item right">
     <div class="timeline-content">
       <h3>2024</h3>
-      <p>Assisted Inspire Medical Systems in their Azure DevOps implementation and migration from Jira.</p>
-      <p>Chinese edition of <em>Professional Scrum Development Using Azure DevOps</em> is published.</p>
+      Assisted
+      <a href="https://www.inspiresleep.com/en-us">Inspire Medical Systems</a>
+      in their Azure DevOps implementation and migration from Jira.
+      <a href="https://www.tenlong.com.tw/products/9787302616023">Chinese</a>
+      edition of <em>Professional Scrum Development Using Azure DevOps</em> is published.
     </div>
   </div>
   <div class="timeline-item left">
     <div class="timeline-content">
       <h3>2023</h3>
-      <p>Assisted State of Colorado in their Azure DevOps and Scrum implementations.</p>
+      Assisted 
+      <a href="https://oit.colorado.gov">State of Colorado</a>
+      in their Azure DevOps and Scrum implementations.
     </div>
   </div>
   <div class="timeline-item right">
     <div class="timeline-content">
       <h3>2022</h3>
-      <p>Japanese edition of <em>Professional Scrum Development Using Azure DevOps</em> is published.</p>
+      <a href="https://www.amazon.co.jp/-/en/Richard-Hundhausen-ebook/dp/B0B1859M25">Japanese</a>
+      edition of <em>Professional Scrum Development Using Azure DevOps</em> is published.
     </div>
   </div>
   <div class="timeline-item left">
     <div class="timeline-content">
       <h3>2021</h3>
-      <p>Polish edition of <em>Professional Scrum Development Using Azure DevOps</em> is published.</p>
+      <a href="https://www.amazon.pl/Profesjonalne-wytwarzanie-oprogramowania-zastosowaniem-Scruma/dp/8375414549">Polish</a>
+      edition of <em>Professional Scrum Development Using Azure DevOps</em> is published.
     </div>
   </div>
   <div class="timeline-item right">
     <div class="timeline-content">
       <h3>2020</h3>
-      <p><em>Professional Scrum Development Using Azure DevOps</em> is published by Microsoft Press.</p>
+      Writes
+      <a href="https://www.amazon.com/Professional-Development-DevOps-Developer-Reference/dp/0136789234">Professional Scrum Development with Azure DevOps</a>
+      for Microsoft Press.
     </div>
   </div>
   <div class="timeline-item left">
     <div class="timeline-content">
       <h3>2019</h3>
-      <p>Migrates the International Monetary Fund to Azure DevOps Services.</p>
+      Migrates the
+      <a href="https://www.imf.org/en/Home">International Monetary Fund</a>
+      to Azure DevOps Services
     </div>
   </div>
   <div class="timeline-item right">
     <div class="timeline-content">
       <h3>2018</h3>
-      <p>Organizes Professional Scrum Developer training events at Intrasoft International in Athens.</p>
+      Organizes Professional Scrum Developer training
+      <a href="https://www.flickr.com/photos/rhundhausen/43170385311/in/album-72157696826256231/">events</a>
+      at Intrasoft International in Athens.
     </div>
   </div>
   <div class="timeline-item left">
     <div class="timeline-content">
       <h3>2017</h3>
-      <p>Organizes largest-ever Professional Scrum Train-The-Trainer (TTT) event at Microsoft Technology Center in Munich, Germany.</p>
+      Organizes largest-ever Professional Scrum Train-The-Trainer (TTT)
+      <a href="https://www.flickr.com/photos/rhundhausen/37824078421/in/album-72157687053164291/">event</a> at
+      <a href="https://news.microsoft.com/europe/features/microsoft-in-munich/">Microsoft's Technology Center</a> in Munich, Germany.
     </div>
   </div>
   <div class="timeline-item right">
     <div class="timeline-content">
       <h3>2016</h3>
-      <p>Installs and configures Team Foundation Server at the International Monetary Fund.</p>
+      Installs and configures Team Foundation Server at the
+      <a href="https://www.imf.org/en/Home">International Monetary Fund</a>.
     </div>
   </div>
   <div class="timeline-item left">
     <div class="timeline-content">
       <h3>2015</h3>
-      <p>Helps create Scaled Professional Scrum (the Nexus framework) in cooperation with Scrum.org.</p>
+      Co-creates the
+      <a href="https://www.scrum.org/resources/nexus-guide">Nexus Scaled Scrum framework</a>
+      with Scrum.org.
     </div>
   </div>
   <div class="timeline-item right">
     <div class="timeline-content">
       <h3>2014</h3>
-      <p>Creates Microsoft’s internal TFS courseware for Dynamics CRM training.</p>
+      Creates TFS courseware for Microsoft's internal
+      <a href="https://www.microsoft.com/en-us/dynamics-365/resources/what-is-crm">Dynamics CRM</a>
+      training.
     </div>
   </div>
   <div class="timeline-item left">
     <div class="timeline-content">
       <h3>2013</h3>
-      <p>Creates Avanade’s internal Scrum development courseware and publishes instructional videos on WintellectNOW.</p>
+      Creates
+      <a href="https://www.scrum.org/resources/scrumorg-continues-help-avanade-build-its-worldwide-agile-capabilities-2">Avanade's</a>
+      internal Scrum development courseware. Publishes videos on
+      <a href="https://www.wintellectnow.com/Home/Instructor?instructorId=RichardHundhausen">WintellectNOW</a>.
     </div>
   </div>
   <div class="timeline-item right">
     <div class="timeline-content">
       <h3>2012</h3>
-      <p>Writes <em>Professional Scrum Development Using Visual Studio 2012</em> for Microsoft Press.</p>
+      Writes
+      <a href="http://www.amazon.com/Professional-Development-Microsoft-Developer-Reference/dp/073565798X">Professional Scrum Development Using Visual Studio</a>
+      for Microsoft Press.
     </div>
   </div>
   <div class="timeline-item left">
     <div class="timeline-content">
       <h3>2011</h3>
-      <p>Produces Microsoft’s How Do I (HDI) videos for its Hosted TFS Preview (Visual Studio Team Services).</p>
+      Creates "How Do I" videos for the
+      <a href="https://devblogs.microsoft.com/devops/learning-about-the-team-foundation-service-preview/">Hosted-TFS Preview</a>
     </div>
   </div>
   <div class="timeline-item right">
     <div class="timeline-content">
       <h3>2010</h3>
-      <p>Became one of Microsoft's top ALM training partners. Helps Microsoft launch the Professional Scrum Developer (PSD) program on MSDN and Visual Studio 2010 in Las Vegas. Creates more “How Do I” videos, including Visual Studio Scrum videos.</p>
+      Becomes a top Microsoft ALM training partner. Helps with the
+      <a href="https://news.microsoft.com/speeches/bob-muglia-visual-studio-2010-global-launch-keynote/">Visual Studio 2010 launch</a>
+      in Las Vegas. Creates more “How Do I” videos, including
+      <a href="https://visualstudiomagazine.com/articles/2010/07/01/enabling-alm.aspx">Visual Studio Scrum</a>.
     </div>
   </div>
   <div class="timeline-item left">
     <div class="timeline-content">
       <h3>2009</h3>
-      <p>Creates Professional Scrum Developer course in cooperation with Scrum.org and Microsoft.</p>
+      Creates
+      <a href="https://www.scrum.org/psd">Professional Scrum Developer</a>
+        course in cooperation with Microsoft and
+      <a href="https://www.scrum.org">Scrum.org</a>.
     </div>
   </div>
   <div class="timeline-item right">
     <div class="timeline-content">
       <h3>2008</h3>
-      <p>Produces Microsoft’s “How Do I” videos for Visual Studio Team System.</p>
+      Creates “How Do I” videos for Microsoft Visual Studio Team System.
     </div>
   </div>
-  <div class="timeline-item left">
+    <div class="timeline-item left">
     <div class="timeline-content">
-      <h3>2005</h3>
-      <p>Delivered first Team System training class for Microsoft. Writes <em>Working with Visual Studio 2005 Team System</em> for Microsoft Press and creates content for the worldwide launch of Team System. Accentient’s founder receives the first MVP award in Visual Studio Team System.</p>
+        <h3>2005</h3>
+        Delivered first Team System training for Microsoft. Writes
+        <a href="http://www.amazon.com/Working-Microsoft%C2%AE-Studio%C2%AE-Developer-Reference/dp/0735621853">Working with Visual Studio 2005 Team System</a>
+        for Microsoft Press. Creates content for the worldwide launch of Team System. Accentient’s founder receives the first
+        <a href="https://mvp.microsoft.com/en-us/mvp">MVP</a>
+        award in Visual Studio Team System.
     </div>
-  </div>
+    </div>
   <div class="timeline-item right">
     <div class="timeline-content">
       <h3>2002</h3>
-      <p>Accentient is founded as a developer-focused technical training company.</p>
-    </div>
-  </div>
-  <div class="timeline-item left">
-    <div class="timeline-content">
-      <h3>2001</h3>
-      <p>Accentient is founded to help teams adopt Microsoft .NET.</p>
+      Accentient is founded as a developer-focused technical training company.
     </div>
   </div>
 </section>
+
+### About Richard Hundhausen
+Richard is the president of Accentient, a company that helps software teams deliver better software. He is a Professional Scrum Trainer, author of Professional Scrum Development with Azure DevOps for Microsoft Press, the first DevOps Microsoft MVP, and co-creator of the Nexus Scaled Professional Scrum framework. He is a software developer and consultant with over 30 years of experience.
+<blockquote style="margin-top: 2em; font-style: italic; text-align: center;">“Software is built and delivered by people, not by process or tools.”</blockquote>
