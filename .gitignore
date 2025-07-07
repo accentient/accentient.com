@@ -21,6 +21,7 @@ Thumbs.db
 .idea/
 .vscode/
 *.log
+todo.md
 
 # Netlify / deployment folders (if you generate them locally)
 .netlify/
