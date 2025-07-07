@@ -278,19 +278,6 @@ table th {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-blockquote {
-  background-color: #f0f0f0 !important;
-  color: #000000 !important;
-  font-style: italic;
-  text-align: center;
-  padding: 1.2em 1.5em;
-  margin: 2em auto;
-  border-left: 5px solid #007acc;
-  max-width: 800px;
-  line-height: 1.6;
-  display: block;
-}
-
 /* === MOBILE RESPONSIVE STYLES === */
 
 @media screen and (max-width: 768px) {
@@ -408,13 +395,5 @@ blockquote {
   }
   .timeline-content p {
     font-size: 0.6rem;
-  }
-
-  blockquote {
-    background-color: #f0f0f0 !important;
-    color: #000 !important;
-    font-size: 1rem;
-    padding: 1em;
-    margin: 1.5em auto;
   }
 }

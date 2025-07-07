@@ -170,4 +170,5 @@ For the past 25 years, Accentient has been a trusted leader in developer enablem
 
 ### About Richard Hundhausen
 Richard is the president of Accentient, a company that helps software teams deliver better software. He is a Professional Scrum Trainer, author of Professional Scrum Development with Azure DevOps for Microsoft Press, the first DevOps Microsoft MVP, and co-creator of the Nexus Scaled Professional Scrum framework. He is a software developer and consultant with over 30 years of experience.
-<blockquote style="margin-top: 2em; font-style: italic; text-align: center;">“Software is built and delivered by people, not by process or tools.”</blockquote>
+
+> “Software is built and delivered by people, not by process or tools.”
