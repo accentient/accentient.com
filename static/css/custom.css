@@ -303,7 +303,7 @@ table th {
 
 /* === MOBILE RESPONSIVE STYLES === */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 
   .content,
   .section,
@@ -329,6 +329,15 @@ table th {
     height: auto;
     margin-bottom: 0;
     padding-bottom: 0;
+  }
+
+  .title-wrapper {
+    padding-bottom: 0.25em;
+  }
+  
+  .title-wrapper h1.title {
+    line-height: 1.3;
+    padding-bottom: 0.1em;
   }
 
   .custom-title {
@@ -373,7 +382,6 @@ table th {
     background-color: white;
   }
 
-  
   .navbar-menu .navbar-item,
   .navbar-menu .navbar-link {
     color: black;
@@ -424,5 +432,4 @@ table th {
   .courseware-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
-
 }
