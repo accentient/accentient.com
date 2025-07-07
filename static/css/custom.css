@@ -212,9 +212,19 @@ table th {
   color: #000 !important;
 }
 
+.version-label {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  font-size: 0.75rem;
+  color: #888;
+  z-index: 9999;
+}
+
 /* === MOBILE RESPONSIVE STYLES === */
 
 @media screen and (max-width: 768px) {
+
   .content,
   .section,
   .main {
@@ -241,6 +251,20 @@ table th {
     padding-bottom: 0;
   }
 
+  .custom-title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem; /* ✅ tighten space below title */
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .hero .subtitle {
+    font-size: 1rem;
+    margin-top: 0.75rem; /* ✅ tighten space above subtitle */
+  }
+
+  /*
   .landing-caption {
     position: static;
     transform: none;
@@ -256,7 +280,7 @@ table th {
   }
 
   .hero .title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-top: -1rem;
   }
 
@@ -264,7 +288,7 @@ table th {
     font-size: 1rem;
     margin-top: 0.5rem;
   }
-
+*/
   .navbar-menu {
     background-color: white;
   }
