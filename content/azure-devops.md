@@ -10,7 +10,7 @@ date: 2025-07-02
 <img src="/images/icons/azure-artifacts.png" alt="Azure Artifacts" title="Azure Artifacts" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 <br/><br/>
-Microsoft Azure DevOps — formerly known as Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) — offers a comprehensive suite of tools and services that empower software teams to plan, develop, test, and deliver high-quality software quickly and efficiently. Each service is open, flexible, and designed to integrate seamlessly with any application, framework, platform, or cloud. Teams can adopt Azure DevOps as a complete end-to-end solution or use individual services alongside their existing toolchain.
+Microsoft Azure DevOps offers a comprehensive suite of tools and services that empower software teams to plan, develop, test, and deliver high-quality software quickly and efficiently. Each service is open, flexible, and designed to integrate seamlessly with any application, framework, platform, or cloud. Teams can adopt Azure DevOps as a complete end-to-end solution or use individual services alongside their existing toolchain.
 
 ### Azure Boards
 Azure Boards offers agile tools to plan, track, and manage work from idea to release. With support for backlogs, boards, sprints, and dashboards, it helps teams stay organized and aligned — whether using Scrum, Kanban, or a custom process.
