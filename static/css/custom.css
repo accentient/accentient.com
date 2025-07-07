@@ -434,4 +434,12 @@ table th {
   .courseware-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
+
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
+      .title-wrapper h1.title {
+        padding-bottom: 0.4em; /* extra space for Safari on iOS */
+      }
+    }
+  }
 }
