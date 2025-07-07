@@ -316,4 +316,20 @@ table th {
   .scrum-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+    body.training-page .content {
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+
+  body.training-page .content table th,
+  body.training-page .content table td {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  body.training-page .section-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
 }

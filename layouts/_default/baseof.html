@@ -16,7 +16,8 @@
 
     {{ partial "css.html" . }}
   </head>
-  <body class="{{ if .IsHome }}home{{ else }}{{ .Section }}{{ end }}">
+  <body class="{{ if .IsHome }}home{{ else }}{{ .Section }} {{ .File.BaseFileName | urlize }}{{ end }}">
+
     {{ if ne .Site.Params.preloader false }}
     <!-- Preloader -->
     <!-- <div id="preloader"><div id="status"></div></div> -->

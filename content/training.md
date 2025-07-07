@@ -1,6 +1,7 @@
 ---
 title: "Training"
 date: 2025-07-05
+body_class: "training-page"
 ---
 
 | Topic                   | Course                                                                                | Duration  | Audience                            |
