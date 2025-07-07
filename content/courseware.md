@@ -3,7 +3,7 @@ title: "Courseware"
 date: 2025-07-07
 ---
 
-## Our Courseware rocks
+## Our courseware rocks!
 If you want to run your own internal class or deliver training to your clients, we can help. Most of our high-quality courseware [titles](/training/) are available for purchase. You have the option of [digital content](https://www.mimeo.com/platform/mimeo-digital/) or drop-shipped books. You will also have electronic-based support for other class materials, made available to you prior to your training.
 
 Our courseware is created by experts who know how to keep students engaged and learning. Our team-based courses are designed to teach the ins and outs of the tools and related practices as well as transfer the preferred practices that we have accumulated from our years in the field, working with software development teams. In other words, we not only tell you what a feature does, but when and why you should use it, and when you shouldn’t!

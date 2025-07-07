@@ -80,6 +80,9 @@ body.home .content strong {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100%;
+
+  line-height: 1.2;
+  padding-bottom: 0.1em;
 }
 
 .title.section-title {
@@ -421,5 +424,5 @@ table th {
   .courseware-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
-  
+
 }
