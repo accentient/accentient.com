@@ -1,29 +1,42 @@
 ---
-title: "Contact"
+title: "Contact Us"
 date: 2025-07-02
 ---
 
-<img src="/images/icons/github-copilot.png" alt="GitHub Copilot" title="GitHub Copilot" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/icons/chatgpt.png" alt="ChatGPT" title="ChatGPT" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/icons/claude.png" alt="Claude" title="Claude" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/icons/cursor.png" alt="Cursor" title="Cursor" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+Thank you for your interest in Accentient. We value your feedback, questions, and inquiries. Please feel free to reach out to us using the information below:
 
-## We are in Boise, Idaho, USA
-Boise, known as the “City of Trees”, offers scenic mountain views, outdoor recreational activities, and a vibrant downtown area. The home of the famous Boise State Broncos football team (with their symbolic blue turf), Boise has become a hub for innovation and startup technology.
+Phone: ‪+1 (208) 629-2965‬  
+Email: info@accentient.com
 
-We look forward to hearing from you and assisting with your needs. Your feedback is important to us as we strive to provide the best in expert training and consulting.
-### Audience
-This course is designed for every member of a software development team, with a special focus on Product Owners/Product Managers, Scrum Masters/Agile Coaches, and Developers. The course reinforces the core responsibilities and daily practices while providing actionable insights for success.
+### Contact Form
 
-### Modules
-1. What is AI
-2. AI for Product Owners / Product Managers
-3. AI for Scrum Masters / Agile Coaches
-4. AI for Developers
+If you prefer, you can also use the contact form below to send us a message. We aim to respond to inquiries within 24 hours.
 
-### Prerequisites
-Team-based development experience recommended
+<form id="contactForm" method="POST" style="max-width: 600px; margin: 0 auto">
+  <label>Name *</label><br>
+  <input type="text" name="name" required style="width:100%; padding:8px;"><br><br>
 
-### Downloads
+  <label>Email *</label><br>
+  <input type="email" name="email" required style="width:100%; padding:8px;"><br><br>
 
-<a href="/downloads/syllabi/aist.pdf" target="_blank">Syllabus</a> | <a href="/downloads/samples/aist.sample.pdf" target="_blank">Sample</a> | Setup Guide
+  <label>Subject</label><br>
+  <input type="text" name="subject" style="width:100%; padding:8px;"><br><br>
+
+  <label>Message *</label><br>
+  <textarea name="message" rows="5" required style="width:100%; padding:8px;"></textarea><br><br>
+
+  <button type="submit" style="padding:10px 20px; background-color:#007bff; color:white; border:none;">Submit</button>
+</form>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LedF4ggAAAAAJk8ubg6phydjkXaIRMAgvyKgg47"></script>
+<script src="/js/contact-form.js"></script>
+
+---
+
+### We are in Boise, Idaho, USA
+
+<div style="overflow: hidden;">
+  <img src="/images/boise.jpg" alt="Boise, Idaho" style="float: right; margin: 0 0 10px 20px; max-width: 400px;">
+  <p>Boise, known as the “City of Trees”, offers scenic mountain views, outdoor recreational activities, and a vibrant downtown area. The home of the famous Boise State Broncos football team (with their symbolic blue turf), Boise has become a hub for innovation and startup technology.</p>
+  <p>We look forward to hearing from you and assisting with your needs. Your feedback is important to us as we strive to provide the best in expert training and consulting.</p>
+</div>
