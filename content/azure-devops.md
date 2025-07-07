@@ -42,3 +42,21 @@ Azure Artifacts enables teams to create, host, and share packages — such as Nu
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Continuous Delivery Using Azure DevOps Services (2 Days)](/cdads/)
 
 These courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.
+
+## Consulting Services
+
+At Accentient, we don’t just teach Azure DevOps — we use it every day. We're not just IT admins; we're developers who understand how to get the most out of Azure DevOps for planning, managing, and visualizing work, code, builds, and deployments. You can trust us to optimize your tools with the same hands-on expertise we rely on ourselves.
+
+- Azure DevOps Services migration from TFS, Azure DevOps Server, Jira, and many others
+- Server-to-server and project-to-project migrations within Azure DevOps
+- Azure DevOps transformations for teams adopting modern DevOps practices
+- Tool and process assessments to identify improvement opportunities
+- Integration with third-party tools and custom extension development
+- Custom Azure DevOps configurations tailored to your team’s workflow
+- Performance tuning and optimization of pipelines, boards, and repos
+- Strategic planning and guidance for managing code, builds, and deployments
+- Expert DevOps coaching to support high-performing development teams
+
+[Contact us](/contact/) to discuss your needs.
+
+> “DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.” – Donovan Brown.

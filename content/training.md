@@ -42,9 +42,11 @@ body_class: "training-page"
 |                         | [Professional Scrum with User Experience](https://scrum.org/psu)                      | 2 days    | Developers, Designers               |
 |                         | [Scaled Professional Scrum](https://scrum.org/sps)                                    | 2 days    | Team, Leaders                       |
 | **Non-Certified Scrum** | [Managing Projects Using Scrum](/mps/)                                                | 1 day     | Team, PMs                           |
-|                         | [Scrum for Executives](/s4e/)                                                         | ½ - 1 day | Executives                          |
+|                         | [Scrum for Executives](/s4e/)                                                         | ½ or 1 day | Executives, Directors, Leaders      |
 |                         | [Scrum for Product Owners](/s4po/)                                                    | 1 day     | Product Owners                      |
 |                         | [Scrum for Stakeholders](/s4s/)                                                       | 1 day     | Stakeholders                        |
 |                         | [Delivering Products with Azure DevOps and Scrum](/dpads/)                            | 3 days    | Team                                |
      
 These courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.
+
+For pricing or requests for training not listed above, please [contact us](/contact/).
