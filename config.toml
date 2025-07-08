@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Welcome to Accentient"
+title = " Accentient"
 
 [markup]
   [markup.goldmark]
