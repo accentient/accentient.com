@@ -34,9 +34,12 @@ export default {
       });
 
       const verification = await verifyResponse.json();
-      console.log("Google verification response:", verification);
 
-      if (!verification.success || verification.score < 0.5) {
+      console.log("Google verification response:", verification);
+      console.log("reCAPTCHA score:", verification.score);
+      console.log("Google verification hostname:", verification.hostname);
+
+      if (!verification.success || verification.score < 0.3) {
         return new Response("CAPTCHA verification failed", {
           status: 403,
           headers: corsHeaders,
