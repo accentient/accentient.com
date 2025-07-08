@@ -3,6 +3,7 @@ title: "Course: Mastering GitHub Actions"
 date: 2025-07-02
 ---
 
+<img src="/images/icons/github.png" alt="GitHub" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 <img src="/images/icons/github-actions.png" alt="GitHub Actionsf" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 ## MGA | 1 Day

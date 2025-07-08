@@ -34,7 +34,7 @@ Prefer a different way to get in touch? Feel free to use the contact form below 
 
 ---
 
-### We are in Boise, Idaho, USA
+### We are in Boise, Idaho
 
 <div style="overflow: hidden;">
   <img src="/images/boise.jpg" alt="Boise, Idaho" style="float: right; margin: 0 0 10px 20px; max-width: 400px;">

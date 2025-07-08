@@ -3,7 +3,9 @@ title: "Course: GitHub Copilot for Developers"
 date: 2025-07-02
 ---
 
+<img src="/images/icons/github.png" alt="GitHub" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 <img src="/images/icons/github-copilot.png" alt="GitHub Copilot" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/visual-studio-code.png" alt="Visual Studio Code" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 ## GCD | 1/2 Day
 Accelerate your coding with the power of AI. This half-day course introduces developers to GitHub Copilot, an AI-powered coding assistant that helps write code faster and with fewer errors. Through live demonstrations and hands-on exercises, attendees will learn how to effectively use Copilot in their everyday workflows—from generating boilerplate code to exploring unfamiliar frameworks and improving productivity.

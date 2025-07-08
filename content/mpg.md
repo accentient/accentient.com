@@ -3,6 +3,8 @@ title: "Course: Managing Projects Using GitHub"
 date: 2025-07-02
 ---
 
+<img src="/images/icons/github.png" alt="GitHub" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+
 ## MPG | 1 Day
 Unlock the full potential of GitHub Projects as you learn how to supercharge your team’s flow. This one-day class is designed to help teams and individuals effectively use the tools and capabilities in GitHub Projects to plan, track, and manage their work. Whether you’re new to GitHub Projects or looking to enhance your skills, this course will provide practical strategies and proven practices to boost your team’s productivity. To maximize learning, students work in teams, in a common GitHub organization, on a common case study.
 

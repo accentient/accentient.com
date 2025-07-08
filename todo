@@ -1,19 +1,19 @@
 Task
 ---------------------------------------------------------------------------------------------------------------------
 
-- Add Contact page w/ contacts
+- Fix contact page Captcha
 - Add a why Accentient page
 - Add Blog posts
 
 - Need some items from the old Sites homepage like my silent video and Ken Schwaber‘s testimony
-- Add GitHub and ADO integration course
-- Quotes are flaky on iPhone 
 - Need an intro to the training page
-- Courseware links to individual courses
-- Captcha form not working
-- Printed coursebooks > books
-- Download sample module > check out a …
-- Add missing training pages =
+
+- Add missing training page: ADS
+- Add missing training page: ALM
+- Add missing training page: PKJ
+- Add missing training page: SSDT
+- Add missing training page: UTVS
+- Add missing training page: IADG (GitHub and ADO integration)
 
 Done, needs testing
 ---------------------------------------------------------------------------------------------------------------------
@@ -31,12 +31,18 @@ Done, needs testing
 - Missing favicon
 - New favicon
 - Fix "Hardcoded description; the author should update :)" weirdness; opengraph setup
-
+- Expanded Boise description
 - Add a “- Richard Hundhausen” to my quote
 - Add calendly link
 - Remove “process wars are over”
 - Need the photo of me teaching in the DevOps shirt
 - Drop paragraph after Boise
+
+- Quotes are flaky on iPhone 
+- Download sample module > check out a …
+- Courseware links to individual courses
+- Printed coursebooks > books
+
 
 Document updates
 ---------------------------------------------------------------------------------------------------------------------
