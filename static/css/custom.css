@@ -448,10 +448,10 @@ table th {
   }
 
   .quote {
-    margin-left: 0;
-    padding-left: 10px;
+    background-color: #f9f9f9 !important;
+    color: #000 !important;
   }
-  
+
   @media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance: none) {
       .title-wrapper h1.title {

@@ -25,7 +25,7 @@ GitHub Projects is a planning and project management tool built into GitHub. It 
 
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Managing Projects Using GitHub (1 day)](/mpg/)<br/>
 
-### Integration with Azure DevOps
+### Integrating with Azure DevOps
 GitHub and Azure DevOps work better together. Connect your GitHub repo to Azure Boards to track work with linked commits and pull requests. Use Azure Pipelines for builds and deployments, all triggered from GitHub. Keep code, tasks, and releases in sync—without leaving your tools.
 
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Integrating Azure DevOps and GitHub (1 day)](/iadg/)<br/>

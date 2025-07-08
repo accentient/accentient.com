@@ -5,7 +5,7 @@ date: 2025-07-08
 
 <img src="/images/icons/visual-studio.png" alt="Visual Studio" title="Visual Studio" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
-## UTVS | 2 DayS
+## UTVS | 2 Days
 This two-day, instructor-led course provides students with the knowledge and skills to effectively use Visual Studio to design, write, and run high-quality .NET unit tests. The course focuses on the applicable features and capabilities of Visual Studio as it relates to unit testing and Test-Driven Development (TDD). This course also introduces other, popular unit testing tools and techniques, and demonstrates how they integrate with Visual Studio and your development lifecycle.
 
 ### Audience
