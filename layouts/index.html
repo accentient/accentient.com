@@ -4,6 +4,8 @@
     {{ partial "hero.html" . }}
     {{ end }}
 
+    {{ partial "section-video.html" . }}
+    
     {{ if and .Site.Params.section1 (.Site.Params.section1.enabled) }}
     {{ partial "section1.html" . }}
     {{ end }}

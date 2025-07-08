@@ -150,6 +150,8 @@ Whether you're new to Scrum or looking to sharpen your development skills within
 ### APS‑SD (PSD) Program Architects: Sam Guckenheimer and Ken Schwaber
 {{< youtube fWSvlw6furY >}}
 
+<blockquote class="quote">“Scrum Teams are expected to deliver value every Sprint. Accentient’s Professional Scrum Developer course shows how to meet these demands using modern software engineering practices and tools. Accentient’s courseware is an accelerant to Scrum and its benefits to the profession of software development. ” - Ken Schwaber, Co-creator of Scrum</blockquote>
+
 ### APS‑SD (PSD) Course Architects: Thomas Schissler, Richard Hundhausen, Peter Goetz
 {{< youtube B_wfbeDnpT0 >}}
 

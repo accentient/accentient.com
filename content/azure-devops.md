@@ -41,6 +41,11 @@ Azure Artifacts enables teams to create, host, and share packages — such as Nu
 
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Continuous Delivery Using Azure DevOps Services (2 Days)](/cdads/)
 
+### Integration with GitHub
+Azure DevOps and GitHub connect seamlessly. Use GitHub for code and pull requests, and track progress in Azure Boards. Trigger builds and deployments in Azure Pipelines straight from GitHub commits. Get full visibility from code to release—all inside Azure DevOps.
+
+<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Integrating Azure DevOps and GitHub (1 day)](/iadg/)<br/>
+
 These courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.
 
 ## Consulting Services
