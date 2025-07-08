@@ -177,5 +177,5 @@ For the past 25 years, Accentient has been a trusted leader in developer enablem
   <p>He is a Professional Scrum Trainer, the author of <em>Professional Scrum Development with Azure DevOps</em> (Microsoft Press), and was the first Microsoft MVP for Visual Studio Team System. As a co-creator of the Nexus Scaled Scrum framework and a founding contributor to Scrum.org, Richard has trained and coached hundreds of teams worldwide, helping them apply Scrum in real-world, high-stakes environments.</p>
   
   <p>You can see some of the books he has written <a href="https://www.goodreads.com/author/list/286621.Richard_Hundhausen" target="_blank" rel="noopener noreferrer">here</a>.</p>
-  <blockquote style="margin-left: 420px;">“Software is built and delivered by people, not by process or tools.” – Richard Hundhausen</blockquote>
+  <blockquote class="quote">“Software is built and delivered by people, not by process or tools.” – Richard Hundhausen</blockquote>
 </div>

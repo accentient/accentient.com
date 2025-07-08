@@ -306,6 +306,13 @@ table th {
   margin-left: 0;
 }
 
+.quote {
+  margin-top: 20px;
+  padding-left: 20px;
+  border-left: 4px solid #ccc;
+  font-style: italic;
+}
+
 /* === MOBILE RESPONSIVE STYLES === */
 
 @media screen and (max-width: 768px) {
@@ -440,6 +447,11 @@ table th {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 
+  .quote {
+    margin-left: 0;
+    padding-left: 10px;
+  }
+  
   @media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance: none) {
       .title-wrapper h1.title {

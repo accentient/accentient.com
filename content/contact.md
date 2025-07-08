@@ -38,5 +38,7 @@ Prefer a different way to get in touch? Feel free to use the contact form below 
 
 <div style="overflow: hidden;">
   <img src="/images/boise.jpg" alt="Boise, Idaho" style="float: right; margin: 0 0 10px 20px; max-width: 400px;">
-  <p>Boise, known as the “City of Trees”, offers scenic mountain views, outdoor recreational activities, and a vibrant downtown area. The home of the famous Boise State Broncos football team (with their symbolic blue turf), Boise has become a hub for innovation and startup technology.</p>
+  <p>Boise, the “City of Trees,” sits at the base of the Rocky Mountains and blends outdoor adventure with urban energy. From the Boise River Greenbelt to Bogus Basin, it's a haven for year-round outdoor enthusiasts.</p>
+  <p>It's also a rising hub for innovation, attracting startups and remote workers with its low cost of living, educated workforce, and strong entrepreneurial spirit. Downtown co-working spaces and cafés reflect its growing tech culture.</p>
+  <p>Anchored by Boise State University and a growing tech sector, the city fosters collaboration across industries. With a balance of opportunity, nature, and community, Boise is one of the most livable small cities in the U.S.</p>
 </div>
