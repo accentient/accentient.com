@@ -313,6 +313,37 @@ table th {
   font-style: italic;
 }
 
+/* Video section container */
+.video-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 66%;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Video styling */
+.video-box video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* Text box below video */
+.video-text {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 /* === MOBILE RESPONSIVE STYLES === */
 
 @media screen and (max-width: 768px) {
@@ -458,6 +489,30 @@ table th {
     border-radius: 4px;
   }
 
+  .video-box {
+    position: relative;
+    width: 66.666%;
+    margin-top: 75px;
+  }
+
+  .video-text {
+    position: absolute;
+    bottom: 0.3rem; /* ⬅ lower it closer to the bottom */
+    left: 0.3rem;   /* ⬅ inset from left edge */
+    right: 0.3rem;  /* ⬅ inset from right edge */
+    transform: none; /* no centering, since we're stretching it */
+
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.75rem;
+    font-size: 0.4rem;
+    line-height: 1.4;
+    font-weight: 400;
+    border-radius: 8px;
+    text-align: center;
+    max-width: unset; /* allow full width */
+  }
+  
   @media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance: none) {
       .title-wrapper h1.title {
