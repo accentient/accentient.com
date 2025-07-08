@@ -12,7 +12,7 @@ Email: info@accentient.com
 
 If you prefer, you can also use the contact form below to send us a message. We aim to respond to inquiries within 24 hours.
 
-<form id="contactForm" method="POST" style="max-width: 600px; margin: 0 auto">
+<form id="contactForm" method="POST" class="contact-form">
   <label>Name *</label><br>
   <input type="text" name="name" required style="width:100%; padding:8px;"><br><br>
 

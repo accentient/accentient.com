@@ -24,6 +24,8 @@ export default {
       const formData = await request.json();
       const recaptchaToken = formData["recaptchaToken"];
 
+      console.log("Received reCAPTCHA token:", recaptchaToken);
+      
       if (!recaptchaToken) {
         return new Response("Missing CAPTCHA token", {
           status: 400,
@@ -38,6 +40,8 @@ export default {
       });
 
       const verification = await verifyResponse.json();
+
+      console.log("Google verification response:", verification);
 
       if (!verification.success) {
         return new Response("CAPTCHA verification failed", {

@@ -301,6 +301,11 @@ table th {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+.contact-form {
+  max-width: 600px;
+  margin-left: 0;
+}
+
 /* === MOBILE RESPONSIVE STYLES === */
 
 @media screen and (max-width: 768px) {

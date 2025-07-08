@@ -6,6 +6,9 @@ title = "Accentient"
     [markup.goldmark.renderer]
       unsafe = true
 
+[params]
+description = "Experts in AI, GitHub, Azure DevOps, Scrum and everything in between"
+
 [params.hero]
 enabled = true
 title = "Experts in AI, GitHub, Azure DevOps, Scrum and everything in between"
