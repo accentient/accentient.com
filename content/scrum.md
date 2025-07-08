@@ -6,7 +6,7 @@ date: 2025-07-01
 <img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 <br/><br/>
-The process wars are over. Agile won. By agile, we mean Scrum, because agile is not something that can be done. Agility is a mindset that is achieved. For software development teams and organizations, agility is achieved through Scrum. Scrum is a lightweight, empirical framework used for developing and sustaining complex products, such as software. This is why we have partnered with Scrum.org.
+Scrum has become the leading framework for teams seeking agility in modern software development—and for good reason. It’s not just a process, but a proven approach grounded in empiricism, transparency, and continuous improvement. While Agile is the broader philosophy, Scrum provides the structure and discipline to make that philosophy actionable. That’s why we've partnered with Scrum.org—to help organizations unlock true agility by embracing the full power of Scrum.
 
 - Higher Product Quality: Continuous testing and adaptation result in better quality products.
 - Transparency: Scrum provides visibility into project progress for informed decision-making.

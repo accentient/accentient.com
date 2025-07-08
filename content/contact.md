@@ -5,12 +5,13 @@ date: 2025-07-02
 
 Thank you for your interest in Accentient. We value your feedback, questions, and inquiries. Please feel free to reach out to us using the information below:
 
-Phone: ‪+1 (208) 629-2965‬  
-Email: info@accentient.com
+<span style="display:inline-block; width:100px;">Phone:</span> +1 (208) 629-2965  
+<span style="display:inline-block; width:100px;">Email:</span> info@accentient.com  
+<span style="display:inline-block; width:100px;">Calendly:</span> <a href="https://calendly.com/rhundhausen/30min">Schedule a 30-minute call</a>
 
 ### Contact Form
 
-If you prefer, you can also use the contact form below to send us a message. We aim to respond to inquiries within 24 hours.
+Prefer a different way to get in touch? Feel free to use the contact form below — we typically respond within 24 hours.
 
 <form id="contactForm" method="POST" class="contact-form">
   <label>Name *</label><br>
@@ -38,5 +39,4 @@ If you prefer, you can also use the contact form below to send us a message. We 
 <div style="overflow: hidden;">
   <img src="/images/boise.jpg" alt="Boise, Idaho" style="float: right; margin: 0 0 10px 20px; max-width: 400px;">
   <p>Boise, known as the “City of Trees”, offers scenic mountain views, outdoor recreational activities, and a vibrant downtown area. The home of the famous Boise State Broncos football team (with their symbolic blue turf), Boise has become a hub for innovation and startup technology.</p>
-  <p>We look forward to hearing from you and assisting with your needs. Your feedback is important to us as we strive to provide the best in expert training and consulting.</p>
 </div>

@@ -5,22 +5,12 @@ Task
 - Add a why Accentient page
 - Add Blog posts
 
-- Fix "Hardcoded description; the author should update :)" weirdness; opengraph setup
-
 - Need some items from the old Sites homepage like my silent video and Ken Schwaber‘s testimony
-- Add Github social media icon to the footer
-- Add synthesia icon to AI page
 - Add GitHub and ADO integration course
 - Quotes are flaky on iPhone 
-- Add a “- Richard Hundhausen” to my quote
-- Add calendly link
-- Remove “process wars are over”
-- Need the photo of me teaching in the DevOps shirt
 - Need an intro to the training page
 - Courseware links to individual courses
-- Drop paragraph after Boise
 - Captcha form not working
-- Add calendly link
 - Printed coursebooks > books
 - Download sample module > check out a …
 - Add missing training pages =
@@ -38,6 +28,14 @@ Done, needs testing
 - Add Courseware page - add more pictures
 - Bottom of training: For pricing or requests for training not listed above, please contact us.
 - Courseware page titles are trimmed at the bottom
+- Missing favicon
+- Fix "Hardcoded description; the author should update :)" weirdness; opengraph setup
+
+- Add a “- Richard Hundhausen” to my quote
+- Add calendly link
+- Remove “process wars are over”
+- Need the photo of me teaching in the DevOps shirt
+- Drop paragraph after Boise
 
 Document updates
 ---------------------------------------------------------------------------------------------------------------------
