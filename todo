@@ -1,10 +1,8 @@
 Task
 ---------------------------------------------------------------------------------------------------------------------
 
-- Fix contact page Captcha
 - Add a why Accentient page
 - Add Blog posts
-
 - Need some items from the old Sites homepage like my silent video and Ken Schwaber‘s testimony
 - Need an intro to the training page
 
@@ -14,6 +12,7 @@ Task
 - Add missing training page: SSDT
 - Add missing training page: UTVS
 - Add missing training page: IADG (GitHub and ADO integration)
+- Replace           from: "Accentient Website <contact@onresend.com>", with richard@accentient.com
 
 Done, needs testing
 ---------------------------------------------------------------------------------------------------------------------
@@ -37,12 +36,12 @@ Done, needs testing
 - Remove “process wars are over”
 - Need the photo of me teaching in the DevOps shirt
 - Drop paragraph after Boise
-
 - Quotes are flaky on iPhone 
 - Download sample module > check out a …
 - Courseware links to individual courses
 - Printed coursebooks > books
 
+- Fix contact page Captcha
 
 Document updates
 ---------------------------------------------------------------------------------------------------------------------

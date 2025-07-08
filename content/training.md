@@ -4,6 +4,8 @@ date: 2025-07-05
 body_class: "training-page"
 ---
 
+Our training is crafted by developers, for developers, grounded in real-world experience and focused on solving practical problems in modern software teams. Our training courses are team-based and hands-on, with labs that drive skill-building and understanding. We continuously evolve our content based on direct feedback from students and trainers, ensuring it stays relevant and effective.
+
 | Topic                   | Course                                                                                | Duration  | Audience                            |
 |-------------------------|---------------------------------------------------------------------------------------|:---------:|-------------------------------------|
 | **AI**                  | [AI for Software Teams](/aist/)                                                       | 1 day     | POs, SMs, Developers                |
