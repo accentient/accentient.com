@@ -385,6 +385,11 @@ table th {
     -webkit-font-smoothing: antialiased;
   }
 
+  .title-wrapper h1.title {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+  }
   .custom-title {
     font-size: 1.5rem;
     margin-top: 1rem;
