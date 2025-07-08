@@ -21,7 +21,7 @@ This course is designed for every member of a software development team, with a 
 4. AI for Developers
 
 ### Prerequisites
-Team-based development experience recommended
+Team-based development experience recommended.
 
 ### Downloads
 

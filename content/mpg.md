@@ -17,7 +17,7 @@ This course is appropriate for all members of a software development team, espec
 3. Planning and Managing a Sprint
 
 ### Prerequisites
-Team-based development experience recommended
+Team-based development experience recommended.
 
 ### Downloads
 
