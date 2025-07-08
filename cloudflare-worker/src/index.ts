@@ -18,7 +18,9 @@ export default {
       const formData = await request.json();
       const recaptchaToken = formData["recaptchaToken"];
 
+      /*
       console.log("Received reCAPTCHA token:", recaptchaToken);
+      */
 
       if (!recaptchaToken) {
         return new Response("Missing CAPTCHA token", {
@@ -35,11 +37,13 @@ export default {
 
       const verification = await verifyResponse.json();
 
+      /*
       console.log("Google verification response:", verification);
       console.log("reCAPTCHA score:", verification.score);
-      console.log("Google verification hostname:", verification.hostname);
+      console.log("Google verification hostname:", verification.hostname); 
+      */
 
-      if (!verification.success || verification.score < 0.3) {
+      if (!verification.success || verification.score < 0.5) {
         return new Response("CAPTCHA verification failed", {
           status: 403,
           headers: corsHeaders,
@@ -51,7 +55,9 @@ export default {
       const subject = formData.subject || "No Subject";
       const message = formData.message || "";
 
+      /*
       console.log(`Contact form from ${name} <${email}>: [${subject}] ${message}`);
+      */
 
       // ✅ Send email via Resend
       const sendRes = await fetch("https://api.resend.com/emails", {
