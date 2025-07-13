@@ -16,6 +16,11 @@ Our first of many planned AI courses, this one focuses on the software developme
 
 <img src="/images/icons/class.png" alt="Class"> [AI for Software Teams](/aist/)<br/>
 
+### Building Software with AI
+This course is a one-day, hands-on workshop for developers, tech leads, and agile teams to sharpen their AI fluency by using tools like GitHub Copilot, ChatGPT, Claude, and Cursor to deliver real features—including live improvements to [truenarrative.io](https://www.truenarrative.io) - in a collaborative, production-grade codebase.
+
+<img src="/images/icons/class.png" alt="Class"> [Building Software with AI](/bsa/)<br/>
+
 ### GitHub Copilot
 GitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI. It suggests entire lines or blocks of code in real time, helping developers write code faster, reduce repetitive tasks, and stay in flow. Copilot supports dozens of languages and integrates directly into popular editors like Visual Studio Code.
 

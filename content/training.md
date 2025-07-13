@@ -9,6 +9,7 @@ Our training is crafted by developers, for developers, grounded in real-world ex
 | Topic                   | Course                                                                                |  Duration  | Audience                            |
 |-------------------------|---------------------------------------------------------------------------------------|:----------:|-------------------------------------|
 | **AI**                  | [AI for Software Teams](/aist/)                                                       | 1 day      | POs, SMs, Developers                |
+|                         | [Building Software with AI](/bsa/)                                                    | 1 day      | Developers, Tech Leads, Team        |
 |                         | [GitHub Copilot for Developers](/gcd/)                                                | 1/2 day    | Developers                          |
 | **GitHub**              | [GitHub Copilot for Developers](/gcd/)                                                | 1/2 day    | Developers                          |
 |                         | [Mastering GitHub Actions](/mga/)                                                     | 1 day      | Developers                          |
