@@ -166,6 +166,6 @@ While Accentient is proud to deliver official Scrum.org-certified training, we a
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Scrum for Product Owners (1 day)](/s4po/)<br/>
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Scrum for Stakeholders (1 day)](/s4s/)<br/>
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Delivering Products with Azure DevOps and Scrum (3 days)](/dpads/)<br/>
-<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Dysfunction Mapping (1 day)](/dm/)
+<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Dysfunction Mapping Practitioner Workshop (1 day)](/dmp/)
 
 These courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.

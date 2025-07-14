@@ -49,7 +49,7 @@ Our training is crafted by developers, for developers, grounded in real-world ex
 |                         | [Scrum for Product Owners](/s4po/)                                                    | 1 day      | Product Owners                      |
 |                         | [Scrum for Stakeholders](/s4s/)                                                       | 1 day      | Stakeholders                        |
 |                         | [Delivering Products with Azure DevOps and Scrum](/dpads/)                            | 3 days     | Team                                |
-|                         | [Dysfunction Mapping](/dm/)                                                           | 1 day      | Scrum Masters, Coaches, Leaders     |
+|                         | [Dysfunction Mapping Practitioner Workshop](/dmp/)                                    | 1 day      | Scrum Masters, Coaches, Leaders     |
      
 These courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.
 
