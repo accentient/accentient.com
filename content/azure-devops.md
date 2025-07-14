@@ -17,7 +17,7 @@ Azure Boards offers agile tools to plan, track, and manage work from idea to rel
 
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Managing Projects Using Azure Boards (1 day)](/mpab/)<br/>
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Practicing Kanban Using Azure Boards (1 day)](/pkab/)<br/>
-<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Class Delivering Products with Azure DevOps and Scrum (3 days)](/dpads/)
+<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Delivering Products with Azure DevOps and Scrum (3 days)](/dpads/)
 
 ### Azure Test Plans
 Azure Test Plans helps teams manage and improve software quality through manual, automated, and exploratory testing. With tools for test case management, defect tracking, and reporting, it supports quality at every stage. Integrated with Azure DevOps, it connects tests to code changes and requirements for a seamless, end-to-end QA process.
