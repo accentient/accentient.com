@@ -76,14 +76,18 @@
     <!-- Mobile Menu Toggle Script -->
     <script>
       document.addEventListener('DOMContentLoaded', function () {
-        const $burger = document.querySelector('.navbar-burger');
-        const $menu = document.getElementById('main-navbar');
-        if ($burger && $menu) {
-          $burger.addEventListener('click', function () {
-            $burger.classList.toggle('is-active');
-            $menu.classList.toggle('is-active');
-          });
-        }
+        const burgers = document.querySelectorAll('.navbar-burger');
+        burgers.forEach(function ($burger) {
+          const targetId = $burger.dataset.target;
+          const $target = document.getElementById(targetId);
+
+          if ($target) {
+            $burger.addEventListener('click', function () {
+              $burger.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+            });
+          }
+        });
       });
     </script>
   </body>
