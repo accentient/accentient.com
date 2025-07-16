@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main class="section" style="padding-top: 6rem;">
+  <div class="container">
+    <h1 class="title">{{ .Title }}</h1>
+    <p>
+    <small>
+      {{ .Date.Format "January 2, 2006" }}
+      • {{ .Params.author }}
+
+      {{ with .Params.tags }}
+        • 
+        {{ range $index, $tag := . }}
+          {{ if $index }} • {{ end }}
+          <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}">{{ $tag }}</a>
+        {{ end }}
+      {{ end }}
+    </small>
+    <br/><br/></p>
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</main>
+{{ end }}

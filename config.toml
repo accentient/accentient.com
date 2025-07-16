@@ -1,6 +1,13 @@
 baseURL = "/"
 title = " Accentient"
 
+[pagination]
+  pagerSize = 9
+
+[taxonomies]
+  category = "categories"
+  author = "authors"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

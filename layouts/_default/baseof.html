@@ -31,6 +31,37 @@
     <!-- <div id="preloader"><div id="status"></div></div> -->
     {{ end }}
 
+    <!-- Navigation Bar -->
+    <header class="navbar is-transparent is-fixed-top">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="{{ .Site.Params.navbarlogo.link | default "/" }}">
+            {{ with .Site.Params.navbarlogo.image }}
+              <img src="{{ . | relURL }}" alt="{{ $.Site.Title }}"
+                  width="{{ $.Site.Params.navbarlogo.width | default 150 }}"
+                  height="{{ $.Site.Params.navbarlogo.height | default 70 }}">
+            {{ else }}
+              {{ $.Site.Title }}
+            {{ end }}
+          </a>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-navbar">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="main-navbar" class="navbar-menu">
+          <div class="navbar-end">
+            {{ range .Site.Params.navbar }}
+              <a class="navbar-item" href="{{ .url }}">{{ .title }}</a>
+            {{ end }}
+        </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
     {{ block "main" . }}
     {{ end }}
 
@@ -41,5 +72,19 @@
     {{ partial "footer.html" . }}
 
     {{ partial "javascript.html" . }}
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const $burger = document.querySelector('.navbar-burger');
+        const $menu = document.getElementById('main-navbar');
+        if ($burger && $menu) {
+          $burger.addEventListener('click', function () {
+            $burger.classList.toggle('is-active');
+            $menu.classList.toggle('is-active');
+          });
+        }
+      });
+    </script>
   </body>
 </html>

@@ -7,6 +7,10 @@ html, body {
   font-family: 'JetBrains Mono', monospace;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body.home {
   background-size: cover;
   background-attachment: fixed;
@@ -342,6 +346,99 @@ table th {
   font-size: 1.25rem;
   line-height: 1.5;
   font-weight: 400;
+}
+
+/* Add spacing above the blog cards */
+.blog-card-section {
+  margin-top: 1.5rem; /* ≈½ inch */
+}
+
+.blog-card-section.columns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch; /* Ensures cards stretch to equal height */
+}
+
+.blog-card-section .column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Smaller font and spacing in cards */
+.blog-card {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #e6f4ff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 0.75rem; /* ~3/4 normal size */
+  line-height: 1.4;
+}
+
+.blog-card .content {
+  margin-top: 1rem; /* Pushes the text content down */
+}
+
+.blog-card .title.is-5 {
+  margin-bottom: 0.4rem; /* reduces space below the title */
+}
+
+.blog-card .blog-meta {
+  margin-top: 0rem;        /* removes gap above meta */
+  margin-bottom: 0.75rem;  /* keeps space before content */
+  font-size: 0.75rem;
+  font-style: normal;
+  color: #333;
+  line-height: 1.2;
+}
+
+.blog-card hr {
+  display: none;
+}
+
+.blog-card .tag {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.4rem;
+}
+
+.blog-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Slight hover effect */
+}
+
+.tag {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  margin-right: 0.3rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.author-tag {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  margin-left: 0.25rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.author-tag:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 /* === MOBILE RESPONSIVE STYLES === */
