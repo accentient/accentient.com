@@ -8,7 +8,7 @@ date: 2025-07-02
 <img src="/images/icons/github-actions.png" alt="GitHub Actions" title="GitHub Actions" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 <br/><br/>
-GitHub is the world's most popular platform for software development, enabling millions of developers to collaborate on code, manage projects, and build software together. As of 2024, GitHub has over 100 million users worldwide. Microsoft acquired GitHub in 2018  and it's been innovating ever since—introducing tools like GitHub Copilot, Codespaces, and advanced CI/CD features to empower developers even more.
+GitHub is the world's most popular platform for software development, enabling millions of developers to collaborate on code, manage projects, and build software together. As of [year], GitHub has over 100 million users worldwide. Microsoft acquired GitHub in 2018  and it's been innovating ever since—introducing tools like GitHub Copilot, Codespaces, and advanced CI/CD features to empower developers even more.
 
 ### GitHub Copilot
 GitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI. It suggests entire lines or blocks of code in real time, helping developers write code faster, reduce repetitive tasks, and stay in flow. Copilot supports dozens of languages and integrates directly into popular editors like Visual Studio Code.
