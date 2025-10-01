@@ -8,20 +8,20 @@ date: 2025-07-02
 <img src="/images/icons/github-actions.png" alt="GitHub Actions" title="GitHub Actions" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
 
 <br/><br/>
-GitHub is the world's most popular platform for software development, enabling millions of developers to collaborate on code, manage projects, and build software together. As of {{ now.Format "2006" }}, GitHub has over 100 million users worldwide. Microsoft acquired GitHub in 2018  and it's been innovating ever since—introducing tools like GitHub Copilot, Codespaces, and advanced CI/CD features to empower developers even more.
+GitHub is the world’s most popular platform for software development, enabling millions of developers to collaborate on code, manage projects, and build software together. As of {{< year >}}, it has over 100 million users worldwide. Since Microsoft’s acquisition in 2018, GitHub has continued to innovate—introducing tools like GitHub Copilot, Codespaces, and advanced CI/CD features to further empower developers.
 
 ### GitHub Copilot
-GitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI. It suggests entire lines or blocks of code in real time, helping developers write code faster, reduce repetitive tasks, and stay in flow. Copilot supports dozens of languages and integrates directly into popular editors like Visual Studio Code.
+GitHub Copilot, developed by GitHub and OpenAI, is an AI-powered coding assistant that suggests entire lines or blocks of code in real time. It helps developers write code more quickly, minimize repetitive tasks, and stay in flow, with support for dozens of programming languages and seamless integration into editors like Visual Studio Code.
 
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [GitHub Copilot for Developers (1/2 day)](/gcd/)<br/>
 
 ### GitHub Actions
-GitHub Actions is a powerful CI/CD and automation tool that enables developers to define custom workflows directly in their repositories. From building and testing code to deploying applications, Actions helps automate every step of the development lifecycle. With reusable workflows and a vast marketplace of pre-built actions, teams can move faster and ship with confidence.
+GitHub Actions is a powerful CI/CD and automation platform that lets developers define custom workflows directly within their repositories. From building and testing code to deploying applications, it automates every step of the development lifecycle. With reusable workflows and a rich marketplace of pre-built actions, teams can accelerate delivery and ship with confidence.
 
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Mastering GitHub Actions (1 day)](/mga/)<br/>
 
 ### GitHub Projects
-GitHub Projects is a planning and project management tool built into GitHub. It allows teams to organize work using customizable views like boards and tables, automate tasks, and link issues and pull requests for seamless tracking. Designed for developers, it brings project planning closer to the code.
+GitHub Projects is a built-in planning and project management tool that helps teams organize work with customizable views such as boards and tables. It supports task automation and links issues and pull requests for seamless tracking. Designed with developers in mind, it brings project planning closer to the code.
 
 <img src="/images/icons/class.png" alt="Class" title="Training Class"> [Managing Projects Using GitHub (1 day)](/mpg/)<br/>
 
