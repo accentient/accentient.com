@@ -1,0 +1,12 @@
+﻿---
+title: "What's New in the Visual Studio Scrum 2013.2 Process Template"
+date: 2014-03-24T14:47:10Z
+author: "Richard Hundhausen"
+slug: "whats-new-in-the-visual-studio-scrum-2013-2-process-template"
+draft: false
+tags: ["Scrum", "TFS"]
+---
+
+---
+
+<p>I noticed today that the process templates in Visual Studio Online are showing a “.2” suffix in their names. I’m not exactly sure when this update occurred, but am pretty sure it’s related to Visual Studio 2013 <a href="http://support.microsoft.com/kb/2927432" target="_blank" rel="noopener">Update 2</a>, which is imminent.</p> <p><img title="image" style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" border="0" alt="image" src="image.png" width="420" height="117"></p> <p>So, I launched Visual Studio 2013, opened Team Explorer, and downloaded the Microsoft Visual Studio Scrum 2013.2 process template. I extracted it right next to the prior (RTM) version.</p> <p><img title="image" style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" border="0" alt="image" src="image1.png" width="420" height="164"></p> <p>I then dropped to the Visual Studio 2013 command prompt and executed the following:</p> <p><font face="Consolas"><strong>tf folderdiff "c:microsoft visual studio scrum 2013" "c:microsoft visual studio scrum 2013.2" /recursive</strong></font></p> <p>This launches the Folder Difference tool, where we can see that there are only a few differences between the versions:</p> <p><img title="image" style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" border="0" alt="image" src="image2.png" width="1001" height="403"></p> <p>Other than the obvious metadata (name and version) differences, I only saw a few differences:</p> <ul> <li>Support for the new Shared Parameter work item type, category, and link type (“references” and “referenced-by”)</li> <li>The ProductBacklog.wiq and SprintBacklog.wiq queries have been removed</li></ul> <p>In summary, it seems that most of the updates are pertaining to the new support for Shared Parameters, which will enable testers the ability to manage test parameter data centrally. Any subsequent changes to parameter data can be updated at one place and all the test cases referencing the Shared Parameter are automatically updated.</p>
