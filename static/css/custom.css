@@ -631,3 +631,19 @@ table th {
     margin-top: 8rem; /* Push it further down */
   }
 }
+
+/* === FIX: Mobile hamburger clickability === */
+.navbar {
+  position: relative;
+  z-index: 10000;
+}
+
+.navbar-burger {
+  position: relative;
+  z-index: 10001;
+  pointer-events: auto !important;
+}
+
+.navbar-menu {
+  z-index: 9999;
+}
