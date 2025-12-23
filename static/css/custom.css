@@ -4,7 +4,8 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'JetBrains Mono', monospace;
+  /* font-family: 'JetBrains Mono', monospace; */
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 html {
@@ -20,7 +21,7 @@ body.home {
 
 h1, h2, h3 {
   color: #000 !important;
-  font-family: 'JetBrains Mono', monospace;
+  /* font-family: 'JetBrains Mono', monospace; */
 }
 
 .no-wrap-title h1.title {
@@ -33,7 +34,7 @@ body.home h1,
 body.home h2,
 body.home h3 {
   color: black !important;
-  font-family: 'JetBrains Mono', monospace;
+  /* font-family: 'JetBrains Mono', monospace; */
 }
 
 .content strong {
@@ -100,7 +101,7 @@ body.home .content strong {
   font-weight: bold;
   position: relative;
   margin-top: 0.5in;
-  font-family: 'JetBrains Mono', monospace;
+  /* font-family: 'JetBrains Mono', monospace; */
   color: black;
 }
 
@@ -108,7 +109,7 @@ body.home .content strong {
   color: black !important;
   font-size: 16pt;
   margin-top: 0.5in;
-  font-family: 'JetBrains Mono', monospace;
+  /* font-family: 'JetBrains Mono', monospace; */
 }
 
 .landing-caption a.button {
@@ -121,8 +122,6 @@ body.home .content strong {
 
 .navbar {
   background-color: white !important;
-  z-index: 1001;
-  position: relative;
 }
 
 .navbar .navbar-item,
@@ -514,8 +513,6 @@ table th {
 
   .navbar-menu {
     background-color: white;
-      z-index: 1001;
-      position: relative;
   }
 
   .navbar-menu .navbar-item,
@@ -531,11 +528,6 @@ table th {
 
   .navbar-burger span {
     background-color: black;
-    }
-
-    .navbar-burger {
-      z-index: 1002;
-      position: relative;
   }
 
   table th {
