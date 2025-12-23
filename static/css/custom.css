@@ -121,6 +121,8 @@ body.home .content strong {
 
 .navbar {
   background-color: white !important;
+  z-index: 1001;
+  position: relative;
 }
 
 .navbar .navbar-item,
@@ -512,6 +514,8 @@ table th {
 
   .navbar-menu {
     background-color: white;
+      z-index: 1001;
+      position: relative;
   }
 
   .navbar-menu .navbar-item,
@@ -527,6 +531,11 @@ table th {
 
   .navbar-burger span {
     background-color: black;
+    }
+
+    .navbar-burger {
+      z-index: 1002;
+      position: relative;
   }
 
   table th {
