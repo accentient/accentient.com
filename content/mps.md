@@ -1,24 +1,52 @@
 ---
-title: "Course: Managing Projects Using Scrum"
+title: "Managing Projects Using Scrum"
 date: 2025-07-01
 ---
 
-<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
+
+<br/><br/>
 
 ## MPS | 1 Day
-This course will help take your team and project to the next level. Using a combination of lecture, demonstrations, hands-on activities, and team-based exercises, attendees will experience how to deliver software using the Scrum framework while reducing waste and developing an agile mindset.
 
-### Audience
-This course is ideal for Product Owners, Scrum Masters, developers, testers, architects, business analysts, team leaders, and managers who aim to improve how their software is delivered. Both technical and non-technical professionals will find value in these discussions.
+Deliver software effectively using Scrum, while minimizing waste and fostering an agile mindset. This one-day course builds your fluency with the Scrum framework, from its accountabilities, events, and artifacts to running a Sprint end to end and adopting Scrum in a real organization. You'll work in teams on a shared case study, putting each practice to use the way a real Scrum Team would.
 
-### Modules
-1. The Scrum Framework
-2. Scrum in Action
-3. Adopting Scrum
+### Who should take this course?
 
-### Prerequisites
-While no prior Agile experience is required, a background in project management or software development – either as a team member or project lead – is recommended. Familiarity with Agile concepts and the - <a href="https://www.scrumguides.org" target="_blank">Scrum Guide</a> is helpful. Attendees should review the most recent version of the Scrum Guide before attending.
+This course is for Product Owners, Scrum Masters, developers, testers, and team leaders who want to improve how their software is delivered, plus the managers and business analysts who support them. It's equally valuable for both technical and non-technical professionals. No prior agile experience is required, though a project management or software development background helps; attendees should review the latest <a href="https://www.scrumguides.org" target="_blank">Scrum Guide</a> beforehand.
+
+### Course Content
+
+This course progressively builds your fluency with Scrum, from the framework's accountabilities, events, and artifacts to refining a backlog and running a Sprint, and on to adopting Scrum across an organization. You'll work hands-on in teams on a shared case study, the way a real Scrum Team would.
+
+**1. The Scrum Framework**
+- The Agile Manifesto and Scrum
+- Empiricism: transparency, inspection, adaptation
+- Scrum accountabilities
+- Scrum events
+- Scrum artifacts and commitments
+- Complementary practices
+
+**2. Scrum in Action**
+- Refining the Product Backlog
+- The user story format
+- Agile estimation
+- Sprint Planning and the Sprint Goal
+- The Daily Scrum and executing daily work
+- Sprint Review
+- Sprint Retrospective
+
+**3. Adopting Scrum**
+- High-level steps to adopt Scrum
+- Good reasons vs. bad reasons to adopt Scrum
+- Changing organizational culture
+- The role of management in a Scrum adoption
+- Common issues and adoption blockers
+- Definition of Done vs. undone work
+- Recognizing and addressing team dysfunctions
+- Dysfunctional behavior case studies
+- Attributes of a Professional Scrum Team
 
 ### Downloads
 
-<a href="/downloads/syllabi/mps.pdf" target="_blank">Syllabus</a> | Sample | Setup Guide
+<a href="/downloads/syllabi/mps.pdf" target="_blank">Syllabus</a>

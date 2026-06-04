@@ -3,10 +3,10 @@ title: "Scrum Training"
 date: 2025-07-01
 ---
 
-<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
 
 <br/><br/>
-Scrum has become the leading framework for teams seeking agility in modern software development—and for good reason. It’s not just a process, but a proven approach grounded in empiricism, transparency, and continuous improvement. While Agile is the broader philosophy, Scrum provides the structure and discipline to make that philosophy actionable. That’s why we've partnered with Scrum.org—to help organizations unlock true agility by embracing the full power of Scrum.
+Scrum is the leading framework for teams seeking agility in modern software development. It’s not just a process, but a proven approach grounded in empiricism, transparency, and continuous improvement. While Agile is the broader philosophy, Scrum provides the structure and discipline to make that philosophy actionable. That’s why we’ve partnered with Scrum.org to help organizations unlock true agility by embracing the full power of Scrum.
 
 - Higher Product Quality: Continuous testing and adaptation result in better quality products.
 - Transparency: Scrum provides visibility into project progress for informed decision-making.
@@ -114,6 +114,13 @@ Discover excellence in Agile with our Scrum.org Scrum Training. Elevate your ski
   </figure>
 
   <figure>
+    <a href="https://www.scrum.org/courses/professional-scrum-master-ai-essentials-training" target="_blank">
+      <img src="/images/scrum/psm-ai.png" alt="PSM-AI" title="Professional Scrum Master Applied AI">
+      <figcaption>Professional Scrum Master<br>Applied AI</figcaption>
+    </a>
+  </figure>
+
+  <figure>
     <a href="https://www.scrum.org/courses/professional-scrum-product-owner-ai-essentials-training" target="_blank">
       <img src="/images/scrum/PSPO-AI.png" alt="PSPO-AI" title="Professional Scrum Product Owner Applied AI">
       <figcaption>Professional Scrum Product Owner<br>Applied AI</figcaption>
@@ -161,11 +168,11 @@ Whether you're new to Scrum or looking to sharpen your development skills within
 ## Non Scrum.org Training
 While Accentient is proud to deliver official Scrum.org-certified training, we also recognize that not every team or organization requires a formal certification path. For those looking to build Scrum knowledge, improve collaboration, or adopt Agile practices more pragmatically, we've developed a suite of non-certified courses. These workshops are custom-designed by our experienced trainers and tailored for a variety of roles and organizational needs — from executives to stakeholders, developers, and product owners. They are ideal for teams that want to accelerate their Agile journey without the structure or cost of certification.
 
-<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Managing Projects Using Scrum (1 day)](/mps/)<br/>
-<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Scrum for Executives (1 or ½ day)](/s4e/)<br/>
-<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Scrum for Product Owners (1 day)](/s4po/)<br/>
-<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Scrum for Stakeholders (1 day)](/s4s/)<br/>
-<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Delivering Products with Azure DevOps and Scrum (3 days)](/dpads/)<br/>
-<img src="/images/icons/class.png" alt="Class" title="Training Class"> [Dysfunction Mapping Practitioner Workshop (1 day)](/dmp/)
+<img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Managing Projects Using Scrum (1 day)](/mps/)<br/>
+<img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Scrum for Executives (1 or ½ day)](/s4e/)<br/>
+<img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Scrum for Product Owners (1 day)](/s4po/)<br/>
+<img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Scrum for Stakeholders (1 day)](/s4s/)<br/>
+<img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Delivering Products with Azure DevOps and Scrum (3 days)](/dpads/)<br/>
+<img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Dysfunction Mapping Practitioner Workshop (1 day)](/dmp/)
 
 These courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.

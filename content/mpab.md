@@ -1,22 +1,55 @@
 ---
-title: "Course: Managing Projects in Azure Boards"
+title: "Course: Managing Projects Using Azure Boards"
 date: 2025-07-02
 ---
 
-<img src="/images/icons/azure-boards.png" alt="Azure Boards" title="Azure Boards" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/azure-boards.png" alt="Azure Boards" title="Azure Boards" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
+
+<br/><br/>
 
 ## MPAB | 1 Day
-This course is appropriate for all members of a software development team, especially those who are actively involved with creating and refining a product backlog as well as planning and executing work within a sprint. This course will also provide value for individuals outside the development team (managers, Scrum Masters, coaches, and other stakeholders) who want hands-on exposure to the capabilities of Azure Boards. Having some project management and software development experience, either as a team member or as a manager, is recommended. Experience with Agile software development, Scrum, and Visual Studio are also helpful, but not required. Attendees should read and be familiar with the [Scrum Guide](https://scrumguides.org) prior to class.
-### Audience
-This course is designed for developers, DevOps engineers, QA professionals, and technical team members who want to automate their workflows using GitHub Actions. It’s especially valuable for those involved in building, testing, or deploying applications, as well as team leads and architects responsible for standardizing development processes. Prior experience with GitHub and basic scripting (such as YAML or shell) is recommended and a background in CI/CD or DevOps principles is helpful but not required.
 
-### Modules
-1. Azure Boards
-2. The Product Backlog
-3. Planning and Managing a Sprint
+Plan, track, and manage your team’s work with Azure Boards. This one-day course is designed to help agile teams configure and use Azure Boards to run the full cycle, from building and refining a Product Backlog to planning and managing a Sprint. You’ll work in teams in a shared project on a common case study, putting each capability to use the way a real agile team would.
 
-### Prerequisites
-Some Azure Devops and team-based development experience recommended.
+### Who should take this course?
+
+This course is for anyone on a software development team, especially those who create and refine a product backlog or plan and execute work within a sprint. It’s equally valuable for people outside the development team, including managers, Scrum Masters, coaches, and other stakeholders, who want hands-on exposure to what Azure Boards can do. Some project management and software development experience, as a team member or a manager, is recommended. Experience with agile development, Scrum, and Visual Studio is helpful but not required. Attendees should read and be familiar with the Scrum Guide prior to class.
+
+### Course Content
+
+This course progressively builds your fluency with Azure Boards, from setting up a project and building a Product Backlog to planning and managing a Sprint. You’ll work hands-on in teams on a common case study in a shared project, the way a real agile team would.
+
+**1. Introduction to Azure Boards**
+- Azure DevOps overview
+- Azure Boards overview
+- Creating and configuring a project
+- Securing a project
+- Teams, profiles, and notifications
+- Extending Azure Boards
+- Creating and using a wiki
+- Hands-on lab
+
+**2. The Product Backlog**
+- Process overview
+- Working with the backlog
+- Product Backlog Item vs. Bug work item types
+- Features and Epics backlogs
+- Decomposing large items
+- The Kanban board
+- Tagging, querying, and charting work items
+- Hands-on lab
+
+**3. Planning and Managing a Sprint**
+- Planning a Sprint: Goal, forecast, and plan
+- Setting up the Sprint and the Sprint Backlog
+- The Task and Test Case work item types
+- Working with the Task Board
+- Collaborating as a team and daily activities
+- Pairing, swarming, and mobbing
+- Implementing a Definition of Done
+- Assessing and tracking progress
+- Completing a Sprint and splitting unfinished items
+- Hands-on lab
 
 ### Downloads
 

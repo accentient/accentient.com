@@ -3,21 +3,51 @@ title: "Course: CI/CD Using Azure Pipelines"
 date: 2025-07-05
 ---
 
-<img src="/images/icons/azure-pipelines.png" alt="Azure Pipelines" title="Azure Pipelines" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/azure-pipelines.png" alt="Azure Pipelines" title="Azure Pipelines" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
+
+<br/><br/>
 
 ## CICD | 1 Day
-This one-day course demonstrates how an agile team can configure and use Azure Pipelines to effectively build, test, and deploy software while practicing Continuous Integration (CI) and Continuous Delivery (CD). To maximize learning, students will work in teams, in a common Azure DevOps project, on a common case study.
 
-### Audience
-This course is appropriate for all members of a software development team, especially those who are actively involved in automating the building, testing, and deploying of software. This course will also provide value for individuals outside the development team (managers, IT, operations, and other stakeholders) who want hands-on exposure to the capabilities of Azure Pipelines. Ideally, attendees should have some experience with Azure DevOps. Understanding of C# and .NET 6.0 will be beneficial but is not required.
+Build, test, and ship continuously with Azure Pipelines. This one-day course is designed to help agile teams configure and use Azure Pipelines to practice Continuous Integration, Continuous Delivery, and Continuous Deployment, from your first build pipeline to releasing with feature flags and learning from production. You'll work in teams in a shared Azure DevOps project, building and deploying a common case study the way a real team would.
 
-### Modules
-1. Continuous Integration
-2. Continuous Delivery
-3. Continuous Deployment
+### Who should take this course?
 
-### Prerequisites
-Some Azure Devops and team-based development experience recommended.
+This course is for anyone on a software development team, especially those involved in automating the building, testing, and deploying of software. It's equally valuable for people outside the development team, including managers, IT, operations, and other stakeholders, who want hands-on exposure to what Azure Pipelines can do. Some experience with Azure DevOps is recommended, and familiarity with C# and .NET is beneficial but not required.
+
+### Course Content
+
+This course progressively builds your fluency with Azure Pipelines, from your first build pipeline to releasing software with feature flags and learning from production. You'll work hands-on in teams in a shared Azure DevOps project, building, deploying, and experimenting on a common case study the way a real team would.
+
+**1. Continuous Integration**
+- Introduction to Azure Pipelines
+- Creating a build pipeline
+- Pipeline tasks, variables, and triggers
+- Microsoft-hosted vs. self-hosted agents
+- Building pipelines as code with YAML
+- Running automated tests in the pipeline
+- Collecting and reporting code coverage
+- Practicing Continuous Integration
+- Hands-on lab
+
+**2. Continuous Delivery**
+- Creating a release pipeline
+- Pipeline stages, jobs, tasks, and targets
+- Multi-stage YAML pipelines
+- Configuring environments and resources
+- Creating, deploying, and managing a release
+- Practicing Continuous Delivery
+- Hands-on lab
+
+**3. Continuous Deployment**
+- Continuous Delivery vs. Continuous Deployment
+- Build, measure, learn
+- Feature flags as a kill switch, for targeting, and for experiments
+- Hypothesis-Driven Development (HDD)
+- Telemetry and learning from production
+- A/B testing and experimenting in production
+- Managing feature flags
+- Hands-on lab
 
 ### Downloads
 

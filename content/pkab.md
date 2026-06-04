@@ -1,24 +1,63 @@
 ---
-title: "Course: Practicing Kanban in Azure Boards"
+title: "Course: Practicing Kanban Using Azure Boards"
 date: 2025-07-02
 ---
 
-<img src="/images/icons/azure-boards.png" alt="Azure Boards" title="Azure Boards" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/azure-boards.png" alt="Azure Boards" title="Azure Boards" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
+
+<br/><br/>
 
 ## PKAB | 1 Day
-All software development teams have a desire to increase their flow and throughput. With the powerful combination of Kanban and Azure Boards, they can do just that. This one day course will introduce Kanban and demonstrate how an agile team can configure and use Azure Boards to effectively practice Kanban, achieve flow, and begin improving throughput and predictability. To maximize learning, students will work in teams, in a common team project, on a common case study.
 
-### Audience
-This course is appropriate for all members of a software development team, especially those who are actively involved with creating and refining a product backlog as well as planning and executing the work. This course will also provide value for individuals outside the development team (managers, Scrum Masters, coaches, and other stakeholders) who are interested in establishing and improving flow for their team. Even teams currently practicing Scrum should consider attending this course, as Kanban is a great complementary practice for managing and improving their flow. For more information, read the [Kanban Guide](https://kanbanguides.org) and the [Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams).
+Increase your team's flow and throughput by pairing Kanban with Azure Boards. This one-day course introduces Kanban's principles and core practices, then shows how an agile team configures and uses Azure Boards to visualize work, limit WIP, and manage for flow. You'll work in teams, in a shared project on a common case study, putting each practice to use the way a real agile team would.
 
-### Modules
-1. Introduction to Kanban
-2. Visualizing the Workflow
-3. Limiting WIP
-4. Managing for Flow
+### Who should take this course?
 
-### Prerequisites
-Some Azure Devops and team-based development experience recommended.
+This course is for all members of a software development team, especially those who create and refine a product backlog or plan and execute the work. It's equally valuable for people outside the development team, including managers, Scrum Masters, coaches, and other stakeholders interested in establishing and improving flow. Teams currently practicing Scrum should consider attending too, since Kanban is a great complementary practice for managing and improving flow. For more, read this guide.
+
+### Course Content
+
+This course progressively builds your fluency with Kanban and Azure Boards, from core practices and workflow visualization to limiting WIP and managing for flow with flow-based metrics. You'll work hands-on in teams on a common case study, the way a real agile team would.
+
+**1. Introduction to Kanban**
+- Kanban overview and core practices
+- Kanban support in Azure Boards
+- Creating and configuring a project
+- Managing a product backlog
+- Hands-on lab
+
+**2. Visualizing the Workflow**
+- Kanban board overview
+- Kanban board vs. backlog vs. taskboard
+- Task checklists and inline tests
+- Defining and mapping the workflow
+- Creating the board columns
+- Making policies explicit
+- Definition of Done
+- Classes of service (swimlanes)
+- Filtering the board
+- Keyboard shortcuts
+- Hands-on lab
+
+**3. Limiting WIP**
+- Work in Progress (WIP) overview
+- Visualizing and setting WIP limits
+- Creating a pull system
+- Splitting columns into doing and done
+- WIP limit challenges
+- Identifying and mitigating bottlenecks
+- Hands-on lab
+
+**4. Managing for Flow**
+- Flow-based metrics: WIP, cycle time, throughput, age
+- Cycle time vs. lead time
+- Little's Law
+- Cumulative Flow Diagrams
+- Scatterplots
+- Flow analytics tooling
+- Monte Carlo simulation
+- Achieving flow and predictability
+- Hands-on lab
 
 ### Downloads
 

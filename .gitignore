@@ -2,6 +2,7 @@
 /public/
 /resources/_gen/
 /hugo_stats.json
+.hugo_build.lock
 
 # Old backup site (if used)
 /!oldsite/
@@ -20,6 +21,9 @@ node_modules/
 Thumbs.db
 .idea/
 .vscode/
+.vscode/launch.json
+.vscode/*.log
+*.code-workspace
 *.log
 todo.md
 
@@ -30,8 +34,13 @@ todo.md
 .env
 .env.*
 
-# Other potential caches
+# Other potential caches and artifacts
 .cache/
+.hugo_cache/
 
 # Optional Hugo archetypes (ignore if not using `hugo new`)
 archetypes/
+
+# VS Code workspace recommendations and local extensions
+.vscode/extensions.json
+.vscode/extensions/

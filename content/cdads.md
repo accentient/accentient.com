@@ -3,31 +3,74 @@ title: "Course: Continuous Delivery Using Azure DevOps Services"
 date: 2025-07-05
 ---
 
-<img src="/images/icons/azure-boards.png" alt="Azure Boards" title="Azure Boards" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/icons/azure-testplans.png" alt="Azure Test Plans" title="Azure Test Plans" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/icons/azure-repos.png" alt="Azure Repos" title="Azure Repos" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/icons/azure-pipelines.png" alt="Azure Pipelines" title="Azure Pipelines" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/icons/azure-artifacts.png" alt="Azure Artifacts" title="Azure Artifacts" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/icons/visual-studio.png" alt="Visual Studio" title="Visual Studio" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
-<img src="/images/icons/azure.png" alt="Azure" title="Azure" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/icons/azure-boards.png" alt="Azure Boards" title="Azure Boards" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
+<img src="/images/icons/azure-testplans.png" alt="Azure Test Plans" title="Azure Test Plans" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
+<img src="/images/icons/azure-repos.png" alt="Azure Repos" title="Azure Repos" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
+<img src="/images/icons/azure-pipelines.png" alt="Azure Pipelines" title="Azure Pipelines" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
+<img src="/images/icons/azure-artifacts.png" alt="Azure Artifacts" title="Azure Artifacts" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
+<img src="/images/icons/visual-studio.png" alt="Visual Studio" title="Visual Studio" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
+<img src="/images/icons/azure.png" alt="Azure" title="Azure" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
 
-## CDADS | 2 DayS
-This two-day course provides students with the DevOps principles and related hands-on practices to work better as a team, scale their agility, share and integrate their work, and deliver working software continuously in order to enable faster delivery of value and receive early and valuable feedback. To maximize learning, students will work in teams, in a common team project, on a common case study.
+<br/><br/>
 
-### Audience
-This course is intended for experienced software development professionals who want to learn about DevOps in order to achieve Continuous Integration, Continuous Delivery, Continuous Feedback, and Continuous Learning in a technical value stream as supported by Azure DevOps Services, Visual Studio, and Azure in order to continually deliver working software at scale. Students will also install and evaluate several extensions from the Azure DevOps Marketplace. Those who use the on-premises version of Azure DevOps Server will also benefit from this course. Attendees should be familiar with Visual Studio and Scrum, and have basic experience with Azure DevOps.
+## CDADS | 2 Days
 
-### Modules
-1. Increasing Flow at Scale
-2. Planning and Executing at Scale
-3. Sharing Code
-4. Integrating Continuously
-5. Delivering Continuously
-6. Empowering the Product Owner
-7. Learning and Improving Continuously
+Scale your team's agility and deliver value continuously with Azure DevOps. This two-day course teaches the DevOps principles and hands-on practices that help multiple teams work as one, from increasing flow and sharing code to integrating, delivering, and learning continuously on a shared case study.
 
-### Prerequisites
-Team-based software testing experience recommended.
+### Who should take this course?
+
+This course is for experienced software development professionals who want to adopt DevOps to achieve Continuous Integration, Continuous Delivery, continuous feedback, and continuous learning across a scaled, multi-team value stream. Attendees should be familiar with C#, Visual Studio, and Scrum, and have basic experience with Azure DevOps.
+
+### Course Content
+
+This course progressively builds your fluency in scaling DevOps across teams, with over 50 hands-on activities, on a common case study in a shared Azure DevOps environment, spanning flow, planning, code sharing, continuous integration, delivery, and learning.
+
+**1. Increasing Flow at Scale**
+- Increasing flow through a technical value stream
+- Empirical process control
+- Scaling Scrum with the Nexus framework
+- Organizing teams to minimize dependencies
+
+**2. Planning and Executing at Scale**
+- Setting up a new product and planning at scale
+- Refining the Product Backlog; defining "ready"
+- Dependencies and cross-team refinement
+- Planning and executing a Sprint, limiting WIP
+- Definition of Done and reporting data
+
+**3. Sharing Code**
+- Collective ownership
+- Git primer and branching strategies
+- Managing dependencies with Code Maps
+- Sharing binaries with Azure Artifacts
+- Practicing internal open source (inner source)
+
+**4. Integrating Continuously**
+- Automated and unit testing in Visual Studio
+- Build pipelines and running tests in the pipeline
+- Code coverage and regression testing
+- Continuous Integration and team practices
+- Continuous Integration+
+
+**5. Delivering Continuously**
+- Release pipelines, stages, and deployments
+- Deploying to Microsoft Azure
+- Creating and deploying a release with triggers
+- Practicing Continuous Delivery (CD)
+
+**6. Empowering the Product Owner**
+- Build, measure, learn and Hypothesis-Driven Development
+- Feature flags for release control
+- Telemetry and A/B testing
+- Exploratory testing and testing tours
+- Identifying and paying off technical debt
+
+**7. Learning and Improving Continuously**
+- Working and learning as a team
+- Patterns of effective collaboration
+- Pairing, swarming, and mobbing
+- Blameless retrospectives and agile metrics
+- Communities of Practice and tribal knowledge
 
 ### Downloads
 

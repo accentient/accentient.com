@@ -1,29 +1,64 @@
 ---
-title: "Course: Scrum for Stakeholders"
+title: "Scrum for Stakeholders"
 date: 2025-07-02
 ---
 
-<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; vertical-align: middle;">
+<img src="/images/scrum/scrum.png" alt="Scrum" title="Scrum" style="height: 48px; margin-bottom: 0; margin-right: 10px; vertical-align: middle;">
 
-## S4S | 1 Day
-This instructor-led class is intended to answer three questions commonly asked by Stakeholders: *What is Scrum?* *Why will Scrum be better for me?* *How will I work differently going forward.* Through presentation and discussion, attendees will learn the answers to these questions. By forming into teams and collaborating on activities and discussions, attendees will experience and see the truth behind those answers.
+<br/><br/>
 
-### Audience
-In Scrum, a *Stakeholder* is anyone that is potentially affected by the outcome of the product development. Stakeholders can include users, customers, managers, sponsors, business analysts, subject matter experts, help desk, operations/support, project managers, auditors, and more. This course is intended for anyone in that cloud of interested parties who wants to learn more about Scrum, why Scrum works, what process and culture changes are involved, and a roadmap for implementing those changes. Regardless of where your organization is at in their Scrum adoption, this course provides the knowledge and opportunity to ask questions about your piece of that pathway to agility.
+## S4S | Full day
 
-### Modules
-1. What is Scrum
-2. Why Scrum
-3. Myths and Misconceptions
-4. Working with the Scrum Team
-5. The Product Backlog
-6. Participating in the Scrum Events
-7. New Ways of Measuring Success
-8. Roadmap
+Learn how to engage with a Scrum Team and get the most from your stake in the product. This course gives stakeholders a clear view of what Scrum is, why it works, and how their own role changes, from interacting with the team and shaping the Product Backlog to participating in events and judging success in new ways. You'll work in teams on activities throughout, experiencing these ideas firsthand rather than just hearing about them.
 
-### Prerequisites
-No Scrum experience required.
+### Who should take this course?
+
+This course is for anyone affected by the outcome of product development: users, customers, managers, sponsors, business analysts, subject matter experts, help desk, operations and support, project managers, and auditors. It's equally valuable whether your organization is just considering Scrum or already well into adopting it. No prior Scrum experience is required.
+
+### Course Content
+
+This course progressively builds your fluency with Scrum from a stakeholder's vantage point, from what Scrum is and why it works to interacting with the team, the Product Backlog, the events, and new measures of success. Each topic includes slides, discussion, and team-based activities.
+
+**1. What is Scrum**
+- Scrum overview
+- Scrum values
+- Scrum framework: accountabilities, events, artifacts
+
+**2. Why Scrum**
+- Agile over waterfall
+- Problems with targets: scope, schedule, cost
+- Economic advantages of Scrum
+
+**3. Myths and Misconceptions**
+- Requirements, documentation, analysis, and planning
+- Managers, successful organizations, and culture
+- Roles, PMO, and self-managing teams
+
+**4. Interacting with the Scrum Team**
+- Interacting with the Product Owner
+- Interacting with the Developers
+- Interacting with the Scrum Master
+
+**5. The Product Backlog**
+- Purpose of the Product Backlog
+- Definition of "Ready"
+- Capturing Stakeholder feedback
+
+**6. Participating in the Scrum Events**
+- Participating in Sprint Planning
+- Participating in Product Backlog Refinement
+- Participating in Sprint Review
+
+**7. New Ways of Measuring Success**
+- Direct evidence over indirect/subjective evidence
+- Organizational metrics and foundational metrics
+- Value, time to market, and ability to innovate
+
+**8. Roadmap**
+- Summary of what will be different going forward
+- A Shu-Ha-Ri approach to implementing change
+- A culture of continuous learning and improvement
 
 ### Downloads
 
-<a href="/downloads/syllabi/s4s.pdf" target="_blank">Syllabus</a> | Sample | Setup Guide
+<a href="/downloads/syllabi/s4s.pdf" target="_blank">Syllabus</a>

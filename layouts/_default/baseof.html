@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.Language.Locale }}">
   <head>
     {{ partial "meta.html" . }}
     <title>
@@ -12,14 +12,10 @@
       {{ end }}
     </title>
 
-    <!-- JetBrains Mono font -->
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{ "/css/bulma.css" | relURL }}">
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/css/icons.css" | relURL }}">
     <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}">
 
     {{ partial "css.html" . }}

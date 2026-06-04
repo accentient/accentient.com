@@ -4,7 +4,7 @@ date: 2025-07-06
 layout: "about"
 ---
 
-For the past 25 years, Accentient has been a trusted leader in developer enablement - driving innovation and excellence in software development tools and practices. From shaping Microsoft's earliest ALM initiatives to guiding enterprise transformations around the world, Accentient has consistently set the pace in training, courseware, and modern software practices.
+For 25 years, Accentient has been a trusted leader in developer enablement, from ALM and DevOps to modern software practices. Now, as AI reshapes software development, Accentient is pioneering AI leadership and training, helping teams adopt agentic AI to accelerate delivery. From shaping Microsoft's earliest ALM initiatives to guiding enterprise transformations worldwide, Accentient continues to set the pace in hands-on training, expert courseware, and cutting-edge practices.
 
 <section class="timeline">
   <div class="timeline-item left">
@@ -19,7 +19,7 @@ For the past 25 years, Accentient has been a trusted leader in developer enablem
     <div class="timeline-content">
       <h3>2024</h3>
       <p>Assisted
-      <a href="https://www.inspiresleep.com/en-us" target="_blank" rel="noopener noreferrer">Inspire Medical Systems</a>
+      <a href="https://inspiresleep.com" target="_blank" rel="noopener noreferrer">Inspire Medical Systems</a>
       in their Azure DevOps implementation and migration from Jira.
       <a href="https://www.tenlong.com.tw/products/9787302616023" target="_blank" rel="noopener noreferrer">Chinese</a>
       edition of <em>Professional Scrum Development Using Azure DevOps</em> is published.</p>
@@ -59,7 +59,7 @@ For the past 25 years, Accentient has been a trusted leader in developer enablem
     <div class="timeline-content">
       <h3>2019</h3>
       <p>Migrates the
-      <a href="https://www.imf.org/en/Home" target="_blank" rel="noopener noreferrer">International Monetary Fund</a>
+      <a href="http://imf.org" target="_blank" rel="noopener noreferrer">International Monetary Fund</a>
       to Azure DevOps Services.</p>
     </div>
   </div>
@@ -83,7 +83,7 @@ For the past 25 years, Accentient has been a trusted leader in developer enablem
     <div class="timeline-content">
       <h3>2016</h3>
       <p>Installs and configures Team Foundation Server at the
-      <a href="https://www.imf.org/en/Home" target="_blank" rel="noopener noreferrer">International Monetary Fund</a>.</p>
+      <a href="http://imf.org" target="_blank" rel="noopener noreferrer">International Monetary Fund</a>.</p>
     </div>
   </div>
   <div class="timeline-item left">
@@ -172,10 +172,10 @@ For the past 25 years, Accentient has been a trusted leader in developer enablem
 
 <div style="overflow: hidden;">
   <img src="/images/teaching.jpg" alt="Richard teaching" style="float: left; margin: 0 20px 10px 0; max-width: 405px;">
-  <p>Richard Hundhausen helps software teams build and deliver better products by combining Scrum, Agile, and DevOps practices. With over 30 years of experience as a developer, consultant, and trainer, he focuses on enabling teams to work more effectively, deliver value, and continuously improve.</p>
+  <p>Richard Hundhausen is an AI leader helping software development teams adopt agentic AI and accelerate delivery. With over 30 years of experience as a developer, consultant, and trainer, he combines deep expertise in Scrum, DevOps, and modern AI practices to enable teams to work smarter, deliver faster, and continuously improve.</p>
   
   <p>He is a Professional Scrum Trainer, the author of <em>Professional Scrum Development with Azure DevOps</em> (Microsoft Press), and was the first Microsoft MVP for Visual Studio Team System. As a co-creator of the Nexus Scaled Scrum framework and a founding contributor to Scrum.org, Richard has trained and coached hundreds of teams worldwide, helping them apply Scrum in real-world, high-stakes environments.</p>
   
-  <p>You can see some of the books he has written <a href="https://www.goodreads.com/author/list/286621.Richard_Hundhausen" target="_blank" rel="noopener noreferrer">here</a>.</p>
-  <blockquote class="quote">“Software is built and delivered by people, not by process or tools.” – Richard Hundhausen</blockquote>
+  <p>You can see the books he has written <a href="https://www.goodreads.com/author/list/286621.Richard_Hundhausen" target="_blank" rel="noopener noreferrer">here</a> and learn more about the #WhoOwnsTheCode initiative <a href="https://whoownsthecode.com" target="_blank" rel="noopener noreferrer">here</a>.</p></p>
+  <blockquote class=”quote”>”Software is built and delivered by people, not by process or tools.” – Richard Hundhausen</blockquote>
 </div>

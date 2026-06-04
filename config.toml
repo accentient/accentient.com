@@ -41,6 +41,10 @@ title = "AI"
 url = "/ai/"
 
 [[params.navbar]]
+title = "Claude"
+url = "/claude/"
+
+[[params.navbar]]
 title = "GitHub"
 url = "/github/"
 
