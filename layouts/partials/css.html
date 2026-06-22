@@ -7,6 +7,8 @@
 
 <link href="{{ $fontUrl }}" rel="stylesheet">
 
-<link rel="stylesheet" href="{{ "css/bulma.css" | relURL }}">
-<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
-<link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+{{- $bulma  := resources.Get "css/bulma.css" }}
+{{- $style  := resources.Get "css/style.css" }}
+{{- $custom := resources.Get "css/custom.css" }}
+{{- $css    := slice $bulma $style $custom | resources.Concat "css/bundle.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
