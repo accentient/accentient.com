@@ -5,7 +5,7 @@ date: 2025-07-02
 
 Thank you for your interest in Accentient. We value your feedback, questions, and inquiries. Please feel free to reach out to us using the information below:
 
-<span style="display:inline-block; width:100px;">Phone:</span> +1 (208) 629-2965  
+<span style="display:inline-block; width:100px;">Phone:</span> +1 (208) 391-6375  
 <span style="display:inline-block; width:100px;">Email:</span> info@accentient.com  
 <span style="display:inline-block; width:100px;">Calendly:</span> <a href="https://calendly.com/rhundhausen/30min">Schedule a 30-minute call</a>
 

@@ -8,14 +8,16 @@ Our training is crafted by experienced practitioners, for modern software teams.
 
 | Topic                   | Course                                                                                |  Duration  | Audience                            |
 |-------------------------|---------------------------------------------------------------------------------------|:----------:|-------------------------------------|
-| **AI**                  | [Claude Code Fundamentals](/claude/)                                                  | 1 day      | Developers                          |
-|                         | [Claude Code Mastery](/claude/)                                                       | 1 day      | Developers                          |
-|                         | [Claude Code for Teams](/claude/)                                                     | 1 day      | Team, Developers, POs, SMs          |
+| **AI**                  | [Claude Code Developer](/ccd/)                                                        | 1 day      | Developers                          |
+|                         | [Claude Code Orchestrator](/cco/)                                                     | 1 day      | Developers, Leads                   |
+|                         | [Claude Code Architect](/cca/)                                                        | 1 day      | Developers, Leads, Platform Eng     |
+|                         | [Claude Code Bootcamp](/ccb/)                                                         | 3 days     | Team, Developers                    |
 |                         | [AI for Software Teams](/aist/)                                                       | 1 day      | Team, Developers, POs, SMs          |
 |                         | [GitHub Copilot for Developers](/gcd/)                                                | 1/2 day    | Developers                          |
-| **Claude Code**         | [Claude Code Fundamentals](/claude/)                                                  | 1 day      | Developers                          |
-|                         | [Claude Code Mastery](/claude/)                                                       | 1 day      | Developers                          |
-|                         | [Claude Code for Teams](/claude/)                                                     | 1 day      | Team, Developers, POs, SMs          |
+| **Claude Code**         | [Claude Code Developer](/ccd/)                                                        | 1 day      | Developers                          |
+|                         | [Claude Code Orchestrator](/cco/)                                                     | 1 day      | Developers, Leads                   |
+|                         | [Claude Code Architect](/cca/)                                                        | 1 day      | Developers, Leads, Platform Eng     |
+|                         | [Claude Code Bootcamp](/ccb/)                                                         | 3 days     | Team, Developers                    |
 | **GitHub**              | [GitHub Copilot for Developers](/gcd/)                                                | 1/2 day    | Developers                          |
 |                         | [Mastering GitHub Actions](/mga/)                                                     | 1 day      | Team, Developers                    |
 |                         | [Managing Projects in GitHub](/mpg/)                                                | 1 day      | Team, Developers, POs, SMs, PMs     |
