@@ -98,9 +98,23 @@ When modifying list page templates, ensure they include the navbar partials and 
 
 ### Theme Customization
 - Base theme: `hugo-fresh` (Bulma CSS framework)
-- Custom stylesheets: `static/css/custom.css` overlays additional styles
 - Custom layouts in `layouts/` override theme defaults
 - Navbar links configured via `config.toml` `[params.navbar]` array
+
+### CSS Pipeline
+CSS is processed through Hugo Pipes, not served as raw static files:
+- Sources live in `assets/css/` (`bulma.css`, `style.css`, `custom.css`) — NOT `static/css/`
+- `layouts/partials/css.html` concatenates them via `resources.Concat | minify | fingerprint` into a single cache-busted `bundle.min.<hash>.css` with an SRI `integrity` hash
+- The partial is included once from `layouts/_default/baseof.html`. Do NOT also add inline `<link>` stylesheets in `baseof.html` — that previously double-loaded every stylesheet (bulma.css twice per page).
+- Add custom styles to `assets/css/custom.css`
+- Note: `hugo --minify` does NOT minify files left in `static/`, which is why CSS goes through the asset pipeline instead
+
+### JavaScript
+- Scripts loaded via `layouts/partials/javascript.html` (jQuery, feather-icons, `fresh.js`)
+- No Modernizr — touch detection uses native `('ontouchstart' in window) || navigator.maxTouchPoints > 0` (see `static/js/fresh.js`). Do not reintroduce polyfill libraries; target modern browsers only.
+
+### Icons
+Two icon systems are intentionally used: Font Awesome 6 (CDN, in `baseof.html`) for footer brand icons (e.g. `fa-x-twitter`), and Feather Icons (in `javascript.html`) for sidebar icons via `feather.replace()` in `fresh.js`.
 
 ## Debugging Layout Issues
 
