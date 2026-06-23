@@ -3,10 +3,12 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
+		"predeploy": "vitest run",
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
 		"start": "wrangler dev",
 		"test": "vitest",
+		"test:run": "vitest run",
 		"cf-typegen": "wrangler types"
 	},
 	"devDependencies": {
