@@ -1,7 +1,7 @@
 ﻿---
 title: "TFS 2013 Best Practices Analyzer (BPA) fails with %TFSServerURLValidated% error"
 date: 2014-02-14T09:16:10Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "tfs-best-practices-analyzer-bpa-fails"
 draft: false
 tags: ["Preferred Practice", "TFS"]

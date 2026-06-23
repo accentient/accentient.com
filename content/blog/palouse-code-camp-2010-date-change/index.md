@@ -1,7 +1,7 @@
 ﻿---
 title: "Palouse Code Camp 2010 – Date Change"
 date: 2010-09-17T21:11:38Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "palouse-code-camp-2010-date-change"
 draft: false
 tags: ["Community"]

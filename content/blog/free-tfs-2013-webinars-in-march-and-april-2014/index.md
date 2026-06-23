@@ -1,7 +1,7 @@
 ﻿---
 title: "Free TFS 2013 Webinars in March and April 2014"
 date: 2014-03-17T20:56:50Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "free-tfs-2013-webinars-in-march-and-april-2014"
 draft: false
 tags: ["TFS", "Webcast"]

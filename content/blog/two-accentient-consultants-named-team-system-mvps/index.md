@@ -1,0 +1,10 @@
+---
+title: "Two Accentient Consultants Named Team System MVPs"
+date: 2009-04-02T16:29:45Z
+authors: ["Richard Hundhausen"]
+slug: "two-accentient-consultants-named-team-system-mvps"
+draft: false
+tags: ["Misc", "Community"]
+---
+
+<p>I’m pleased to announce that fellow Accentient Consultants <strong>David Starr</strong> and <strong>Michael Vincent</strong> have been named <a href="http://mvp.support.microsoft.com/" target="_blank" rel="noopener">Team System MVPs</a>! </p> <p>David Starr is the founder of the <a href="http://elegantcode.com/" target="_blank" rel="noopener">Elegant Code</a> community blog and podcast series, and also organized the recent, highly successful <a href="http://boisecodecamp.org/" target="_blank" rel="noopener">Boise Code Camp</a>. David has over 18 years of experience in software development and has held numerous leadership positions in technology teams. He is a frequent speaker at technology conferences, a writer, and is involved in several .NET and Agile professional organizations. His passions include Agile software development, building strong teams, Application Lifecycle Management, Visual Studio Team System, and .NET.</p> <p>Michael Vincent has been actively involved in user group communities since the early 90's, founding both the <a href="http://www.socaldotnetarchitecture.org/" target="_blank" rel="noopener">SoCal .Net Architecture</a> group, also known as the <a href="http://www.iasahome.org/web/socal" target="_blank" rel="noopener">International Association of Software Architects Southern California Chapter</a>, and the Orange County C# Developers group which became the <a href="http://www.ocdotnet.org/" target="_blank" rel="noopener">Orange County .NET User Group</a>. Mike is a frequent presenter at local and regional user groups and Southern California Code Camps and has served with <a href="http://www.ineta.org/" target="_blank" rel="noopener">INETA</a> as the California Membership Mentor.</p> <p>Congratulations to both for this well-deserved recognition.</p>

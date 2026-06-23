@@ -1,7 +1,7 @@
 ﻿---
 title: "What's our Sprint Goal?"
 date: 2018-05-23T07:41:51Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "whats-our-sprint-goal"
 draft: false
 tags: ["Azure DevOps", "Scrum", "TFS"]

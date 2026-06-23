@@ -1,7 +1,7 @@
 ﻿---
 title: "Measuring the Business Value of a PBI"
 date: 2013-10-04T16:18:43Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "measuring-the-business-value-of-a-pbi"
 draft: false
 tags: ["Scrum", "Visual Studio"]

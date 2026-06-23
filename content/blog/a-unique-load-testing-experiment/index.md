@@ -1,7 +1,7 @@
 ﻿---
 title: "A unique load testing experiment"
 date: 2014-10-21T16:26:13Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "a-unique-load-testing-experiment"
 draft: false
 tags: ["Conferences", "Development", "Visual Studio"]

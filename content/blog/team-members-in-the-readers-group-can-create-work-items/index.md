@@ -1,7 +1,7 @@
 ﻿---
 title: "Team members in the Readers group can create work items!"
 date: 2014-11-17T12:02:25Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "team-members-in-the-readers-group-can-create-work-items"
 draft: false
 tags: ["Azure DevOps", "Scrum", "TFS"]

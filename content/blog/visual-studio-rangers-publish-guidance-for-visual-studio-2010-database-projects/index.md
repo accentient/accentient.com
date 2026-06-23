@@ -1,7 +1,7 @@
 ﻿---
 title: "Visual Studio Rangers publish guidance for Visual Studio 2010 Database projects"
 date: 2010-08-24T15:06:11Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "visual-studio-rangers-publish-guidance-for-visual-studio-2010-database-projects"
 draft: false
 tags: ["SQL Server", "Visual Studio"]

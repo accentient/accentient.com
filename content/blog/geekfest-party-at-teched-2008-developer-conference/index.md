@@ -1,0 +1,10 @@
+---
+title: "GeekFest Party at TechEd 2008 Developer Conference"
+date: 2008-05-18T14:42:18Z
+authors: ["Richard Hundhausen"]
+slug: "geekfest-party-at-teched-2008-developer-conference"
+draft: false
+tags: ["Conferences", "Microsoft", "Community"]
+---
+
+<p><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="78" alt="clip_image001" src="clip_image001[17]_1.gif" width="345" border="0">  <p>Let’s face it, going to technical conferences is good for your career, but it’s not a whole lot of fun. What you need is an outlet. You need to have fun. That’s where we step in.  <h3>Cheap beer and lousy pizza!</h3> <p>Microsoft is bringing back GeekFest! Join them at <a href="http://www.howlatthemoon.com" target="_blank" rel="noopener">Howl at the Moon</a> for a night of lousy pizza, cheap beer, dueling pianos, socializing and one wild rubber duck competition….yes, a rubber duck competition.  <p>There is limited invitations available, so what are you waiting for? If you are attending the <a href="http://www.microsoft.com/events/teched2008/developer/default.mspx" target="_blank" rel="noopener">TechEd 2008 Developer Conference</a>, you can pre-register <a href="http://geekfest.thenextseven.com" target="_blank" rel="noopener">here</a>.  <p>Register and pick up your "duck" ticket in the TechEd Technical Learning Center (TLC) at the Developer Tools &amp; Languages (TLA) information desk. You must have a "duck" ticket to get into the party. One "duck" admits up to two people.  <p><strong><br />When:</strong><br />Tuesday, June 3, 2008 from 7:00 PM -10:00 PM ET  <p><strong>Where:</strong><br />Howl at the Moon, 8815 International Drive, Orlando, FL 32819  <p><strong>Ticketing:</strong><br />You must have a "duck" ticket to attend the party. One duck admits two.</p>

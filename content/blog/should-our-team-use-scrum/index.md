@@ -1,7 +1,7 @@
 ﻿---
 title: "Should our team use Scrum?"
 date: 2017-10-31T10:36:12Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "should-our-team-use-scrum"
 draft: false
 tags: ["Scrum"]

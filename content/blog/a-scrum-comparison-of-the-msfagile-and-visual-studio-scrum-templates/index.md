@@ -1,7 +1,7 @@
 ﻿---
 title: "A Scrum comparison of the MSF/Agile and Visual Studio Scrum templates"
 date: 2011-08-03T09:45:47Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "a-scrum-comparison-of-the-msfagile-and-visual-studio-scrum-templates"
 draft: false
 tags: ["Scrum", "TFS"]

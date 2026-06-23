@@ -1,7 +1,7 @@
 ﻿---
 title: "What's New in the Visual Studio Scrum 2013.2 Process Template"
 date: 2014-03-24T14:47:10Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "whats-new-in-the-visual-studio-scrum-2013-2-process-template"
 draft: false
 tags: ["Scrum", "TFS"]

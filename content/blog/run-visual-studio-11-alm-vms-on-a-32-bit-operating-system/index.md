@@ -1,7 +1,7 @@
 ﻿---
 title: "Run Visual Studio 11 ALM VMs on a 32-bit operating system"
 date: 2012-01-09T15:57:27Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "run-visual-studio-11-alm-vms-on-a-32-bit-operating-system"
 draft: false
 tags: ["Microsoft", "Visual Studio"]
@@ -24,21 +24,21 @@ Important: You need to make sure that the PC you are running the 32-bit host har
  	<li><a href="http://blogs.msdn.com/b/briankel/archive/2011/09/16/visual-studio-11-application-lifecycle-management-virtual-machine-and-hands-on-labs-demo-scripts.aspx" target="_blank" rel="noopener noreferrer">Download</a> and expand the Visual Studio 11 VM to a safe location.</li>
  	<li>Launch VirtualBox and create a new VM, giving it a friendly name and selecting Windows 2008 (64 bit) as the OS.
 
-<img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="https://accentient.com/blog/content/binary/ab64f81436e4_C816/image_11.png" alt="image" width="484" height="160" border="0" /></li>
+<img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="image_11.png" alt="image" width="484" height="160" border="0" /></li>
  	<li>Give the VM adequate memory (mine seems to run fine with 2560mb and that leaves a ~1.5gb available for the host on 4gb machines)
 
-<img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="https://accentient.com/blog/content/binary/ab64f81436e4_C816/image_12.png" alt="image" width="484" height="90" border="0" /></li>
+<img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="image_12.png" alt="image" width="484" height="90" border="0" /></li>
  	<li>Uncheck the Start-up Disk option (we’ll come back to this in a bit).
 
-<img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="https://accentient.com/blog/content/binary/ab64f81436e4_C816/image_13.png" alt="image" width="484" height="124" border="0" /></li>
+<img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="image_13.png" alt="image" width="484" height="124" border="0" /></li>
  	<li>Finish creating the VM.</li>
  	<li>In the VM Manager, select the new VM and click Settings.</li>
  	<li>In the Storage section, right-click on the SATA Controller and select Remove Controller.
 
-<img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="https://accentient.com/blog/content/binary/ab64f81436e4_C816/image_16.png" alt="image" width="484" height="173" border="0" /></li>
+<img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="image_16.png" alt="image" width="484" height="173" border="0" /></li>
  	<li>Right-click on the IDE Controller and select Add Hard Disk. <a href="http://ollysense.blogspot.com/2010/05/virtualbox-using-hyper-v-vhd-image.html" target="_blank" rel="noopener noreferrer">Why did we do these last two steps?</a>
 
-<img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="https://accentient.com/blog/content/binary/ab64f81436e4_C816/image_17.png" alt="image" width="484" height="174" border="0" /></li>
+<img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="image_17.png" alt="image" width="484" height="174" border="0" /></li>
  	<li>Select Choose existing disk and navigate to the .VHD file you expanded in step 3.</li>
  	<li>Save your settings and then start, login, use, and love the VM!</li>
 </ol>

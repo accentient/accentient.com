@@ -1,7 +1,7 @@
 ﻿---
 title: "Get ready for the launch of Visual Studio 2013"
 date: 2013-09-12T14:27:05Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "get-ready-for-launch-of-visual-studio-2013"
 draft: false
 tags: ["Visual Studio"]

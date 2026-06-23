@@ -1,0 +1,46 @@
+# Microsoft® Visual Studio® Team System 2008 Team Foundation Server SP1 and Team Suite SP1 VPC Image (Trial)
+# (6 GB download, expands to 15 GB)
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/AllUp/en_visual_studio_team_system_2008_sp1_december2008_vpc.part0001.exe
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/AllUp/en_visual_studio_team_system_2008_sp1_december2008_vpc.part0002.rar
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/AllUp/en_visual_studio_team_system_2008_sp1_december2008_vpc.part0003.rar
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/AllUp/en_visual_studio_team_system_2008_sp1_december2008_vpc.part0004.rar
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/AllUp/en_visual_studio_team_system_2008_sp1_december2008_vpc.part0005.rar
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/AllUp/en_visual_studio_team_system_2008_sp1_december2008_vpc.part0006.rar
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/AllUp/en_visual_studio_team_system_2008_sp1_december2008_vpc.part0007.rar
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/AllUp/en_visual_studio_team_system_2008_sp1_december2008_vpc.part0008.rar
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/AllUp/en_visual_studio_team_system_2008_sp1_december2008_vpc.part0009.rar
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/AllUp/en_visual_studio_team_system_2008_sp1_december2008_vpc.part0010.rar
+# 
+# Visual Studio® Team System 2008 Team Foundation Server SP1 VPC Image (Trial)
+# (3 GB download, expands to 8 GB)
+http://download.microsoft.com/download/3/4/0/3401DDB1-CF4E-4E03-A2E4-CD7E1C9502F6/TFSOnly/en_visual_studio_team_foundation_server_2008_sp1_december2008_vpc.part0001.exe
+http://download.microsoft.com/download/3/4/0/3401DDB1-CF4E-4E03-A2E4-CD7E1C9502F6/TFSOnly/en_visual_studio_team_foundation_server_2008_sp1_december2008_vpc.part0002.rar
+http://download.microsoft.com/download/3/4/0/3401DDB1-CF4E-4E03-A2E4-CD7E1C9502F6/TFSOnly/en_visual_studio_team_foundation_server_2008_sp1_december2008_vpc.part0003.rar
+http://download.microsoft.com/download/3/4/0/3401DDB1-CF4E-4E03-A2E4-CD7E1C9502F6/TFSOnly/en_visual_studio_team_foundation_server_2008_sp1_december2008_vpc.part0004.rar
+http://download.microsoft.com/download/3/4/0/3401DDB1-CF4E-4E03-A2E4-CD7E1C9502F6/TFSOnly/en_visual_studio_team_foundation_server_2008_sp1_december2008_vpc.part0005.rar
+http://download.microsoft.com/download/3/4/0/3401DDB1-CF4E-4E03-A2E4-CD7E1C9502F6/TFSOnly/en_visual_studio_team_foundation_server_2008_sp1_december2008_vpc.part0006.rar
+# 
+# Microsoft® Visual Studio® Team System 2008 Team Foundation Server SP1 and Team Suite SP1 Hyper-V Image (Trial)
+# (6 GB download, expands to 15 GB)
+http://download.microsoft.com/download/A/A/C/AAC6CA2D-FEDB-466A-97E8-1F0CDC45F410/en_visual_studio_team_system_2008_sp1_december2008_hyperv.part0001.exe
+http://download.microsoft.com/download/A/A/C/AAC6CA2D-FEDB-466A-97E8-1F0CDC45F410/AllUpHyperV/en_visual_studio_team_system_2008_sp1_december2008_hyperv.part0002.rar
+http://download.microsoft.com/download/A/A/C/AAC6CA2D-FEDB-466A-97E8-1F0CDC45F410/AllUpHyperV/en_visual_studio_team_system_2008_sp1_december2008_hyperv.part0003.rar
+http://download.microsoft.com/download/A/A/C/AAC6CA2D-FEDB-466A-97E8-1F0CDC45F410/AllUpHyperV/en_visual_studio_team_system_2008_sp1_december2008_hyperv.part0004.rar
+http://download.microsoft.com/download/A/A/C/AAC6CA2D-FEDB-466A-97E8-1F0CDC45F410/AllUpHyperV/en_visual_studio_team_system_2008_sp1_december2008_hyperv.part0005.rar
+http://download.microsoft.com/download/A/A/C/AAC6CA2D-FEDB-466A-97E8-1F0CDC45F410/AllUpHyperV/en_visual_studio_team_system_2008_sp1_december2008_hyperv.part0006.rar
+http://download.microsoft.com/download/A/A/C/AAC6CA2D-FEDB-466A-97E8-1F0CDC45F410/AllUpHyperV/en_visual_studio_team_system_2008_sp1_december2008_hyperv.part0007.rar
+http://download.microsoft.com/download/A/A/C/AAC6CA2D-FEDB-466A-97E8-1F0CDC45F410/AllUpHyperV/en_visual_studio_team_system_2008_sp1_december2008_hyperv.part0008.rar
+http://download.microsoft.com/download/A/A/C/AAC6CA2D-FEDB-466A-97E8-1F0CDC45F410/AllUpHyperV/en_visual_studio_team_system_2008_sp1_december2008_hyperv.part0009.rar
+http://download.microsoft.com/download/A/A/C/AAC6CA2D-FEDB-466A-97E8-1F0CDC45F410/AllUpHyperV/en_visual_studio_team_system_2008_sp1_december2008_hyperv.part0010.rar
+# 
+# Visual Studio® Team System 2008 Team Foundation Server SP1 Hyper-V Image (Trial)
+# (3 GB download, expands to 8 GB)
+http://download.microsoft.com/download/B/E/4/BE468943-A2A7-404C-8F2F-B8ABA9271E00/TFSOnlyHyperV/en_visual_studio_team_foundation_server_2008_sp1_december2008_hyperv.part0001.exe
+http://download.microsoft.com/download/B/E/4/BE468943-A2A7-404C-8F2F-B8ABA9271E00/TFSOnlyHyperV/en_visual_studio_team_foundation_server_2008_sp1_december2008_hyperv.part0002.rar
+http://download.microsoft.com/download/B/E/4/BE468943-A2A7-404C-8F2F-B8ABA9271E00/TFSOnlyHyperV/en_visual_studio_team_foundation_server_2008_sp1_december2008_hyperv.part0003.rar
+http://download.microsoft.com/download/B/E/4/BE468943-A2A7-404C-8F2F-B8ABA9271E00/TFSOnlyHyperV/en_visual_studio_team_foundation_server_2008_sp1_december2008_hyperv.part0004.rar
+http://download.microsoft.com/download/B/E/4/BE468943-A2A7-404C-8F2F-B8ABA9271E00/TFSOnlyHyperV/en_visual_studio_team_foundation_server_2008_sp1_december2008_hyperv.part0005.rar
+http://download.microsoft.com/download/B/E/4/BE468943-A2A7-404C-8F2F-B8ABA9271E00/TFSOnlyHyperV/en_visual_studio_team_foundation_server_2008_sp1_december2008_hyperv.part0006.rar
+# 
+# Visual Studio® Team System 2008 Hands-on Labs March 2008 Release
+http://download.microsoft.com/download/D/7/3/D73B91D4-6DAA-4DA6-8635-3F10A1B918DB/VSTS%202008%20Hands-on%20Labs%20March%202008%20Release.msi

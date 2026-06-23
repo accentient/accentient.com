@@ -1,7 +1,7 @@
 ﻿---
 title: "Files from Implementing Scrum pre-conference at Microsoft TechEd"
 date: 2011-05-16T20:30:04Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "files-from-implementing-scrum-pre-conference-at-microsoft-teched"
 draft: false
 tags: ["Conferences", "Microsoft", "Scrum", "Visual Studio"]

@@ -1,0 +1,17 @@
+---
+title: "TFS Build Scripts - Best Practice"
+date: 2007-01-05T17:06:12Z
+authors: ["Richard Hundhausen"]
+slug: "tfs-build-scripts-best-practice"
+draft: false
+tags: ["Preferred Practice", "Visual Studio", "ALM"]
+---
+
+How many build scripts do you need?&nbsp; There seems to be some massive confusion around TFS Build Scripts, namely, how many a single project needs.&nbsp; If your answer is one, you too have a misunderstanding!&nbsp; :-)&nbsp; In my experience, one build script is not nearly enough, in fact, I encourage several.&nbsp; Here's the why and how.<br /><br /><b>Why</b>:&nbsp; Visual Studio Team System (VSTS) and Team Foundation Server (TFS) is absolutely brilliant at tracking information related to a series of builds.&nbsp; That information is archived, analyzed and reported in a very useful fashion.&nbsp; BUT, it it reported by the NAME of the build.&nbsp; Thus, if you only have one build type, you can only have one set of reports!&nbsp; And that's no good!&nbsp; You need more. The primary reason for having more than one build type is to get good, easily understandable, accurate metrics.<br />
+<ol>
+<li>First, you need a build script for your continuous integration builds.&nbsp; This script runs every time someone checks in code (with certain restrictions).&nbsp; You likely won't want an aggregate report on these builds, except for rare cases -- there are just too many of them.&nbsp; This build is optional.&nbsp; I'm a fan of CI, but if it's a bridge too far, don't worry.&nbsp; The critical build is the nightly build...<br />
+<li>A TFS Build for your daily / nightly builds.&nbsp; This build runs every night at a set time.&nbsp; This build shows you what was accomplished during that entire day, including quality metrics, code churn, etc.&nbsp; This is one of the most valuable builds, since its reporting is clearly segmented by time -- one build per day.&nbsp; This allows a team to see what is being accomplished on a day to day basis.
+<li>A TFS Build for weekly builds.&nbsp; This runs every weekend.&nbsp; Like the daily build, it will allow the reporting engine to show you what was accomplished that week, and how quality changes from week to week.&nbsp; This allows you to see aggregate changes over a chunkier time sequence, namely weeks.&nbsp; <br />
+<li>An end-of-iteration build.&nbsp; I'2013-08-28 13:42:12've found you don't need to go any longer than weeks this for most projects, as far as reporting is concerned.&nbsp; However, you may choose to create a build that runs at the end of every iteration.&nbsp; This gives you metrics on what was accomplished during the entire iteration.
+<li>An on-demand build.&nbsp; This one is used for folks who just need to trigger a build whenever.&nbsp; Unless it's necessary or useful, you may choose to have this build not report anything back to the data warehouse.</li></ol><b>How</b>:&nbsp; It's easy!&nbsp; The reason for all these builds was stricktly for the reporting.&nbsp; That means that each of these builds is likely going to be nearly identical!&nbsp; So, all you need to do is create the first build (the hard part), and copy it several times, giving it a different name each time.&nbsp; That's all there is to it!&nbsp; <br /><br />So, go forth and replicate those builds!&nbsp; <br /><br /><br /><br /><br />
+<p></p>

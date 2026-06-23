@@ -1,0 +1,10 @@
+---
+title: "Developers Developers Developers Developers Book"
+date: 2009-07-10T19:36:11Z
+authors: ["Richard Hundhausen"]
+slug: "developers-developers-developers-developers-book"
+draft: false
+tags: ["Community", "Development"]
+---
+
+<p>There’s a <a href="http://devshaped.com/book" target="_blank" rel="noopener">new book</a> out (<a href="http://devshaped.com/files/developersdevelopers.pdf" target="_blank" rel="noopener">download</a> or <a href="http://www.lulu.com" target="_blank" rel="noopener">Lulu</a>) which blends content from Microsoft's <a href="http://www.microsoft.com/youshapeit" target="_blank" rel="noopener">{You Shape} It</a><i></i> campaign. <a href="http://devshaped.com/book" target="_blank" rel="noopener">Developers Developers Developers Developers</a> is a free download and released under a Creative Commons license.<br /> <p>Here’s a snapshot of the table of contents …&nbsp; <ul> <li>Working with Brownfield Code by Donald Belcham (Microsoft MVP)  <li>Beyond C# and VB by Ted Neward (Microsoft MVP)  <li>Remaining Valuable to Employers featuring Barry Gervin, Billy Hollis, Bruce Johnson, Scott Howlett, Adam Cogan, and Jonathan Zuck  <li>All I Wanted Was My Data by Barry Gervin (Microsoft Regional Director and MVP)  <li>Efficiency Upgrade by Derek Hatchard (Microsoft Regional Director and MVP)  <li>Getting Started with Continuous Integration by Sondre Bjellås (Microsoft Regional Director and MVP)  <li>On Strike at the Software Factory by Daniel Crenna (Microsoft MVP)  <li>C# Features You Should Be Using by Ted Neward (Microsoft MVP)  <li>Accelerate Your Coding with Code Snippets by Brian Noyes (Microsoft Regional Director and MVP)  <li>Is Silverlight 2 Ready for Business Applications? by Jonas Follesø (Microsoft Regional Director and MVP)  <li>Innovate with Silverlight 2 by Daniel Crenna (Microsoft MVP)  <li>Real World WPF: Rich UI + HD by Gill Cleeren (Microsoft Regional Director and MVP)  <li>Hidden Talents by Peter Jones  <li>Creating Useful Installers with Custom Actions by Christian Jacob  <li>Banking with XML by Peter Jones  <li>Sending Email</li></ul>

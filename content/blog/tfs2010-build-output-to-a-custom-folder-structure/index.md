@@ -1,10 +1,10 @@
 ﻿---
 title: "TFS2010 Build output to a Custom Folder Structure"
 date: 2012-02-29T10:38:03Z
-author: "Simon Reindl"
+authors: ["Simon Reindl"]
 slug: "tfs2010-build-output-to-a-custom-folder-structure"
 draft: false
-tags: ["TFS", "Visual Studio", "Visual Studio ALM"]
+tags: ["TFS", "Visual Studio", "ALM"]
 ---
 
 ---
@@ -150,7 +150,7 @@ It ends up looking like:
 
 &nbsp;
 
-<a href="https://accentient.com/blog/content/binary/TFS2010-Build-output-to-a-Custom-Folder-_FB9B/clip_image002_2.jpg"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="clip_image002" src="https://accentient.com/blog/content/binary/TFS2010-Build-output-to-a-Custom-Folder-_FB9B/clip_image002_thumb.jpg" alt="clip_image002" width="461" height="638" border="0" /></a>
+<a href="clip_image002_2.jpg"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="clip_image002" src="clip_image002_thumb.jpg" alt="clip_image002" width="461" height="638" border="0" /></a>
 
 &nbsp;
 
@@ -164,10 +164,10 @@ Check in and the build is ready, then you need to edit the build definition to u
 
 In the build definition, select the individual projects instead of the solutions.
 
-<a href="https://accentient.com/blog/content/binary/TFS2010-Build-output-to-a-Custom-Folder-_FB9B/SNAGHTML56ad7e3.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="SNAGHTML56ad7e3" src="https://accentient.com/blog/content/binary/TFS2010-Build-output-to-a-Custom-Folder-_FB9B/SNAGHTML56ad7e3_thumb.png" alt="SNAGHTML56ad7e3" width="420" height="337" border="0" /></a>
+<a href="SNAGHTML56ad7e3.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="SNAGHTML56ad7e3" src="SNAGHTML56ad7e3_thumb.png" alt="SNAGHTML56ad7e3" width="420" height="337" border="0" /></a>
 
-<a href="https://accentient.com/blog/content/binary/TFS2010-Build-output-to-a-Custom-Folder-_FB9B/SNAGHTML56ce329.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="SNAGHTML56ce329" src="https://accentient.com/blog/content/binary/TFS2010-Build-output-to-a-Custom-Folder-_FB9B/SNAGHTML56ce329_thumb.png" alt="SNAGHTML56ce329" width="391" height="310" border="0" /></a>
+<a href="SNAGHTML56ce329.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="SNAGHTML56ce329" src="SNAGHTML56ce329_thumb.png" alt="SNAGHTML56ce329" width="391" height="310" border="0" /></a>
 
 and the resulting output will use the project structure.
 
-<a href="https://accentient.com/blog/content/binary/TFS2010-Build-output-to-a-Custom-Folder-_FB9B/image_2.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="https://accentient.com/blog/content/binary/TFS2010-Build-output-to-a-Custom-Folder-_FB9B/image_thumb.png" alt="image" width="294" height="284" border="0" /></a>
+<a href="image_2.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="image_thumb.png" alt="image" width="294" height="284" border="0" /></a>

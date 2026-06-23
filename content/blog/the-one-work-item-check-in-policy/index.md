@@ -1,10 +1,10 @@
 ﻿---
 title: "The One Work Item check-in policy"
 date: 2013-10-07T12:17:16Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "the-one-work-item-check-in-policy"
 draft: false
-tags: ["TFS", "Visual Studio", "Visual Studio ALM"]
+tags: ["TFS", "Visual Studio", "ALM"]
 ---
 
 ---

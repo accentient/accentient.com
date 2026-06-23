@@ -8,8 +8,8 @@
       <p class="blog-meta">
         {{ .Date.Format "Jan 2, 2006" }}
         &nbsp;&bull;&nbsp; {{ .ReadingTime }} min read
-        {{ with .Params.author }}
-        &nbsp;&bull;&nbsp; {{ . }}
+        {{ with .Params.authors }}
+        &nbsp;&bull;&nbsp; {{ delimit . ", " }}
         {{ end }}
       </p>
       <div class="content">

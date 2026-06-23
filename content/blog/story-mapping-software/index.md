@@ -1,7 +1,7 @@
 ﻿---
 title: "Story Mapping Software"
 date: 2013-09-11T09:46:02Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "story-mapping-software"
 draft: false
 tags: ["Scrum", "Tools"]

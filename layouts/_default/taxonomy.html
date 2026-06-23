@@ -12,6 +12,7 @@
     <h1 class="title">{{ .Data.Singular | title }}: {{ .Title }}</h1>
 
     {{ partial "tag-filter.html" . }}
+    {{ partial "author-filter.html" . }}
 
     {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
     <p class="blog-result-count">

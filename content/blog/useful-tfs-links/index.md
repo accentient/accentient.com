@@ -1,10 +1,10 @@
 ﻿---
 title: "Useful TFS Links"
 date: 2012-09-19T20:57:22Z
-author: "Simon Reindl"
+authors: ["Simon Reindl"]
 slug: "useful-tfs-links"
 draft: false
-tags: ["Preferred Practice", "TFS", "Visual Studio", "Visual Studio ALM"]
+tags: ["Preferred Practice", "TFS", "Visual Studio", "ALM"]
 ---
 
 ---

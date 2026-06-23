@@ -1,7 +1,7 @@
 ﻿---
 title: "Awesome SharePoint training deal at Mindsharp’s Customer Appreciation Event"
 date: 2011-03-17T10:27:09Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "awesome-sharepoint-training-deal-at-mindsharps-customer-appreciation-event"
 draft: false
 tags: ["SharePoint"]

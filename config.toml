@@ -14,6 +14,12 @@ title = " Accentient"
     [markup.goldmark.renderer]
       unsafe = true
 
+# Imported posts contain dead inline <script> blocks (old dasBlog chat UI) that
+# Hugo's JS minifier can't parse. Skip JS minification so `hugo --minify` never
+# chokes on legacy markup; our real JS is served as static files anyway.
+[minify]
+  disableJS = true
+
 [params]
 openGraph = true
 Description = "Experts in AI, GitHub, Azure DevOps, Scrum and everything in between"

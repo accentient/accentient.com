@@ -1,0 +1,10 @@
+---
+title: "Transcript from VSTS Panel Discussion at US Tech-Ed 2007"
+date: 2007-12-24T22:23:16Z
+authors: ["Richard Hundhausen"]
+slug: "transcript-from-vsts-panel-discussion-at-us-tech-ed-2007"
+draft: false
+tags: ["Conferences", "Visual Studio", "ALM"]
+---
+
+<p>Man, I need to keep a closer eye on the work product over at <a href="http://www.dotnetrocks.com" target="_blank" rel="noopener">.NET Rocks</a>. I had meant to link up this <a href="http://perseus.franklins.net/dotnetrocks_0250_vsts_panel.pdf" target="_blank" rel="noopener">transcript</a> last Summer, but I dropped the ball. Apologies.</p> <p>So, what this was was a VSTS panel discussion at Tech-Ed in Orlando last June, with Mike Azocar, Steven Borg, Doug Seven, Joel Semeniuk, and the hosts Richard Campbell and Carl Franklin.</p> <p>Here's the panel (with <a href="http://objectsharp.com/cs/blogs/barry/default.aspx" target="_blank" rel="noopener">Barry Gervin</a> running the microphone)<br /><a href="Panel1_2.jpg" target="_blank" rel="noopener"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="232" alt="Panel1" src="Panel1_thumb.jpg" width="398" border="0"></a> </p> <p>And some of the audience (you can see <a href="http://blogs.msdn.com/robcaron/" target="_blank" rel="noopener">Rob Caron</a> and <a href="http://teamsystemrocks.com/blogs/mickey_gousset/default.aspx" target="_blank" rel="noopener">Mickey Gousset</a> in the back).<br /><a href="panel2_2.jpg" target="_blank" rel="noopener"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="283" alt="panel2" src="panel2_thumb.jpg" width="714" border="0"></a> </p> <p>There's some pretty good questions in there, especially those asked by yours truly!</p>

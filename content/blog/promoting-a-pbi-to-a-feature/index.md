@@ -1,7 +1,7 @@
 ﻿---
 title: "Promoting a PBI to a Feature (Epic)"
 date: 2015-01-29T11:27:29Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "promoting-a-pbi-to-a-feature"
 draft: false
 tags: ["Scrum", "TFS"]

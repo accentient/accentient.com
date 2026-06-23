@@ -1,7 +1,7 @@
 ﻿---
 title: "Visual Studio Live! in Austin"
 date: 2015-06-03T22:07:03Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "visual-studio-live-in-austin"
 draft: false
 tags: ["Conferences", "Scrum", "Visual Studio"]

@@ -1,7 +1,7 @@
 ﻿---
 title: "SharePoint 2013 support for Windows Server 2012 R2"
 date: 2013-11-06T16:34:47Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "sharepoint-2013-support-for-windows-server-2012-r2"
 draft: false
 tags: ["SharePoint", "TFS"]

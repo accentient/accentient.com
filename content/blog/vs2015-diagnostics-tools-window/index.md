@@ -1,7 +1,7 @@
 ﻿---
 title: "Turn off the Diagnostics Tools window in Visual Studio 2015"
 date: 2015-08-17T11:58:41Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "vs2015-diagnostics-tools-window"
 draft: false
 tags: ["Visual Studio"]

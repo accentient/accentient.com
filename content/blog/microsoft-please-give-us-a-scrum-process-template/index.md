@@ -1,7 +1,7 @@
 ﻿---
 title: "Microsoft, please give us a Scrum process template"
 date: 2015-11-04T16:11:00Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "microsoft-please-give-us-a-scrum-process-template"
 draft: false
 tags: ["Azure DevOps", "Microsoft", "Scrum", "TFS"]

@@ -1,10 +1,10 @@
 ﻿---
 title: "Who wants to be a Professional Scrum Trainer?"
 date: 2013-09-24T10:42:58Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "do-you-have-what-it-takes-to-become-a-professional-scrum-trainer"
 draft: false
-tags: ["Scrum", "Visual Studio", "Visual Studio ALM"]
+tags: ["Scrum", "Visual Studio", "ALM"]
 ---
 
 ---

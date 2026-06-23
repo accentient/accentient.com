@@ -1,7 +1,7 @@
 ﻿---
 title: "Create a Professional Scrum process"
 date: 2017-03-15T21:22:36Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "creating-a-professional-scrum-process-in-vsts"
 draft: false
 tags: ["Azure DevOps", "Scrum"]

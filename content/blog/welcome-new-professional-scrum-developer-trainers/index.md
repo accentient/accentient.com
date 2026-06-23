@@ -1,7 +1,7 @@
 ﻿---
 title: "Welcome new Professional Scrum Developer trainers"
 date: 2010-09-21T07:01:42Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "welcome-new-professional-scrum-developer-trainers"
 draft: false
 tags: ["Microsoft", "Scrum"]

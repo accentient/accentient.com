@@ -1,7 +1,7 @@
 ﻿---
 title: "Turn off Automatic Updates on Windows 10 Professional"
 date: 2015-08-03T14:14:32Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "turn-off-automatic-updates-on-windows-10-professional"
 draft: false
 tags: ["Windows"]

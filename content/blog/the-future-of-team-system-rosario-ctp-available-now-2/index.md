@@ -1,0 +1,10 @@
+---
+title: "The future of Team System: Rosario CTP - Available now!"
+date: 2007-08-04T20:32:36Z
+authors: ["Richard Hundhausen"]
+slug: "the-future-of-team-system-rosario-ctp-available-now-2"
+draft: false
+tags: ["Visual Studio", "SQL Server", "ALM"]
+---
+
+<p>Not only did Microsoft just recently <a href="https://accentient.com/blog/VisualStudio2008Beta2AvailableForDownload.aspx" target="_blank" rel="noopener">post</a> Beta 2 of Visual Studio 2008 (Orcas) a few days ago, but yesterday Microsoft made a CTP of the next generation of Visual Studio Team System (codename Rosario) available for download. Craziness ... which do I spend my time with? It's like having two mistresses to pick from.</p> <p>Anyway, here are the details, if you want to start playing with Rosario: (keep in mind that it won't ship until some time  months post Visual Studio 2008, so at least 2009):</p> <ul> <li>Read Jeff Beehler's&nbsp;<a href="http://blogs.msdn.com/jeffbe/archive/2007/08/03/first-rosario-ctp-now-available.aspx" target="_blank" rel="noopener">blog posting</a></li> <li>Read the Rosario&nbsp;Overview <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=0ADE6C5D-BE17-4168-B57B-4C2FA36EAD3E&amp;displaylang=en" target="_blank" rel="noopener">whitepaper</a></li> <li>Download the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=8450EFF5-24AD-44C3-AB91-1ED88EF2F4F0&amp;displaylang=en" target="_blank" rel="noopener">VPC images</a>&nbsp;(8+ files, 700mb each)</li> <li>Download the Rosario <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=4aeb24f8-e699-4091-91a2-446d75b71cbf&amp;DisplayLang=en" target="_blank" rel="noopener">documentation</a></li> <li>Visit the <a href="http://forums.microsoft.com/MSDN/default.aspx?ForumGroupID=463&amp;SiteID=1" target="_blank" rel="noopener">MSDN newsgroups</a> dedicated to Rosario</li> <li>Visit the <a href="http://msdn2.microsoft.com/en-us/teamsystem/bb725993.aspx" target="_blank" rel="noopener">MSDN homepage</a> for Rosario</li></ul> <p>Finally, and most important, provide feedback to the team using <a href="http://connect.microsoft.com">http://connect.microsoft.com</a>. </p>

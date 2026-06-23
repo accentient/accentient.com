@@ -1,7 +1,7 @@
 ﻿---
 title: "Managing Projects using Microsoft Visual Studio Scrum 1.0 (Part 2)"
 date: 2010-08-19T13:40:35Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "managing-projects-using-microsoft-visual-studio-scrum-1-0-part-2"
 draft: false
 tags: ["Scrum", "TFS", "Visual Studio", "Webcast"]

@@ -1,0 +1,10 @@
+---
+title: "Silverlight 2.0"
+date: 2007-11-30T17:07:39Z
+authors: ["Richard Hundhausen"]
+slug: "silverlight-2-0"
+draft: false
+tags: ["Microsoft", "Development"]
+---
+
+<p>In addition to adding support for the .NET Framework, Microsoft is taking the next version of Silverlight farther by adding a comprehensive control model, powerful skinning and "theming," data binding, and over 20 controls in the box. To better capture the scope of the feature set for the next version of Silverlight, Microsoft will rename Silverlight 1.1 to <strong>Silverlight 2.0</strong>.&nbsp; Microsoft will also commit to delivering a Silverlight 2.0 Beta with a Go-Live license in Q1 2008.  <p>&nbsp;  <p>As for customer evidence, the <a href="http://www.nba.com" target="_blank" rel="noopener">NBA</a> began engaging with Microsoft to deliver key interactive applications on NBA.com deploying Silverlight.&nbsp; By utilizing Silverlight, the NBA will be able to further broaden the scope of its online experience across video and photos. From a broader Web development perspective, Microsoft will also release a preview of the ASP.NET 3.5 Extensions in early December. Key features of the preview include MVC, Dynamic Data Controls and REST Services. Silverlight and ASP.NET are core technologies enabling better user experiences on the desktop, Web and beyond. Microsoft’s user experience approach is part of the broader Microsoft Application Platform strategy, formed with the goal of helping customers realize the benefits from more dynamic applications.  <p>&nbsp;  <p>For more information on Thursday, please check out <a href="http://weblogs.asp.net/scottgu" target="_blank" rel="noopener">Scott Guthrie’s blog</a>, <a href="http://silverlight.net/blogs/jesseliberty" target="_blank" rel="noopener">Jesse Liberty’s blog</a>, and the <a href="http://www.microsoft.com/silverlight" target="_blank" rel="noopener">Silverlight homepage</a>.  <p>&nbsp;  <p>Also, feel free to check out the new Microsoft <a href="http://preview.microsoft.com/downloads" target="_blank" rel="noopener">Download Center Beta</a>, now powered by Microsoft Silverlight.</p>

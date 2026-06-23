@@ -1,0 +1,10 @@
+---
+title: "No Branch by Label in TFS 2010"
+date: 2010-03-04T22:32:40Z
+authors: ["Richard Hundhausen"]
+slug: "no-branch-by-label-in-tfs-2010"
+draft: false
+tags: ["Visual Studio", "TFS"]
+---
+
+<p>This came up today during a presentation I was giving. I didn’t realize you couldn’t do this from the new Branches in 2010. I did some research and wanted to share my findings.</p> <p>In TFS 2010 (RC), if you right-click on a regular folder, such as my Code folder:</p> <p><img title="image" style="border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px" height="69" alt="image" src="image_10.png" width="188" border="0"> </p> <p>… your branching options are (Changeset, Date, Label, Latest Version, and Workspace Version):</p> <p><img title="image" style="border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px" height="280" alt="image" src="image_9.png" width="515" border="0"> </p> <p>But, if you convert that folder to the new Branch type in 2010:</p> <p><img title="image" style="border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px" height="69" alt="image" src="image_11.png" width="188" border="0"> </p> <p>… your branching options are reduced to just (Changeset, Date, and Latest Version):</p> <p><img title="image" style="border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px" height="85" alt="image" src="image_12.png" width="153" border="0"> </p> <p>The good news is that you can still use the TF.exe command-line utility to Branch by Label.</p> <p>I hope Microsoft will address this by RTM (or shortly thereafter), because this begs the question: why convert to branches in the first place? Sure, if you don’t convert to a branch, you’ll be losing a layer of meta-data (owner, description, security permissions, etc.) and semantics, not to mention the slick visualization capabilities (View Branch Hierarchy and Track Changeset), but I’m not sure it outweighs the pain of having to go to the command line to Branch by Label (should that be your thing).</p>

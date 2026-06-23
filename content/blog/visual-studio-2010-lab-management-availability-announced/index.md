@@ -1,0 +1,10 @@
+---
+title: "Visual Studio 2010 Lab Management availability announced"
+date: 2010-08-05T23:59:56Z
+authors: ["Richard Hundhausen"]
+slug: "visual-studio-2010-lab-management-availability-announced"
+draft: false
+tags: ["TFS", "Visual Studio"]
+---
+
+<p>Yesterday at the <a href="http://vslive.com" target="_blank" rel="noopener">VSLive!</a> keynote, Microsoft announced that <a href="http://www.microsoft.com/visualstudio/en-us/solutions/software-quality/lab-management" target="_blank" rel="noopener">Lab Management</a> will be generally available at the end of August. Also, it will not be sold as a separate product, but instead will be available to Visual Studio 2010 Ultimate with MSDN and Visual Studio Test Professional with MSDN subscribers.</p> <p><a href="lab_2.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" class="wlDisabledImage" title="lab" border="0" alt="lab" src="lab_thumb.png" width="356" height="55"></a><br /></p> <p>This announcement further proves that Microsoft remains committed to enabling developers of all skill levels and organizational sizes to easily build business applications that target the desktop, cloud and Web. Lab Management provides an integrated platform for managing your virtual testing environments, which drives greater efficiencies and cost savings by automating workflow, utilizing Hyper-V and System Center Virtual Machine Manager (SCVMM). It is essentially a "private cloud" solution that enables teams to quickly provision virtual environments. These environments enable organizations to easily develop and test against a predictable base state, lowering the risk associated with software development due to unpredictable build processes and test environments. <p>Download the <a href="http://go.microsoft.com/?linkid=9739339" target="_blank" rel="noopener">trial software</a> or a <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=592e874d-8fcd-4665-8e55-7da0d44b0dee&amp;displaylang=en" target="_blank" rel="noopener">VHD Test Drive</a> today.</p>

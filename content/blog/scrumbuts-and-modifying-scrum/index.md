@@ -1,7 +1,7 @@
 ﻿---
 title: "ScrumButs and Modifying Scrum"
 date: 2010-12-17T08:22:22Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "scrumbuts-and-modifying-scrum"
 draft: false
 tags: ["Scrum"]

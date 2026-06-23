@@ -1,7 +1,7 @@
 ﻿---
 title: "Scrum in a Nutshell"
 date: 2018-09-17T05:42:11Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "scrum-in-a-nutshell"
 draft: false
 tags: ["Scrum"]

@@ -1,7 +1,7 @@
 ﻿---
 title: "Using the Kanban Board to Implement a Definition of Ready"
 date: 2014-11-14T12:57:29Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "using-the-kanban-board-to-implement-a-definition-of-ready"
 draft: false
 tags: ["Azure DevOps", "Scrum", "TFS"]

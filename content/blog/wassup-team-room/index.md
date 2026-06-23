@@ -1,10 +1,10 @@
 ﻿---
 title: "Wassup Team Room?"
 date: 2016-09-30T13:05:47Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "wassup-team-room"
 draft: false
-tags: ["Azure DevOps", "TFS", "Visual Studio ALM"]
+tags: ["Azure DevOps", "TFS", "Visual Studio", "ALM"]
 ---
 
 ---

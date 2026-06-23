@@ -1,7 +1,7 @@
 ﻿---
 title: "Microsoft Visual Studio 2010 Lab Management released"
 date: 2010-08-24T03:54:24Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "microsoft-visual-studio-2010-lab-management-released"
 draft: false
 tags: ["TFS", "Visual Studio"]

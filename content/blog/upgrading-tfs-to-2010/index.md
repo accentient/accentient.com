@@ -1,10 +1,10 @@
 ﻿---
 title: "Upgrading TFS to 2010"
 date: 2010-11-12T22:17:00Z
-author: "Simon Reindl"
+authors: ["Simon Reindl"]
 slug: "upgrading-tfs-to-2010"
 draft: false
-tags: ["Microsoft", "Preferred Practice", "TFS", "Visual Studio ALM"]
+tags: ["Microsoft", "Preferred Practice", "TFS", "Visual Studio", "ALM"]
 ---
 
 ---

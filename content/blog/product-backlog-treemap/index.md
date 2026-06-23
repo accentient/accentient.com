@@ -1,7 +1,7 @@
 ﻿---
 title: "Creating a Product Backlog Treemap"
 date: 2019-05-02T13:28:43Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "product-backlog-treemap"
 draft: false
 tags: ["Azure Boards", "Scrum"]

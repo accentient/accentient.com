@@ -1,0 +1,10 @@
+---
+title: "Seattle Code Camp 2008 is just around the corner"
+date: 2008-10-13T17:07:03Z
+authors: ["Richard Hundhausen"]
+slug: "seattle-code-camp-2008-is-just-around-the-corner"
+draft: false
+tags: ["Community", "Development"]
+---
+
+<p>The Seattle developer community is holding <a href="https://seattle.codecamp.us" target="_blank" rel="noopener">Seattle Code Camp</a> November 15-16, 2008 at the <a href="http://www.digipen.edu" target="_blank" rel="noopener">DigiPen campus</a> in Redmond, Washington (close to Seattle). Please pass this notice on to folks you think are interested in either attending or speaking. Speaking of speaking, they are looking for speakers. If you hit the code camp site, you will see that they don't have sessions or tracks listed at this point. This 'camp is a blank page at this point that needs to be colored in - which is a great venue for presentations. If you have something you are passionate about but have never done any public speaking I encourage you to give it a try. If you are an experienced speaker, this is your time to get involved in your local community and share some of your experience.</p> <p>What types of topics are they looking for?&nbsp; Pretty much anything goes as long as (A) it involves code, and )B) It isn't a direct advertisement for a product or service. This means that this isn't limited to .NET or even Microsoft technologies. Past 'camps have included sessions on XBOX 360 development, Java, PHP, Delphi, and Rails. Submit your sessions <a href="https://seattle.codecamp.us/registered/submitsession.aspx" target="_blank" rel="noopener">here</a>. Alternatively if you have no desire to get up in front of a bunch of developers and impart your wisdom, they could still use your help. Please promote this code camp at your user group meetings, post it on your blog (like I did), email it to interested locals and encourage your friends and coworkers to submit sessions.</p> <p><br />Finally if you plan on attending please <a href="https://seattle.codecamp.us/register.aspx" target="_blank" rel="noopener">register</a> so that we can get some idea of the required space and food needs.</p>

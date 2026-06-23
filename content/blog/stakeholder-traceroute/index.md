@@ -1,7 +1,7 @@
 ﻿---
 title: "Stakeholder Traceroute"
 date: 2016-06-13T14:09:43Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "stakeholder-traceroute"
 draft: false
 tags: ["Azure DevOps", "Misc", "Scrum", "TFS"]

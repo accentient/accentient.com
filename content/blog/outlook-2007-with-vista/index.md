@@ -1,0 +1,11 @@
+---
+title: "Outlook 2007 with Vista"
+date: 2007-03-24T18:01:23Z
+authors: ["Richard Hundhausen"]
+slug: "outlook-2007-with-vista"
+draft: false
+tags: ["Misc", "Microsoft"]
+---
+
+During my recent upgrade, I moved to Vista and Outlook 2007.&nbsp; I have to say, I LOVE the Outlook 2007 UI.&nbsp; I'm much more productive, and it introduces some very, very nice features, like overlapping calendars and integrated searching (although I still prefer X1, since it is MUCH faster and has a better UI).&nbsp; <br /><br />Still, I ran into this problem...&nbsp; I couldn't use it to connect to my email server hosted on Windows Server 2003.&nbsp; The email downloads were WAY to slow.&nbsp; Retrieving 15 emails with a total of 100 kb took several minutes, and if I had an attachment larger that 1.2 MB I physically couldn't download it, since it would time out every time (after 30 minutes or so).&nbsp; Yuck.<br /><br />It was so bad that we gave up hosting our email on our own servers and found a service that would host all our email addresses, giving us POP3, internet access to our email, calendar and many other features free.&nbsp; I looked all over for a solution to the slowness problem, including contacting Microsoft.&nbsp; No one could help.&nbsp; So we moved, and are quite happy with the new service.<br /><br />Anyway, I've found the solution.&nbsp; It wasn't Outlook 2007, but Vista, and it's a very common problem (based on Live and Google searches), without a well publicized solution.&nbsp; It'2013-08-28 13:41:42's the same solution as the last post.&nbsp; <br /><br />Go to the command line as an Administrator (in your Vista client) and execute the following command:<br /><br /><b><i>netsh interface tcp set global autotuninglevel=disable</i></b><br /><br />Works like a champ!&nbsp; Hopefully, this post will help a few people before they end up having to also migrate off of Windows Server 2003 to another solution.&nbsp; <br /><br />PS.&nbsp; This problem doesn't affect all Windows Server 2003 (Win2K3) installs, only some.&nbsp; Evidently it is a hardware issue.<br /><br />UPDATE:&nbsp; More information here:&nbsp; <a href="http://www.itwriting.com/blog/?p=54">Outlook is slow, RSS Broken</a> from Tim Anderson's blog.&nbsp; See comments 60-64 for more information and the solution presented here.<br />
+<p></p>

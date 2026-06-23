@@ -1,7 +1,7 @@
 ﻿---
 title: "Which Scrum Team member should set PBI and Bug work item states?"
 date: 2012-06-08T12:29:29Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "which-scrum-team-member-should-set-pbi-and-bug-work-item-states"
 draft: false
 tags: ["Scrum", "TFS"]

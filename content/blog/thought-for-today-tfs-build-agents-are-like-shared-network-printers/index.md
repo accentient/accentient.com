@@ -1,10 +1,10 @@
 ﻿---
 title: "Thought for today: TFS build agents are like shared, network printers"
 date: 2012-01-23T15:36:19Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "thought-for-today-tfs-build-agents-are-like-shared-network-printers"
 draft: false
-tags: ["Misc", "TFS", "Visual Studio ALM"]
+tags: ["Misc", "TFS", "Visual Studio", "ALM"]
 ---
 
 ---

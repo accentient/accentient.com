@@ -1,7 +1,7 @@
 ﻿---
 title: "Energizers"
 date: 2018-02-08T10:16:51Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "energizers"
 draft: false
 tags: ["Scrum"]

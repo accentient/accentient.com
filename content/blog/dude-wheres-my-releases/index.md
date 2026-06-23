@@ -1,7 +1,7 @@
 ﻿---
 title: "Dude, where's my releases?"
 date: 2015-09-21T19:09:39Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "dude-wheres-my-releases"
 draft: false
 tags: ["Azure DevOps", "TFS"]

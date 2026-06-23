@@ -1,0 +1,14 @@
+---
+title: "Using 64-bit Windows Server 2008 as a Workstation OS, Part 1"
+date: 2008-07-14T16:23:50Z
+authors: ["Martin Danner"]
+slug: "using-64-bit-windows-server-2008-as-a-workstation-os-part-1"
+draft: false
+tags: ["Windows"]
+---
+
+I just replaced Windows Vista Ultimate x64 on my laptop with the 64 bit version of Windows Server 2008. What prompted the change? Well, I was hoping to improve the lackluster performance of Vista. I would happily trade in the consumer goodies in Vista for better productivity. Unfortunately it seems to be an either/or proposition. But the most compelling reason for me was <a href="http://en.wikipedia.org/wiki/Hyper-V" target="_blank" rel="noopener noreferrer">Hyper-V</a>, the new virtual server from Microsoft. I do a lot of work with virtual machines, mostly to run a complete <a href="http://msdn.microsoft.com/en-us/vsts2008/products/default.aspx" target="_blank" rel="noopener noreferrer">Visual Studio Team System</a> environment in a sandbox for development and training purposes. Although Virtual PC 2007 is a good product, Hyper-V seemed to offer better performance and more flexibility with features like <a href="http://blogs.technet.com/roblarson/archive/2008/04/26/virtual-machine-snapshots-with-hyper-v.aspx" target="_blank" rel="noopener noreferrer">snapshots</a>. Hyper-V also supports 64-bit guest operating systems, while Virtual PC 2007 can only run 32 bit OS’s.
+
+After reading <a href="http://weblog.infoworld.com/enterprisedesktop/archives/2008/03/windows_worksta.html" target="_blank" rel="noopener noreferrer">this article</a> I was convinced that Windows Server 2008 with Hyper-V was the setup for me. So, I took the plunge. In the next blog post, I’ll go over the process of installing Windows Server 2008 as a workstation OS (also dubbed Windows "Workstation" 2008).
+
+By the way, I run a <a href="http://www.notebookreview.com/default.asp?newsID=3857" target="_blank" rel="noopener noreferrer">Dell 830</a> laptop with an <a href="http://processorfinder.intel.com/details.aspx?sSpec=SLA44" target="_blank" rel="noopener noreferrer">Intel Core Duo T7500</a> mobile CPU and 4GB RAM. If your workstation does not support <a href="http://en.wikipedia.org/wiki/Hardware-assisted_virtualization" target="_blank" rel="noopener noreferrer">hardware virtualization</a>, then it won’t run Hyper-V. However, you can enjoy the benefits of Windows "Workstation" 2008 and still run your virts using <a href="http://www.microsoft.com/downloadS/details.aspx?FamilyID=28c97d22-6eb8-4a09-a7f7-f6c7a1f000b5&amp;displaylang=en" target="_blank" rel="noopener noreferrer">Virtual PC 2007 SP1</a>. Although Windows Server 2008 is not officially a supported host OS for Virtual PC, it seems to work just fine.

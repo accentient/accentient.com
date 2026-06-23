@@ -1,0 +1,10 @@
+---
+title: "ClearCase and ClearQuest Integration and Migration Bookmarks"
+date: 2009-06-12T17:12:10Z
+authors: ["Richard Hundhausen"]
+slug: "clearcase-and-clearquest-integration-and-migration-bookmarks"
+draft: false
+tags: ["Visual Studio", "ALM"]
+---
+
+<p>Last week I gave a presentation on integration and migration options for IBM ClearCase and ClearQuest. Here are some bookmarks to some various tools and articles that came up:</p> <ul> <li><a href="http://blogs.msdn.com/tfs_migration/archive/2007/09/13/migrating-clearcase-branches-to-tfs.aspx" target="_blank" rel="noopener">Blog post: Migrating ClearCase Branches to TFS</a></li> <li><a href="http://publib.boulder.ibm.com/infocenter/cqhelp/v7r0m0/index.jsp?topic=/com.ibm.rational.clearquest.apiref.doc/c_examples_ovw.htm" target="_blank" rel="noopener">ClearQuest Hooks and Scripts</a></li> <li><a href="http://publib.boulder.ibm.com/infocenter/cqhelp/v7r0m0/index.jsp?topic=/com.ibm.rational.clearquest.apiref.doc/c_examples_ovw.htm" target="_blank" rel="noopener">Forum post: ClearCase versions supported</a></li> <li><a href="http://social.msdn.microsoft.com/Forums/en-US/tfsversioncontrol/thread/1111d28e-592d-4a95-8f38-f3849161e2f6/" target="_blank" rel="noopener">Forum post: How to manually sync TFS with CQ</a></li> <li><a href="http://www.roxolan.com/2009/02/clearquest-integration-with-team.html" target="_blank" rel="noopener">Forum post: Should CQ and TFS be integrated</a></li> <li><a href="IBM-Discussion-Guide.pdf" target="_blank" rel="noopener">IBM Rational ClearCase and ClearQuest Sales Discussion Guide</a></li> <li><a href="https://partner.microsoft.com/US/salesmarketingsection/smsalesprep/40055449" target="_blank" rel="noopener">TFS 2005 vs. Clear Case</a></li> <li><a href="http://msdn.microsoft.com/en-us/library/ms181248.aspx" target="_blank" rel="noopener">Walkthrough: Migrating CQ Work Items to TFS</a></li></ul> <p>I hope this helps anyone who is looking into to this.</p>

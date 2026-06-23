@@ -1,10 +1,10 @@
 ﻿---
 title: "Running nUnit in a TFS11 build on 64 bit server"
 date: 2012-04-30T07:40:39Z
-author: "Simon Reindl"
+authors: ["Simon Reindl"]
 slug: "running-nunit-in-a-tfs11-build-on-64-bit-server"
 draft: false
-tags: ["Development", "TFS", "Visual Studio", "Visual Studio ALM"]
+tags: ["Development", "TFS", "Visual Studio", "ALM"]
 ---
 
 ---
@@ -51,7 +51,7 @@ I put the steps in a checklist to make it easier for me to follow.
 
 They will be in C:Users&lt;UserName&gt;AppDataLocalMicrosoftVisualStudio11.0Extensions&lt;Extension Folder&gt;
 
-<a href="https://accentient.com/blog/content/binary/Running_679A/clip_image002_2.jpg"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="clip_image002" src="https://accentient.com/blog/content/binary/Running_679A/clip_image002_thumb.jpg" alt="clip_image002" width="518" height="390" border="0" /></a></td>
+<a href="clip_image002_2.jpg"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="clip_image002" src="clip_image002_thumb.jpg" alt="clip_image002" width="518" height="390" border="0" /></a></td>
 </tr>
 <tr>
 <td valign="top" width="53"><b>6</b></td>
@@ -59,7 +59,7 @@ They will be in C:Users&lt;UserName&gt;AppDataLocalMicrosoftVisualStudio11.0Exte
 
 If you are doing a lot of build customisation (you probably will be - eventually :) ), it is best practice to have a team project for the extension assemblies as well as the customised build templates
 
-<a href="https://accentient.com/blog/content/binary/Running_679A/clip_image004_2.jpg"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="clip_image004" src="https://accentient.com/blog/content/binary/Running_679A/clip_image004_thumb.jpg" alt="clip_image004" width="536" height="177" border="0" /></a></td>
+<a href="clip_image004_2.jpg"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="clip_image004" src="clip_image004_thumb.jpg" alt="clip_image004" width="536" height="177" border="0" /></a></td>
 </tr>
 <tr>
 <td valign="top" width="53"><b>7</b></td>
@@ -67,7 +67,7 @@ If you are doing a lot of build customisation (you probably will be - eventually
 
 Build menu - manage Build Controllers - Properties; Set the Version control path to custom assemblies to the location created in step 6.
 
-<a href="https://accentient.com/blog/content/binary/Running_679A/clip_image006_2.jpg"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="clip_image006" src="https://accentient.com/blog/content/binary/Running_679A/clip_image006_thumb.jpg" alt="clip_image006" width="531" height="476" border="0" /></a></td>
+<a href="clip_image006_2.jpg"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="clip_image006" src="clip_image006_thumb.jpg" alt="clip_image006" width="531" height="476" border="0" /></a></td>
 </tr>
 <tr>
 <td valign="top" width="53"><b>8</b></td>
@@ -77,7 +77,7 @@ Build menu - manage Build Controllers - Properties; Set the Version control path
 <td valign="top" width="53"><b>9</b></td>
 <td valign="top" width="560">The tests are run, and the data is stored in TFS
 
-<a href="https://accentient.com/blog/content/binary/Running_679A/clip_image007_2.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="clip_image007" src="https://accentient.com/blog/content/binary/Running_679A/clip_image007_thumb.png" alt="clip_image007" width="530" height="407" border="0" /></a></td>
+<a href="clip_image007_2.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="clip_image007" src="clip_image007_thumb.png" alt="clip_image007" width="530" height="407" border="0" /></a></td>
 </tr>
 </tbody>
 </table>

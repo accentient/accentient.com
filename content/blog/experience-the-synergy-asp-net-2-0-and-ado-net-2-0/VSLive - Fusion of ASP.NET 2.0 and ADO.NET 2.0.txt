@@ -1,0 +1,261 @@
+Demo Script
+
+* Visual Studio 2005 Beta 2 Team Suite
+* Restore AdventureWorks
+
+-------------------------------------------
+ASP.NET
+-------------------------------------------
+
+* Start a new Web Site project - Visual C#, C:\VSLive\Demo
+* Clear any data connections from server explorer
+* Create a new data connection to AdventureWorks
+* Explore and browse the connection
+
+  Note: Database Diagrams are back! Also, point out the Assemblies folder
+
+-------------------------------------------
+Databound Controls
+-------------------------------------------
+
+* Open up default.aspx in designer mode
+* Expand the tables and then Product
+* Drag and drop the following columns:
+
+  Name, ProductNumber, ProductID, Color, ListPrice
+
+  Note: Point out the datasource and the gridview and the tasks
+
+* Choose the Auto Format
+* Click the Configure Datasource
+
+  Note: Point out the connectionstring
+
+  Create a WHERE clause listprice > 0
+
+* Click the New Connection button
+
+  Note: Point out the new Provider types (.NET!) and support for SQL Express
+
+* Finish stepping through the Configure Datasource wizard
+* Point out the Enable XXX options
+
+  Note: Check each one, one at a time, and see how the GridView changes
+
+* Save the page
+* View in browser
+* Test the paging, selecting, ordering, updating, etc.
+
+-------------------------------------------
+Other Datasource Controls
+-------------------------------------------
+
+* Show the HTML source, and the <ASP:DataSource> tag
+* Show the DATA section of the toolbox
+* Talk about the other DataSource controls
+
+-------------------------------------------
+Walkthrough complete, start with the code ...
+-------------------------------------------
+
+//////////////////////////////////////////////////////
+
+		// DataSet
+
+		DataSet ds = new DataSet();
+		SqlDataAdapter adp = new SqlDataAdapter("SELECT TOP 25 * FROM HumanResources.vEmployee",
+			System.Web.Configuration.WebConfigurationManager.ConnectionStrings["AdventureWorksConnectionString"].ConnectionString);
+		adp.Fill(ds, "Employees");
+
+		// Binding
+
+		GridView1.DataSource = ds;
+		GridView1.DataMember = "Employees";
+		GridView1.DataBind();
+
+//////////////////////////////////////////////////////
+
+		// IDataReader
+
+		IDataReader rdrAW = ds.Tables["Employees"].CreateDataReader();
+		while (rdrAW.Read())
+		{
+			Response.Write(rdrAW["LastName"].ToString() + "<BR>");
+		}
+
+//////////////////////////////////////////////////////
+
+		// Copy Table
+
+		IDataReader rdrAW = ds.Tables["Employees"].CreateDataReader();
+		DataTable tblCopy = new DataTable("Copy");
+		tblCopy.Load(rdrAW);
+
+		// Binding
+
+		GridView1.DataSource = tblCopy;
+		GridView1.DataBind();
+
+//////////////////////////////////////////////////////
+
+
+		// Copy Table (The Fast Way)
+
+		DataTable tblCopy = new DataTable("Copy");
+		tblCopy = ds.Tables["Employees"].Copy();
+		
+//////////////////////////////////////////////////////
+
+		// Write XML
+
+		DataTable tblEmp = ds.Tables["Employees"].Copy();
+		tblEmp.WriteXml(@"c:\vslive\employees.xml");
+
+//////////////////////////////////////////////////////
+
+
+	private void RowUpdatedHandler(Object sender, SqlRowUpdatedEventArgs args)
+	{
+		Response.Write("Just updated " + args.RecordsAffected.ToString() + " rows.<br>");
+	}
+
+	private void LoadDataGrid()
+	{
+
+		// DataSet
+
+		DataSet ds = new DataSet();
+		SqlDataAdapter adpAW = new SqlDataAdapter("SELECT EmployeeID, Title, BirthDate FROM HumanResources.Employee",
+			System.Web.Configuration.WebConfigurationManager.ConnectionStrings["AdventureWorksConnectionString"].ConnectionString);
+		adpAW.Fill(ds, "Employees");
+
+		// Make a bunch of changes
+
+		DataTable tblEmp = ds.Tables["Employees"];
+		foreach (DataRow rowEmp in tblEmp.Rows)
+			rowEmp["Title"] = DateTime.Now.ToLongTimeString();
+
+		// Create an UpdateCommand
+
+		SqlCommandBuilder bldAW = new SqlCommandBuilder(adpAW);
+		adpAW.UpdateCommand = bldAW.GetUpdateCommand();
+
+		// Connect the event
+
+		adpAW.RowUpdated += new SqlRowUpdatedEventHandler(RowUpdatedHandler);
+
+		// Send the changes
+
+		SqlConnection conAW = adpAW.SelectCommand.Connection;
+		conAW.Open();
+
+		// Should give us 6 batches (@ 290)
+		// adpAW.UpdateBatchSize = 50;
+		// adpAW.UpdateBatchSize = 0;
+
+		adpAW.Update(ds,"Employees");
+		conAW.Close();
+	}
+
+
+//////////////////////////////////////////////////////
+
+	private void LoadDataGrid()
+	{
+
+		// Connection
+
+		SqlConnection conAW = 
+			new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["AdventureWorksConnectionString"].ConnectionString);
+
+		// Command
+
+		SqlCommand cmdAW = conAW.CreateCommand();
+		cmdAW.CommandText = "DELETE FROM HumanResources.EmployeePayHistory";
+
+		// Transaction
+
+		conAW.Open();
+		SqlTransaction trnAW = conAW.BeginTransaction();
+		cmdAW.Transaction = trnAW;
+
+		// Try-Catch
+
+		try
+		{
+			cmdAW.ExecuteNonQuery();
+			// trnAW.Commit();
+			trnAW.Rollback();
+			Response.Write("Deleted!");
+		}
+		catch (Exception ex)
+		{
+			trnAW.Rollback();
+			Response.Write("Rolled Back! " + ex.Message);
+		}
+		finally
+		{
+			conAW.Close();
+		}
+	}
+
+//////////////////////////////////////////////////////
+
+	private void LoadDataGrid()
+	{
+
+		// Note: Reference System.Transactions
+
+		using (System.Transactions.TransactionScope ts = new System.Transactions.TransactionScope())
+		{
+
+			SqlConnection conAW = 
+				new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["AdventureWorksConnectionString"].ConnectionString);
+
+			SqlCommand cmdAW = conAW.CreateCommand();
+			cmdAW.CommandText = "DELETE _EmployeePayHistory";
+
+			conAW.Open();
+			cmdAW.ExecuteNonQuery();
+			conAW.Close();
+
+			Response.Write("Rolled Back!");
+
+			// ts.Complete();
+			// Response.Write("Commited!");
+		}
+	}
+
+//////////////////////////////////////////////////////
+
+// Add MultipleActiveResultSets=False
+
+	private void LoadDataGrid()
+	{
+
+		SqlConnection con1 = new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["AdventureWorksConnectionString"].ConnectionString);
+		SqlCommand cmd1 = con1.CreateCommand();
+		cmd1.CommandText = "SELECT SalesPersonID FROM Sales.SalesPerson ORDER BY SalesPersonID";
+		con1.Open();
+		SqlDataReader rdr1 = cmd1.ExecuteReader();
+
+		while (rdr1.Read())
+		{
+			string ID = rdr1["SalesPersonID"].ToString();
+
+			Response.Write(ID + "<br>");
+
+			SqlCommand cmd2 = con1.CreateCommand();
+			cmd2.CommandText = "SELECT TOP 3 * FROM Sales.SalesOrderHeader WHERE SalesPersonID = " + ID + " ORDER BY SalesOrderNumber DESC";
+			SqlDataReader rdr2 = cmd2.ExecuteReader();
+			while (rdr2.Read())
+			{
+				Response.Write("..." + rdr2["SalesOrderNumber"] + "<br>");
+			}
+			rdr2.Close();
+		}
+		rdr1.Close();
+		con1.Close();
+	}
+
+

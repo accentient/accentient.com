@@ -1,7 +1,7 @@
 ﻿---
 title: "Facilitating a Nexus Sprint Review"
 date: 2024-03-15T15:30:52Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "facilitating-the-nexus-sprint-review"
 draft: false
 tags: ["Scrum"]

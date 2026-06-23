@@ -1,7 +1,7 @@
 ﻿---
 title: "Find PBIs Without Test Cases"
 date: 2019-10-08T16:33:37Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "find-pbis-without-test-cases"
 draft: false
 tags: ["Azure Boards", "Azure Test Plans"]

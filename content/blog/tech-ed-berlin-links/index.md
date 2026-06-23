@@ -1,10 +1,10 @@
 ﻿---
 title: "Tech Ed Berlin Links"
 date: 2010-11-17T13:26:34Z
-author: "Simon Reindl"
+authors: ["Simon Reindl"]
 slug: "tech-ed-berlin-links"
 draft: false
-tags: ["Conferences", "Microsoft", "TFS", "Visual Studio", "Visual Studio ALM"]
+tags: ["Conferences", "Microsoft", "TFS", "Visual Studio", "ALM"]
 ---
 
 ---

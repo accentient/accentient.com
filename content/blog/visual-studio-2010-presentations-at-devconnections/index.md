@@ -1,0 +1,10 @@
+---
+title: "Visual Studio 2010 Presentations at DevConnections"
+date: 2010-04-16T01:39:18Z
+authors: ["Richard Hundhausen"]
+slug: "visual-studio-2010-presentations-at-devconnections"
+draft: false
+tags: ["TFS", "Visual Studio", "Conferences"]
+---
+
+<p>Thank you to everyone who attended my talks at <a href="http://www.devconnections.com" target="_blank" rel="noopener">DevConnections</a> in Las Vegas this week. I enjoyed meeting you and showing you the new capabilities in Visual Studio 2010.</p> <table border="0" cellspacing="0" cellpadding="2"> <tbody> <tr> <td valign="top" width="450"> <p><strong>VVS01 - Agile Database Techniques Using Visual Studio 2010</strong></p></td> <td valign="top" width="50"> <p align="center"><a href="VVS01Slides.zip" target="_blank" rel="noopener">Slides</a></p></td> <td valign="top" width="50"> <p align="center"><a href="VVS01Demo.zip" target="_blank" rel="noopener">Demos</a></p></td></tr> <tr> <td valign="top"> <p><strong>VVS05 - Implementing Scrum Using Team Foundation Server 2010</strong></p></td> <td valign="top"> <p align="center"><a href="VVS05Slides.zip" target="_blank" rel="noopener">Slides</a></p></td> <td valign="top"> <p align="center"><a href="VVS05Demo.zip" target="_blank" rel="noopener">Demos</a></p></td></tr> <tr> <td valign="top"> <p><strong>VVS10 - Team Foundation Server 2010 - Migrate or Integrate?</strong></p></td> <td valign="top"> <p align="center"><a href="VVS10Slides.zip" target="_blank" rel="noopener">Slides</a></p></td> <td valign="top"> <p align="center"><a href="VVS10Demo.zip" target="_blank" rel="noopener">Demos</a></p></td></tr></tbody></table> <p><br /><a href="vs2010logo_2.jpg"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="vs2010logo" border="0" alt="vs2010logo" src="vs2010logo_thumb.jpg" width="569" height="158"></a></p>

@@ -1,0 +1,10 @@
+---
+title: "What does \"Done\" mean?"
+date: 2008-07-14T15:40:43Z
+authors: ["Martin Danner"]
+slug: "what-does-done-mean"
+draft: false
+tags: ["Scrum", "Preferred Practice"]
+---
+
+<p></p> <p></p> <p></p> <p></p> <p>OK, let’s say you’re on a Scrum team that’s planning its next iteration. You pull a story to implement <strong>Feature X</strong> for the next release of <strong>Application Y</strong>. You review the specs, maybe have a conversation or two with the product owner to clarify a few details, and discuss implementation details with your team lead. Cool. Now, you design the feature, code it up, build it and tweak it until its working to your satisfaction. </p> <p>Then you check it into the source control system and move on to the next feature. Done, right? Not necessarily so! Sure, you can stand in front of the users at Sprint Review and watch them salivate as you demonstrate <strong>Feature X</strong> in action. But, can they walk out of the review and begin using it right away? Most likely not. If not, is it really done?</p> <p>"Code complete" is just one milestone on the yellow brick road to Emerald City, where users are happily whistling away while using your excellent <strong>Feature X</strong> in their <strong>Application Y</strong>. There is so much more to consider. What about unit testing? Integration testing? Acceptance testing? Documentation? Packaging? Deployment? </p> <p>Getting an application successfully delivered involves much more than working code. Failure to take this into account, and considering "code complete" to mean the same thing as "done", inevitably causes a development team to fall behind schedule as they scramble to deliver what was already considered done. This is a form of <strong>technical debt</strong>, a topic I’ll explore in a future post.</p> <p>For more information on the meaning of "done", check out this excellent podcast on HanselMinutes.com:</p> <p><a href="http://hanselminutes.com/default.aspx?showID=137" target="_blank" rel="noopener">What is Done? – A Conversation with Scrum Co-Creater Ken Schwaber</a></p>

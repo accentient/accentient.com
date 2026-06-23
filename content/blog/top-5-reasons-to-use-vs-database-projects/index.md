@@ -1,10 +1,10 @@
 ﻿---
 title: "Top 5 Reasons to use VS Database Projects"
 date: 2010-12-10T19:00:00Z
-author: "Simon Reindl"
+authors: ["Simon Reindl"]
 slug: "top-5-reasons-to-use-vs-database-projects"
 draft: false
-tags: ["Development", "SQL Server", "Tools", "Visual Studio ALM"]
+tags: ["Development", "SQL Server", "Tools", "Visual Studio", "ALM"]
 ---
 
 ---
@@ -19,17 +19,17 @@ If you are working in SQL Server Management Studio, and you have a partial scrip
 <h2>3. Refactoring</h2>
 You need to change a field name in a table. How do you check that all the references to that field are updated? By using the refactoring tools you are prompted to go and update references in the other database objects. There is full logging for analysis and reference purposes (these should be checked in to TFS). To verify that the refactoring was successful, you should run the entire test suite.
 
-<a href="https://accentient.com/blog/content/binary/5-Reasons-to-use-VS-Database-Projects_13E53/image_2.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="https://accentient.com/blog/content/binary/5-Reasons-to-use-VS-Database-Projects_13E53/image_thumb.png" alt="image" width="580" height="260" border="0" /></a>
+<a href="image_2.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="image_thumb.png" alt="image" width="580" height="260" border="0" /></a>
 <h2>4. Unit Testing</h2>
 Wow – Database Unit Tests. Whether the test is written before or after the code, it should verify that the code performs as intended – Happy Path, Edge Cases, Failure Cases. The database unit tests can be written in SQL, or C#/VB. These can be automatically generated from the Schema View, and there are a number of different assertions that can be made for the unit tests – Data Checksum, Empty ResultSet, Execution Time, Expected Schema, Inconclusive (default – gives the yellow exclamation mark), Non Empty ResultSet, Row Count, Scalar Value. You can add as many of these conditions to the test as required. There is also pre and post test actions, to ensure that the database is returned to the starting state before the test was run. The tests can then be extended like all Visual Studio Tests, extending into Performance Tests, using Data to Drive the Tests, running the tests in a sequence (Ordered Tests)
 
-<a href="https://accentient.com/blog/content/binary/5-Reasons-to-use-VS-Database-Projects_13E53/image_4.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="https://accentient.com/blog/content/binary/5-Reasons-to-use-VS-Database-Projects_13E53/image_thumb_1.png" alt="image" width="577" height="181" border="0" /></a>
+<a href="image_4.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="image_thumb_1.png" alt="image" width="577" height="181" border="0" /></a>
 
 <strong>Note: The tests must be run against a database instance, not in the Visual Studio environment.</strong>
 <h2>5. Code Analysis</h2>
 There are a lot less code analysis rules than in the other languages – all the more reason to turn them all on! This analysis will prevent the easily avoidable errors within the database. It is a low cost high return switch. On a legacy database, don’t turn on the <strong>Treat Warning As Error </strong>until you are sure that the build will not break.
 
-<a href="https://accentient.com/blog/content/binary/5-Reasons-to-use-VS-Database-Projects_13E53/image_8.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="https://accentient.com/blog/content/binary/5-Reasons-to-use-VS-Database-Projects_13E53/image_thumb_3.png" alt="image" width="581" height="364" border="0" /></a>
+<a href="image_8.png"><img style="display: block; max-width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid black; box-shadow: 2px 2px 10px rgba(0,0,0,0.5);" title="image" src="image_thumb_3.png" alt="image" width="581" height="364" border="0" /></a>
 <h2>Other Reasons:</h2>
 There is a lot more in the tool, these are my favourite 5! Some of the other features are: Data Generation Plans, Schema Comparison and Data Comparison.
 

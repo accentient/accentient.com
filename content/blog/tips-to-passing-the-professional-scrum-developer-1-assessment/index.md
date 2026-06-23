@@ -1,7 +1,7 @@
 ﻿---
 title: "Tips to passing the Professional Scrum Developer 1 assessment"
 date: 2013-10-07T13:05:11Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "tips-to-passing-the-professional-scrum-developer-1-assessment"
 draft: false
 tags: ["Scrum"]

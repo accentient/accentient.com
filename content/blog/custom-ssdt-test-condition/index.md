@@ -1,7 +1,7 @@
 ﻿---
 title: "Creating a Custom SSDT Test Condition"
 date: 2019-10-09T16:47:39Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "custom-ssdt-test-condition"
 draft: false
 tags: ["SQL Server", "Visual Studio"]

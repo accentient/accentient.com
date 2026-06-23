@@ -451,6 +451,32 @@ table th {
   text-decoration: underline;
 }
 
+/* Framed look (thin border + drop shadow) for content images/screenshots on every
+   page. Excludes the UI icon set and courseware cover thumbnails, which are small
+   chrome that shouldn't be framed. Inline styles on a post still win, so images
+   already framed inline are unchanged. */
+.content img:not([src^="/images/icons/"]):not([src^="/images/courseware/"]) {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.25rem 0 1rem;   /* top gap before each image, like a blank line */
+  border: 1px solid #000;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Pagefind search box on the blog index, themed to match the site */
+.blog-search {
+  --pagefind-ui-primary: #1a73e8;
+  --pagefind-ui-text: #0a3d62;
+  --pagefind-ui-background: #fff;
+  --pagefind-ui-border: #d8e6f2;
+  --pagefind-ui-font: inherit;
+  --pagefind-ui-border-radius: 8px;
+  --pagefind-ui-border-width: 1px;
+  max-width: 640px;
+  margin: 1.25rem 0 0.5rem;
+}
+
 /* "Browse by tag" filter bar on the blog index */
 .blog-filter {
   display: flex;

@@ -1,0 +1,10 @@
+---
+title: "Phoenix Sky Harbor airport needs a valid SSL certificate"
+date: 2008-05-19T02:00:03Z
+authors: ["Richard Hundhausen"]
+slug: "phoenix-sky-harbor-airport-needs-a-valid-ssl-certificate"
+draft: false
+tags: ["Community"]
+---
+
+<p>Can someone please help them? While traveling through <a href="http://phoenix.gov/AVIATION" target="_blank" rel="noopener">PHX</a> today, on my way to Houston, I logged on to their "Sky Harbor Public WLAN" and actually got connected. They must have upgraded their gear, because a year ago it was not so friendly. Also, all of the US Airways clubs have ditched their private wireless networks and gone with using the general Sky Harbor Public WLAN network, which means even more travelers will see this embarrassing error:</p> <p><a href="skyharborerror_6.jpg" target="_blank" rel="noopener"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="279" alt="Sky Harbor SSL Error" src="skyharborerror_thumb.jpg" width="469" border="0"></a>&nbsp;&nbsp;<img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="279" alt="Sky Harbor SSL Error" src="skyharborcert1.jpg" width="305" border="0"></p>  <p><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="483" alt="Sky Harbor SSL Error" src="skyharborcert2.jpg" width="389" border="0">&nbsp;&nbsp;<img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="483" alt="Sky Harbor SSL Error" src="skyharborcert3.jpg" width="389" border="0"> </p>  <p>Maybe I can convince my friends in the <a href="http://www.azdnug.com" target="_blank" rel="noopener">Phoenix web-dev community</a> to give them a call at (602) 273-3300 and help them out!</p>

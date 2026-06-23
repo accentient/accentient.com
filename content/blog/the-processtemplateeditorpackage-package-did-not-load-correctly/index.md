@@ -1,7 +1,7 @@
 ﻿---
 title: "The ProcessTemplateEditorPackage package did not load correctly"
 date: 2014-02-26T08:55:24Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "the-processtemplateeditorpackage-package-did-not-load-correctly"
 draft: false
 tags: ["TFS", "Visual Studio"]

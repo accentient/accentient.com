@@ -1,7 +1,7 @@
 ﻿---
 title: "Ordering the Product Backlog by ROI"
 date: 2016-08-15T14:28:08Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "orderbyroi"
 draft: false
 tags: ["Azure DevOps", "Scrum", "TFS"]

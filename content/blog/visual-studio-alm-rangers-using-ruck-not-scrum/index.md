@@ -1,7 +1,7 @@
 ﻿---
 title: "Visual Studio ALM Rangers using Ruck, not Scrum"
 date: 2010-10-07T09:33:01Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "visual-studio-alm-rangers-using-ruck-not-scrum"
 draft: false
 tags: ["Scrum"]

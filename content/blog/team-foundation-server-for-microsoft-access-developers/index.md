@@ -1,0 +1,10 @@
+---
+title: "Team Foundation Server for Microsoft Access developers"
+date: 2008-09-18T20:45:33Z
+authors: ["Richard Hundhausen"]
+slug: "team-foundation-server-for-microsoft-access-developers"
+draft: false
+tags: ["Community", "Visual Studio", "ALM"]
+---
+
+<p>I was invited by <a href="http://www.ineta.org" target="_blank" rel="noopener">INETA</a> to speak at the <a href="http://www.seattleaccess.org" target="_blank" rel="noopener">Pacific Northwest Access Developer Group</a> (a.ka. the Seattle Access Group). Now, Access developers are typically "teams of one", but I thought that any team developers or consultants attending the meeting would get the <a href="http://en.wikipedia.org/wiki/Application_lifecycle_management" target="_blank" rel="noopener">ALM</a> story and features of TFS. They did.f</p> <p>As it turns out, the steps to integrate Microsoft Access 2007 with TFS aren't all that difficult:</p> <ol> <li>Install and configure TFS to allow the developers to connect</li> <li>Install the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=87E1FFBD-A484-4C3A-8776-D560AB1E6198&amp;displaylang=en" target="_blank" rel="noopener">MSSCCI provider</a> on each developer's desktop</li> <li>Install the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=D96A8358-ECE4-4BEE-A844-F81856DCEB67&amp;displaylang=en" target="_blank" rel="noopener">Access Developer Extensions</a> on each developer's desktop</li> <li>Create and configure the Team Project, version control folders, and workspace(s)</li> <li>Follow the guidance on <a href="http://office.microsoft.com/en-us/access/CH102209801033.aspx" target="_blank" rel="noopener">using Access with Source Control</a> (you can ignore the references to VSS).</li></ol> <p>Remember: you can't View, Compare, or Annotate any Access objects under source control, with the exception of code (modules, macros).</p> <p>Thank you to those of you who attended my talk. You can download my presentation <a href="TFS_Access.pdf" target="_blank" rel="noopener">here</a>.</p>

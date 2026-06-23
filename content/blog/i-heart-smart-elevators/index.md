@@ -1,0 +1,10 @@
+---
+title: "I (Heart) Smart Elevators"
+date: 2010-01-24T16:32:33Z
+authors: ["Richard Hundhausen"]
+slug: "i-heart-smart-elevators"
+draft: false
+tags: ["Microsoft"]
+---
+
+<p><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="SmartElevators" border="0" alt="SmartElevators" src="SmartElevators.png" width="219" height="199"> </p> <p>In Paris for a week and working at <a href="http://www.microsoft.com/france/core/plan-acces-microsoft-france.aspx" target="_blank" rel="noopener">Microsoft’s new "Le Campus"</a>. It’s very new and very cool. One of the coolest things about the building is the smart elevators. They are <a href="http://www.npr.org/templates/story/story.php?storyId=6799860" target="_blank" rel="noopener">not a new thing</a>, but you don’t see them very often in the USA. Here’s how they work.</p> <p>Step 1 – enter the floor you want to go to.</p> <p><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="SmartElevatorsControl" border="0" alt="SmartElevatorsControl" src="SmartElevatorsControl.png" width="225" height="272"> </p> <p>Step 2 – it tells you which car to get in.</p> <p><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="GetInThatCar" border="0" alt="GetInThatCar" src="GetInThatCar.png" width="227" height="268"> </p> <p>Step 3 – ride the car to the floor (there are no controls inside the car).</p> <p><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="NoControlsInside" border="0" alt="NoControlsInside" src="NoControlsInside.png" width="228" height="316"> </p> <p>Why is this better? It groups people together in cars going to similar floors, which makes the trips shorter, faster, and more energy-efficient.</p>

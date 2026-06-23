@@ -73,6 +73,9 @@ jobs:
       - name: Build site
         run: hugo --minify
 
+      - name: Generate search index (Pagefind)
+        run: npx -y pagefind@latest --site public
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
         with:

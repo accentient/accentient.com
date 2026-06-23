@@ -7,7 +7,10 @@
   <div class="container">
     <h1 class="title">Blog</h1>
 
+    {{ partial "blog-search.html" . }}
+
     {{ partial "tag-filter.html" . }}
+    {{ partial "author-filter.html" . }}
 
     {{ $paginator := .Paginate (.RegularPages.ByDate.Reverse) }}
     <div class="columns is-multiline blog-card-section">

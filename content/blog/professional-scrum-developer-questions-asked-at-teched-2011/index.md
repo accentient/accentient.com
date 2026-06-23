@@ -1,7 +1,7 @@
 ﻿---
 title: "Professional Scrum Developer Questions asked at TechEd 2011"
 date: 2011-05-18T20:57:25Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "professional-scrum-developer-questions-asked-at-teched-2011"
 draft: false
 tags: ["Conferences", "Scrum", "Visual Studio"]

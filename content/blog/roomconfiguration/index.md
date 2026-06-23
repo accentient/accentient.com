@@ -1,7 +1,7 @@
 ﻿---
 title: "Room configuration for team-based training"
 date: 2018-02-02T09:55:31Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "roomconfiguration"
 draft: false
 tags: ["Scrum"]

@@ -1,7 +1,7 @@
 ﻿---
 title: "Visual Studio 2010 Test Professional Webcast"
 date: 2010-12-16T14:29:36Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "visual-studio-2010-test-professional-webcast"
 draft: false
 tags: ["Visual Studio", "Webcast"]

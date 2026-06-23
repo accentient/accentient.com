@@ -1,7 +1,7 @@
 ﻿---
 title: "Scrum on Dot Net Rocks"
 date: 2010-08-20T09:06:13Z
-author: "Simon Reindl"
+authors: ["Simon Reindl"]
 slug: "scrum-on-dot-net-rocks"
 draft: false
 tags: ["Scrum", "TFS", "Webcast"]

@@ -1,0 +1,66 @@
+Good morning!
+
+My name is Richard Hundhausen
+President of Accentient
+richard@accentient.com
+http://blog.accentient.com
+
+**
+
+(visual studio) team system
+
+back-end - Team Foundation Server (TFS)
+various front-ends - VS, Office, web apps,
+  3rd party, ...
+
+** Licensing Notes
+
+TFS 2008 std ~$3k
+if any team member has MSDN/Premier (~$5k)
+ - free download of TFS Workgroup Edition
+ - For non devs (PM, BA, Testers, other chickens):
+   Office (Excel,Project), 3rd party Outlook; CAL ~$300 street
+ - web access power tool
+ - work item web access power tool (free)
+
+**
+
+Cool Links
+
+http://www.teamsystemwidgets.com/
+http://www.sourcegear.com/diffmerge/ (free!)
+http://ozgrant.com/2007/10/22/vsts-2005-2008-compatibility-matrix/
+http://www.codeplex.com/MigrationSyncToolkit
+http://www.codeplex.com/TFSAdmin
+http://blogs.msdn.com/bharry/archive/2007/11/30/vsts-web-access-power-tool-for-team-system-2008-released.aspx
+
+** 
+
+CI = Continuous Integration
+do a build every time someone checks in
+
+Licensing on the build server
+ - typically you don't need VS team edition
+   additional license for this
+ - http://blogs.msdn.com/jeffbe/archive/2008/03/18/licensing-team-system-editions-for-your-build-machine.aspx
+
+**
+
+Three times when conflicts can occur
+
+#1 - check-in
+#2 - get
+#3 - unshelve (TFPT UNSHELVE)
+
+**
+
+Team Build 2008 Properties (including
+ the one you can set to not update work
+ items and changesets)
+
+ http://msdn.microsoft.com/en-us/library/aa337598.aspx
+
+**
+
+
+

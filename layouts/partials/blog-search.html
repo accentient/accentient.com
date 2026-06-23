@@ -1,0 +1,28 @@
+{{/* Pagefind full-text search box. The /pagefind/ assets are generated at build
+     time (CI) and during `hugo --minify && pagefind --site public` locally.
+     Guarded so the page still works under `hugo server` when no index exists. */}}
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+<script src="/pagefind/pagefind-ui.js" defer></script>
+<div id="blog-search" class="blog-search"></div>
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    if (typeof PagefindUI === "undefined") return; // no index (e.g. hugo server dev)
+    var ui = new PagefindUI({
+      element: "#blog-search",
+      showImages: false,
+      showSubResults: true,
+      pageSize: 8,
+      debounceTimeoutMs: 120,
+      resetStyles: false,
+      translations: { placeholder: "Search all posts…" },
+    });
+    // Warm the WASM + base index on first focus so the first keystroke is instant.
+    var input = document.querySelector("#blog-search input");
+    if (input) {
+      input.addEventListener("focus", function warm() {
+        if (window.pagefind && window.pagefind.preload) window.pagefind.preload("");
+        input.removeEventListener("focus", warm);
+      });
+    }
+  });
+</script>

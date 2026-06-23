@@ -1,10 +1,10 @@
 ﻿---
 title: "Use Excel to Create Repetitive Work Items"
 date: 2015-02-24T10:27:15Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "use-excel-to-create-repetitive-work-items"
 draft: false
-tags: ["TFS", "Visual Studio ALM"]
+tags: ["TFS", "Visual Studio", "ALM"]
 ---
 
 ---

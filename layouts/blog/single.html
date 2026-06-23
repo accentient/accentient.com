@@ -1,11 +1,11 @@
 {{ define "main" }}
 <main class="section" style="padding-top: 6rem;">
-  <div class="container">
-    <h1 class="title">{{ .Title }}</h1>
+  <div class="container" data-pagefind-body>
+    <h1 class="title" data-pagefind-meta="title">{{ .Title }}</h1>
     <p>
     <small>
       {{ .Date.Format "January 2, 2006" }}
-      • {{ .Params.author }}
+      • {{ delimit .Params.authors ", " }}
 
       {{ with .Params.tags }}
         • 

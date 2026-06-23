@@ -1,7 +1,7 @@
 ﻿---
 title: "Develop.Idaho 2014 Videos Published"
 date: 2014-05-09T14:54:38Z
-author: "Richard Hundhausen"
+authors: ["Richard Hundhausen"]
 slug: "develop-idaho-2014-videos-published"
 draft: false
 tags: ["Community", "Conferences", "Development"]

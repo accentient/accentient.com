@@ -1,0 +1,700 @@
+----------------------------------------------
+-- Try/Catch
+
+USE AdventureWorks
+GO
+
+CREATE PROCEDURE MyProc
+AS
+BEGIN
+ BEGIN TRY 
+   SELECT * FROM Person.Address WHERE 1 > 2/0
+ END TRY
+ BEGIN CATCH
+  PRINT 'Error Occurred'
+  PRINT ERROR_NUMBER()
+  PRINT ERROR_SEVERITY()
+  PRINT ERROR_STATE()
+  PRINT ERROR_MESSAGE()
+ END CATCH
+END
+GO
+
+EXEC MyProc
+
+----------------------------------------------
+-- Common Table Expressions
+
+WITH Median AS
+(
+SELECT ((MAX(LineTotal) - MIN(LineTotal)) / 2)
+  AS MedianValue FROM Sales.SalesOrderDetail
+)
+SELECT TOP 1000 SalesOrderID, SalesOrderDetailID, LineTotal,
+ CASE
+  WHEN LineTotal > Median.MedianValue THEN 1
+  ELSE 0
+ END AS OverHalf
+	 FROM Sales.SalesOrderDetail, Median
+
+----------------------------------------------
+-- Common Table Expressions (Recursive)
+
+SET NOCOUNT ON
+
+CREATE TABLE MLM (
+  ID     int,
+  Name   varchar(10),
+  Upline int)
+GO
+
+INSERT MLM VALUES ( 1,'Bob',null)
+INSERT MLM VALUES ( 2,'Amy',1)
+INSERT MLM VALUES ( 3,'Jake',1)
+INSERT MLM VALUES ( 4,'Kirra',2)
+INSERT MLM VALUES ( 5,'Mark',3)
+INSERT MLM VALUES ( 6,'Steve',3)
+INSERT MLM VALUES ( 7,'Randy',3)
+INSERT MLM VALUES ( 8,'Kristen',4)
+INSERT MLM VALUES ( 9,'Isaac',6)
+INSERT MLM VALUES (10,'Cole',9)
+GO
+
+SELECT * FROM MLM
+GO
+
+WITH Descendant (Upline,ID,Name) AS
+(SELECT Upline, ID, Name
+  FROM MLM WHERE ID = 3
+UNION ALL
+SELECT M.Upline, M.ID, M.Name
+ FROM MLM AS M  INNER JOIN
+ Descendant AS D ON D.ID = M.Upline)
+SELECT ID, Name FROM Descendant
+GO
+
+DROP TABLE MLM
+
+----------------------------------------------
+-- PIVOT
+
+-- Raw data - expensive (> $10k items) sold in 2002 by quarter
+
+SELECT DatePart(q,OrderDate) as Quarter, P.Name, LineTotal
+  FROM Sales.SalesOrderHeader AS H
+ INNER JOIN Sales.SalesOrderDetail AS D ON H.SalesOrderID = D.SalesOrderID
+ INNER JOIN Production.Product AS P ON D.ProductID = P.ProductID
+ WHERE DatePart(yy,OrderDate) = 2002 AND D.LineTotal > 10000
+
+-- Put into a temporary table (optional)
+
+SET NOCOUNT ON
+
+SELECT DatePart(q,OrderDate) as Quarter, P.Name, LineTotal
+  INTO #TempSales
+  FROM Sales.SalesOrderHeader AS H
+ INNER JOIN Sales.SalesOrderDetail AS D ON H.SalesOrderID = D.SalesOrderID
+ INNER JOIN Production.Product AS P ON D.ProductID = P.ProductID
+ WHERE DatePart(yy,OrderDate) = 2002 AND D.LineTotal > 10000
+
+-- Pivot
+
+SELECT Name, [1] AS 'Q1', [2] AS 'Q2', [3] AS 'Q3', [4] AS 'Q4' 
+FROM #TempSales
+PIVOT(SUM(LineTotal) 
+      FOR Quarter IN ([1], [2], [3], [4])) AS P
+
+-- Done
+
+DROP TABLE #TempSales
+
+-- UNPIVOT option available too!
+
+----------------------------------------------
+-- ROW_NUMBER
+
+-- Return Orders for Customers with id < 100 (and include row numbers)
+
+SELECT 
+  ROW_NUMBER() OVER(ORDER BY SalesOrderID) AS Number ,
+SalesOrderID, CustomerID
+FROM Sales.SalesOrderHeader WHERE Number between 19 and 33
+
+
+WITH Mark (Number,SalesOrderID,CustomerID) AS
+(
+SELECT 
+  ROW_NUMBER() OVER(ORDER BY SalesOrderID) AS Number ,
+SalesOrderID, CustomerID
+FROM Sales.SalesOrderHeader
+WHERE CustomerID < 100)
+SELECT * FROM Mark WHERE Number < 5
+
+-- Return Orders for Customers < 100 with row numbers and more!
+
+SELECT SalesOrderID, CustomerID, 
+  ROW_NUMBER() OVER(ORDER BY CustomerID) AS Number,
+  RANK()       OVER(ORDER BY CustomerID) AS [rank],
+  DENSE_RANK() OVER(ORDER BY CustomerID) AS [denserank],
+  NTILE(5)     OVER(ORDER BY CustomerID) AS ntile5
+FROM Sales.SalesOrderHeader
+WHERE CustomerID < 100
+
+----------------------------------------------
+-- WINDOWING (OVER)
+
+SELECT *,
+  RANK() OVER(PARTITION BY Title ORDER BY VacationHours desc) AS [rank]
+from
+(
+ SELECT E.Title, C.LastName, E.VacationHours 
+   FROM HumanResources.Employee AS E
+  INNER JOIN Person.Contact AS C ON E.ContactID = C.ContactID
+) AS A
+
+----------------------------------------------
+-- WINDOWING (OVER with MAX aggregate)
+
+SELECT *,
+  RANK() OVER(PARTITION BY Title ORDER BY VacationHours DESC) AS [rank],
+  MAX(VacationHours) OVER(PARTITION BY Title) as [Most Hours by Title]
+from
+(
+ SELECT E.Title, C.LastName, E.VacationHours 
+   FROM HumanResources.Employee AS E
+  INNER JOIN Person.Contact AS C ON E.ContactID = C.ContactID
+) AS A
+
+----------------------------------------------
+-- CROSS APPLY and OUTER APPLY
+
+-- Create UDF
+
+CREATE FUNCTION Greater(@v float, @t float)
+ RETURNS TABLE AS
+ RETURN SELECT @v AS UDF
+ WHERE @v > @t
+GO
+
+-- Test
+
+/*
+SELECT * FROM dbo.Greater(100,200)
+SELECT * FROM dbo.Greater(200,100)
+SELECT * FROM dbo.Greater(200,200)
+
+-- Test with CROSS APPLY
+
+SELECT * FROM Sales.SalesOrderDetail AS D
+  CROSS APPLY Greater(D.LineTotal, 15000)
+ WHERE OrderQty > 10
+
+-- Test with OUTER APPLY
+
+SELECT * FROM Sales.SalesOrderDetail AS D
+  OUTER APPLY Greater(D.LineTotal, 15000)
+ WHERE OrderQty > 10
+*/
+
+-- Done
+
+DROP FUNCTION Greater
+GO
+
+----------------------------------------------
+-- UPDATE with OUTPUT
+
+SET NOCOUNT OFF
+
+SELECT * FROM Production.Product WHERE Color = 'Black'
+
+--
+
+UPDATE Production.Product SET Color = 'Schwarz' WHERE Color = 'Black'
+
+--
+
+DECLARE @Changes 
+ TABLE (ProductID int,
+	Name nvarchar(50),
+	NewColor nvarchar(15),
+	OldColor nvarchar(15))
+
+UPDATE Production.Product SET Color = 'Black' 
+ OUTPUT Inserted.ProductID, Inserted.Name, Inserted.Color, Deleted.Color
+ INTO @Changes WHERE Color = 'Schwarz'
+
+SELECT * FROM @Changes
+
+----------------------------------------------
+-- INSERT with OUTPUT
+
+USE AdventureWorks
+GO
+
+SET NOCOUNT ON
+GO
+
+-- Create table
+
+drop table test
+
+CREATE TABLE Test (ID int identity(1,1), Data varchar(20))
+GO
+
+-- Quick Test
+
+INSERT Test (Data) Values ('Red')
+SELECT * FROM Test
+
+-- @@IDENTITY returns last identity value assigned
+
+INSERT Test (Data) Values ('Blue')
+SELECT @@IDENTITY
+SELECT SCOPE_IDENTITY()
+
+-- @@IDENTITY doesn't handle inserting multiple rows
+
+INSERT Test (Data) SELECT Data FROM Test
+SELECT @@Identity
+
+-- Using INSERT ... with OUTPUT is the solution!
+
+DECLARE @NewRows TABLE (ID int, Data varchar(20))
+INSERT Test (Data) 
+       OUTPUT Inserted.ID, Inserted.Data INTO @NewRows
+       SELECT Data FROM Test
+SELECT * FROM @NewRows
+
+-- Done
+
+DROP TABLE Test
+
+SELECT * FROM HUMANRESOURCES.SHIFT order by Checksum(NewID())
+
+select checksum('i love sql serverr')
+
+select newid()
+
+SELECT * FROM Test ORDER BY Checksum(NewID())
+
+----------------------------------------------
+-- Large Objects (LOBs)
+
+CREATE TABLE BigText (ID int, Data text)
+INSERT BigText VALUES (1,'Hello World')
+
+--
+
+SELECT * FROM BigText
+SELECT UPPER(Data) FROM BigText
+
+--
+
+INSERT BigText VALUES (1,REPLICATE('x',10000))
+SELECT * FROM BigText
+
+--
+
+DROP Table BigText
+CREATE TABLE BigText (ID int, Data varchar(max))
+ 
+--
+
+INSERT BigText VALUES (1,'Hello World')
+INSERT BigText VALUES (1,REPLICATE('x',10000))
+SELECT * FROM BigText
+SELECT UPPER(Data) FROM BigText
+
+--
+
+DROP Table BigText
+
+----------------------------------------------
+-- Synonyms
+
+CREATE SYNONYM Emp
+	FOR AdventureWorks.HumanResources.Employee
+
+CREATE SYNONYM TFSThing
+	FOR TfsVersionControl.dbo.tbl_Content
+
+SELECT * FROM TFSThing
+
+SELECT * FROM Emp
+
+DROP SYNONYM Emp
+
+----------------------------------------------
+-- DDL Triggers
+
+CREATE TRIGGER trgThankYou ON DATABASE FOR CREATE_TABLE
+AS PRINT 'Thank you for contributing to AdventureWorks!'
+
+--
+
+CREATE TABLE NewTable (ID int)
+
+--
+drop trigger trgsafety on database
+
+CREATE TRIGGER trgSafety ON DATABASE FOR DROP_TABLE
+AS  SELECT EVENTDATA() rollback PRINT 'Sorry, you may not drop tables!' 
+
+CREATE TRIGGER trgSmackdown ON DATABASE FOR GRANT_DATABASE
+AS  SELECT EVENTDATA()
+
+GRANT SELECT ON Person.Contact TO DBO
+
+--
+
+DROP TABLE NewTable
+
+-- How do you drop DDL triggers? (Have SMS show you ...)
+
+DROP TRIGGER [trgSafety] ON DATABASE
+DROP TRIGGER [trgThankYou] ON DATABASE
+DROP TABLE NewTable
+
+----------------------------------------------
+-- XML
+----------------------------------------------
+
+----------------------------------------------
+-- XML Data Type
+
+SET NOCOUNT ON
+CREATE TABLE Candidate (ID int, Name varchar(50), Resume xml)
+
+-- 
+
+INSERT Candidate VALUES (1,'Smith','<resume></resume>')
+SELECT * FROM Candidate
+
+-- 
+
+INSERT Candidate VALUES (1,'Smith','none')
+INSERT Candidate VALUES (1,'Smith','<resume>none</resume><resume>none</resume>')
+SELECT * FROM Candidate
+
+-- 
+
+INSERT Candidate VALUES (1,'Smith','<resume>none</Resume>')
+INSERT Candidate VALUES (1,'Smith','no resume & no CV')
+ 
+----------------------------------------------
+-- XML Schema
+
+CREATE XML SCHEMA COLLECTION ResumeSchema AS N'<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns="resume-schema"
+		targetNamespace="resume-schema"
+		elementFormDefault="qualified">
+
+<xsd:element name="Resume" type="ResumeType"/>
+<xsd:complexType name="ResumeType" mixed="true">
+ <xsd:sequence>
+  <xsd:element name="Name" type="NameType" minOccurs="0"/>
+  <xsd:element name="Objective" type="xsd:string" minOccurs="0"/>
+  <xsd:element name="Experience" type="Experience" minOccurs="0" maxOccurs="unbounded"/>
+  <xsd:element name="Education" type="Education" minOccurs="0" maxOccurs="unbounded"/>
+  <xsd:element name="InterestSection" type="xsd:string" minOccurs="0"/>
+ </xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="Experience" mixed="true">
+  <xsd:sequence>
+    <xsd:element name="YearFrom" type="xsd:int"/>
+    <xsd:element name="YearTo" type="xsd:int"/>
+    <xsd:element name="Title" type="xsd:string"/>
+    <xsd:element name="Description" type="xsd:string"/>
+  </xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="Education" mixed="true">
+  <xsd:sequence>
+    <xsd:element name="YearFrom" type="xsd:int"/>
+    <xsd:element name="YearTo" type="xsd:int"/>
+    <xsd:element name="Description" type="xsd:string"/>
+  </xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="NameType" mixed="true">
+ <xsd:all>
+  <xsd:element name="FirstName" type="xsd:string"/>
+  <xsd:element name="LastName" type="xsd:string"/>
+ </xsd:all>
+</xsd:complexType>
+</xsd:schema>'
+
+--
+
+SELECT * FROM SYS.OBJECTS
+
+SELECT * FROM sys.xml_schema_collections
+
+-- Create Table
+
+DROP TABLE Candidate
+CREATE TABLE Candidate (ID int, Name varchar(50), Resume xml (ResumeSchema))
+
+--
+
+INSERT Candidate VALUES (1,'Smith','<?xml version="1.0" encoding="utf-8" ?>
+<Resume xmlns="resume-schema">
+<Name>
+<FirstName>Pat</FirstName>
+<LastName>Smith</LastName>
+</Name>
+<Objective>Speak about Yukon and Whidbey</Objective>
+<Experience>
+<YearFrom>1993</YearFrom>
+<YearTo>1999</YearTo>
+<Title>Software Developer</Title>
+<Description>Built lots of really cool software!</Description>
+</Experience>
+<Experience>
+<YearFrom>2000</YearFrom>
+<YearTo>2005</YearTo>
+<Title>Trainer and Author</Title>
+<Description>Wrote books and spoke at lots of conferences</Description>
+</Experience>
+<Education>
+<YearFrom>1989</YearFrom>
+<YearTo>1993</YearTo>
+<Description>Podunk University</Description>
+</Education>
+<InterestSection>I like pudding!</InterestSection>
+</Resume>')
+
+----------------------------------------------
+-- FOR XML Improvements
+
+SELECT Title, FirstName, LastName, EmailAddress
+FROM   Person.Contact
+WHERE  ContactID < 10
+
+--
+
+SELECT Title, FirstName, LastName, EmailAddress
+FROM   Person.Contact
+WHERE  ContactID < 10
+FOR XML AUTO, elements
+
+--
+
+SELECT Title, FirstName, LastName, EmailAddress
+FROM   Person.Contact
+WHERE  ContactID < 10
+FOR XML AUTO, ELEMENTS
+
+--
+
+SELECT Title, FirstName, LastName, EmailAddress
+FROM   Person.Contact
+WHERE  ContactID < 10
+FOR XML PATH
+
+--
+
+SELECT Title AS '@Title',
+       FirstName as 'Name/First',
+       LastName as 'Name/Last',
+       EmailAddress as 'Email'
+FROM   Person.Contact 
+WHERE  ContactID < 10 
+FOR XML PATH ('Person'), ROOT ('People'), XMLSCHEMA
+
+
+--
+
+SELECT Title, FirstName, LastName, EmailAddress
+FROM   Person.Contact
+WHERE  FirstName = 'Cathan'
+
+--
+
+SELECT Title, FirstName, LastName, EmailAddress
+FROM   Person.Contact
+WHERE  FirstName = 'Cathan'
+FOR XML AUTO, ELEMENTS
+
+--
+
+SELECT Title, FirstName, LastName, EmailAddress
+FROM   Person.Contact
+WHERE  FirstName = 'Cathan'
+FOR XML AUTO, ELEMENTS XSINIL
+
+--
+
+SELECT Title, FirstName, LastName, EmailAddress
+FROM   Person.Contact
+WHERE  FirstName = 'Cathan'
+FOR XML AUTO, XMLDATA
+
+--
+
+SELECT Title, FirstName, LastName, EmailAddress
+FROM   Person.Contact
+WHERE  FirstName = 'Cathan'
+FOR XML AUTO, XMLSCHEMA('Pizza')
+
+--
+
+SELECT Title, FirstName, LastName, EmailAddress
+FROM   Person.Contact
+WHERE  FirstName = 'Cathan'
+FOR XML AUTO, ELEMENTS, XMLSCHEMA
+
+--
+
+DECLARE @XML XML
+SET @XML = 
+(SELECT Title, FirstName, LastName, EmailAddress FROM Person.Contact
+   WHERE ContactID < 10 FOR XML PATH)
+SELECT @XML
+
+/*
+-- Sample code on returning parent and child records as XML
+
+-- SELECT TOP 10 * FROM Event
+
+DECLARE @Results XML
+SET	@Results = 
+        (SELECT DISTINCT TOP 10
+        E.EventID         AS '@ID',
+		RTRIM(E.Category) AS 'Category',
+		E.FY,
+		CONVERT(varchar(20),E.StartDate,101) AS 'Starts',
+		CONVERT(varchar(20),E.EndDate,101) AS 'Ends',
+        (SELECT CountryID FROM EventLocation
+          WHERE EventLocation.EventID = E.EventID 
+          FOR XML PATH ('')) AS 'Countries/Country',
+        (SELECT '(' + [Type] + ') ' + Narrative FROM EventNarrative
+          WHERE EventNarrative.EventID = E.EventID 
+          FOR XML PATH ('')) AS 'Narratives/Narrative'
+FROM Event E
+
+     -- INNER JOIN EventLocation EL ON E.EventID = EL.EventID
+WHERE (SELECT COUNT(*) FROM EVENTLOCATION EL WHERE EL.EVENTID = E.EVENTID) > 1
+      and (SELECT COUNT(*) FROM EVENTNARRATIVE EN WHERE EN.EVENTID = E.EVENTID) > 0
+FOR XML PATH ('Event'), root ('Events'))
+
+SELECT dbo.CleanXML(@Results)
+
+--
+
+/*
+
+SELECT TOP 3 * FROM Event FOR XML AUTO, XMLSCHEMA
+
+Supporting functions
+
+CREATE FUNCTION CleanXML
+( @XML xml )
+RETURNS xml
+AS
+BEGIN
+
+  DECLARE @ResultsText varchar(max)
+  SET @ResultsText = CONVERT(varchar(max),@XML)
+
+  SET @ResultsText = REPLACE(@ResultsText,'&gt;','>')
+  SET @ResultsText = REPLACE(@ResultsText,'&lt;','<')
+
+  RETURN CONVERT(xml,@ResultsText)
+END
+GO
+*/
+*/
+----------------------------------------------
+-- XQUERY
+
+DECLARE @xmldoc xml
+SET @xmldoc = '<people>
+ <person>
+  <name>
+   <givenName>Martin</givenName>
+   <familyName>Gudgin</familyName>
+  </name>
+  <age>33</age>
+  <height>short</height>
+ </person>
+ <person>
+  <name>
+   <givenName>Simon</givenName>
+   <familyName>Horrell</familyName>
+  </name>
+  <age>40</age>
+  <height>short</height>
+ </person>
+ <person>
+  <name>
+   <givenName>Mark</givenName>
+   <familyName>Szolkowski</familyName>
+  </name>
+  <age>30</age>
+  <height>medium</height>
+ </person>
+</people>'
+
+SELECT @xmldoc
+
+-- Return names
+
+SELECT @xmldoc.query(' 
+(: SQL Server 2005 :)
+(: doc function not used :)
+for $p in /people/person
+return $p/name') 
+
+-- Return people older than 30 (XPATH way)
+
+SELECT @xmldoc.query(' 
+(: this uses an XPath predicate :)
+/people/person[age > 30]')
+
+-- Return people older than 30 (FWOR way)
+
+SELECT @xmldoc.query(' 
+(: this uses a where  :)
+for $p in /people/person
+where $p/age > 30
+order by $p/age[1]
+return $p/name')
+
+-- Getting Creative
+
+SELECT @xmldoc.query(' 
+(: this uses a where  :)
+for $p in /people/person
+where $p/age > 30
+order by $p/age[1]
+return <foo><bar>{$p/name}</bar></foo>')
+
+----------------------------------------------
+-- XML DML
+
+UPDATE HumanResources.JobCandidate SET Resume = ' entire new xml document '
+
+--
+
+DECLARE @myDoc xml       
+SET @myDoc = 
+ '<Student ID="1" Name="Bill Gates"><Experience></Experience></Student>'
+SELECT @myDoc as Example
+
+--
+
+SET @myDoc.modify('insert <Development>Built Microsoft BOB</Development>
+ into (/Student/Experience)[1]') 
+SELECT @myDoc
+
+--
+
+SET @myDoc.modify('
+ replace value of (/Student/Experience/Development[1]/text())[1]
+ with "Married the woman who built Microsoft Bob"')
+SELECT @myDoc
+
+--
+
+SET @myDoc.modify('delete /Student/Experience/Development[1]')
+SELECT @myDoc

@@ -1,0 +1,10 @@
+---
+title: "Team Edition for Software Architect Power Tools - August 2007 CTP"
+date: 2007-08-20T19:41:29Z
+authors: ["Richard Hundhausen"]
+slug: "team-edition-for-software-architect-power-tools-august-2007-ctp"
+draft: false
+tags: ["Visual Studio", "ALM"]
+---
+
+<p>The great news just keeps on coming from Microsoft. After a flurry of Team System announcements and downloads recently, we have yet another set of Power Tools to play with.</p> <p>These tools are designed specifically for the <a href="http://msdn2.microsoft.com/en-us/teamsystem/aa718804.aspx" target="_blank" rel="noopener">Visual Studio Team Edition for Software Architects</a> and provide the following capabilities:</p> <ul> <li>View class library projects on the Application Diagram (AD)  <li>View references to class library projects as connections on the Application Diagram  <li>Create class library projects from the Application Diagram  <li>Create references to class library projects from the Application Diagram  <li>Synchronize properties between class library projects and their representative applications on the Application Diagram  <li>Create and use class library applications and references on the System Designer (SD)</li></ul> <p>Fantastic. We haven't seen much out of the Architect tools, except for the SDM SDK in quite some time. I'm looking forward to it.</p> <p>Download the&nbsp;CTP <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=5ef45ad4-336b-4a37-aded-ee9c9d8e6f8d&amp;displaylang=en" target="_blank" rel="noopener">here</a>. Note: you will also need to <a href="http://msdn2.microsoft.com/en-us/vstudio/default.aspx" target="_blank" rel="noopener">download</a> Visual Studio 2008 Beta 2.</p> <p>If you have any feedback on these tools, please visit the Architecture &amp; Design <a href="http://forums.microsoft.com/MSDN/ShowForum.aspx?ForumID=21&amp;SiteID=1" target="_blank" rel="noopener">forum</a>.</p>

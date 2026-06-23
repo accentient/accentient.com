@@ -1,0 +1,12 @@
+---
+title: "People Trump Process - A Huge Benefit of Team System"
+date: 2005-12-16T15:53:14Z
+authors: ["Richard Hundhausen"]
+slug: "people-trump-process-a-huge-benefit-of-team-system"
+draft: false
+tags: ["Visual Studio", "ALM"]
+---
+
+<p>While driving yesterday, I was listening to a Podcast by Alistair Cockburn (pronounced, I learned, like Coburn, not like an uncomfortable genital condition).&nbsp; He was discussing Agile development, something I'm very interested in.&nbsp; One of the things he's learned over the years is that "People trump process".&nbsp; Basically, if a process is too confining, restrictive or proscriptive, people will always find a way around the process.&nbsp; In addition, if the process is too chaotic, people will spontaneously create something to add a light structure to their development process.</p>
+<p>This has dramatic implications for Team System.&nbsp; One of the onerous tasks in many process tools is reporting work.&nbsp; Developers are forced to not only leave their tool (Visual Studio, Eclipse, etc), but also often forced to enter data that doesn't seem to relate directly to the task of creating good code.&nbsp; In Visual Studio Team System, process is tightly integrated into the development process at the tool level.&nbsp; Thus, it takes far less effort for developers to implement process.&nbsp; In fact, process guidance can be automated into the way Team System behaves, not just in the form of must-read references and directives.&nbsp; This means developers can be exposed to process in a way that often fits their personality.&nbsp; Most developers I know aren't the type of folks who want to read corporate process guidance.&nbsp; They want to solve problems.&nbsp; When a process methodology intrudes in Team System development, forcing devs to write unit tests or run code analysis prior to a check-in, for example, the developer treats the problem differently.&nbsp; Now, although they may moan about it, the problem becomes a challenge, a bug, and they figure out a way around it.&nbsp; Thus, devs are exposed to process periodically, throughout their development lifecycle, as a series of challenges, not as an "all or nothing" read of hundreds of pages of corporate process, procedures and conventions in document form.</p>
+<p>This, I believe is one of the strengths of Team System.</p>
