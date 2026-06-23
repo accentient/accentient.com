@@ -1,0 +1,28 @@
+{{/* Renders a single blog post card. Expects a Page as context. */}}
+<div class="column is-one-third">
+  <article class="card blog-card">
+    <div class="card-content">
+      <p class="title is-5">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </p>
+      <p class="blog-meta">
+        {{ .Date.Format "Jan 2, 2006" }}
+        &nbsp;&bull;&nbsp; {{ .ReadingTime }} min read
+        {{ with .Params.author }}
+        &nbsp;&bull;&nbsp; {{ . }}
+        {{ end }}
+      </p>
+      <div class="content">
+        {{ .Summary | plainify | truncate 200 }}
+      </div>
+      <span class="read-more">Read more &rarr;</span>
+      {{ with .Params.tags }}
+      <p class="blog-card-tags">
+        {{ range . }}
+        <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      </p>
+      {{ end }}
+    </div>
+  </article>
+</div>

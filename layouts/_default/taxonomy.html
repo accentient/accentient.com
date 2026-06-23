@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+<main class="section is-medium pb-0">
+  <div class="container">
+    <p class="blog-eyebrow"><a href="{{ "/blog/" | relLangURL }}">&larr; All posts</a></p>
+
+    {{ if eq .Kind "term" }}
+    {{/* A single term, e.g. /tags/scrum/ -> list the matching posts as cards. */}}
+    <h1 class="title">{{ .Data.Singular | title }}: {{ .Title }}</h1>
+
+    {{ partial "tag-filter.html" . }}
+
+    {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+    <p class="blog-result-count">
+      {{ .Paginator.TotalNumberOfElements }} post{{ if ne .Paginator.TotalNumberOfElements 1 }}s{{ end }}
+    </p>
+
+    <div class="columns is-multiline blog-card-section">
+      {{ range $paginator.Pages }}
+      {{ partial "blog-card.html" . }}
+      {{ end }}
+    </div>
+
+    <div class="blog-pagination">
+      {{ partial "pagination.html" . }}
+    </div>
+
+    {{ else }}
+    {{/* The taxonomy index, e.g. /tags/ -> a cloud of all terms with counts. */}}
+    <h1 class="title">{{ .Title }}</h1>
+
+    <div class="tag-cloud">
+      {{ range .Data.Terms.Alphabetical }}
+      <a class="tag" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span class="tag-count">{{ .Count }}</span></a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

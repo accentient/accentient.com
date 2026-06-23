@@ -1,0 +1,17 @@
+{{/* Dropdown to filter the blog by tag. Expects a Page as context.
+     Preselects the current tag when rendered on a term page. */}}
+{{ $current := "" }}
+{{ if eq .Kind "term" }}{{ $current = .RelPermalink }}{{ end }}
+{{ with .Site.Taxonomies.tags }}
+<div class="blog-filter">
+  <label class="blog-filter-label" for="tag-filter">Filter by tag:</label>
+  <div class="select">
+    <select id="tag-filter" aria-label="Filter posts by tag" onchange="if(this.value){window.location.href=this.value;}">
+      <option value="{{ "/blog/" | relLangURL }}">All posts</option>
+      {{ range .Alphabetical }}
+      <option value="{{ .Page.RelPermalink }}"{{ if eq .Page.RelPermalink $current }} selected{{ end }}>{{ .Page.Title }} ({{ .Count }})</option>
+      {{ end }}
+    </select>
+  </div>
+</div>
+{{ end }}

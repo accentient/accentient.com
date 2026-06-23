@@ -1,0 +1,32 @@
+{{/* Bulma-styled numbered pagination. Expects a Page that has already been
+     paginated via .Paginate. Shows first, last, and current +/- 2 with ellipses. */}}
+{{ $p := .Paginator }}
+{{ if gt $p.TotalPages 1 }}
+<nav class="pagination is-centered" role="navigation" aria-label="pagination">
+  {{ if $p.HasPrev }}
+  <a class="pagination-previous" href="{{ $p.Prev.URL }}">Previous</a>
+  {{ else }}
+  <a class="pagination-previous" disabled>Previous</a>
+  {{ end }}
+  {{ if $p.HasNext }}
+  <a class="pagination-next" href="{{ $p.Next.URL }}">Next page</a>
+  {{ else }}
+  <a class="pagination-next" disabled>Next page</a>
+  {{ end }}
+
+  <ul class="pagination-list">
+    {{ $cur := $p.PageNumber }}
+    {{ $total := $p.TotalPages }}
+    {{ range $p.Pagers }}
+      {{ $n := .PageNumber }}
+      {{ if or (eq $n 1) (eq $n $total) (and (ge $n (sub $cur 2)) (le $n (add $cur 2))) }}
+      <li>
+        <a class="pagination-link{{ if eq $n $cur }} is-current{{ end }}" href="{{ .URL }}" aria-label="Page {{ $n }}"{{ if eq $n $cur }} aria-current="page"{{ end }}>{{ $n }}</a>
+      </li>
+      {{ else if or (eq $n (sub $cur 3)) (eq $n (add $cur 3)) }}
+      <li><span class="pagination-ellipsis">&hellip;</span></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}

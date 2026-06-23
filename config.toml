@@ -5,6 +5,7 @@ title = " Accentient"
   pagerSize = 9
 
 [taxonomies]
+  tag = "tags"
   category = "categories"
   author = "authors"
 
