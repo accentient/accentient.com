@@ -160,11 +160,23 @@ Full-text search uses [Pagefind](https://pagefind.app), a static post-build inde
 - `single.html` marks the indexed region with `data-pagefind-body`, so only blog posts are searched.
 - Local testing: `hugo --minify -d public && npx pagefind --site public --serve` → search works at the served URL. The normal `hugo server` has no index, so the box is inert there (guarded so it doesn't error).
 
-### Images
-Post images are co-located in each post's page-bundle folder. Old WP/dasBlog image URLs were localized into the bundles. `.content img` (in `custom.css`) frames every content image with a border + drop shadow + spacing; UI icons (`/images/icons/`, `/images/courseware/`) are excluded.
+### Images & attachments
+Post images AND downloadable files (zip/pdf/ppt/etc.) are co-located in each post's page-bundle folder, localized out of `C:\Blog\Files`, `\Uploads`, `\Content`, and `\Attachments` by filename match. `.content img` (in `custom.css`) frames every content image with a border + drop shadow + spacing; UI icons (`/images/icons/`, `/images/courseware/`) are excluded.
+
+- **`/files/` slash-strip bug:** the import mangled some dasBlog refs — `/files/Foo.jpg` became `filesFoo.jpg` (slash dropped) or stayed `files/Foo.jpg`. Recovery strips the `files` prefix / `files/` subpath and matches the remaining filename. Handle BOTH `src=` and `href=` (full-size images are linked from thumbnails, not just shown).
+- **25 MiB guard:** Cloudflare Pages rejects any file over 25 MiB, so localization skips them (a 43 MB `.mov` was removed; the CI deploy job also fails fast on oversized files). Host large media externally.
+- **Old personal blog:** `blog.hundhausen.com` / `hundhausen.com/blog` links (the author's older blog) were repointed to `/blog/tags/life/`; plain `www.hundhausen.com` links are left alone.
+- Audit broken links/assets anytime with `broken_scan.py` (below), which writes `broken-links.md`. A few refs are unrecoverable junk: `file:///C:/...` clipboard paths and old `.aspx` admin links from the dasBlog era.
 
 ### Import / maintenance scripts (local, not committed)
-The one-time WordPress→Hugo import and bulk tag/image tooling lives in `C:\Blog\Backups` on the author's machine: `convert.py` (import), `parse_wp.py` (authors/tags from the SQL dump), `localize.py`/`localize2.py` (image localization), `rename-tags.py` and `tagger.py` (bulk tag edits). They edit `content/blog/` in place and are re-runnable. Note: the original ~100 posts carry a UTF-8 BOM, so byte-level edit scripts must detect and preserve it.
+The one-time WordPress→Hugo import and the bulk content/tag/image tooling live in `C:\Blog\Backups` on the author's machine. They edit `content/blog/` in place, are re-runnable, and are byte/BOM-safe (the original ~100 posts carry a UTF-8 BOM that must be detected and preserved):
+- `convert.py` — import posts; `parse_wp.py` — authors/tags from the SQL dump (writes `_maps.json`)
+- `add-authors.py` — convert `author:` string front matter to the `authors:` list
+- `rename-tags.py`, `tagger.py` — bulk tag rename/consolidate and rule-based tag additions
+- `localize.py`, `localize2.py` — image/file localization from the source folders
+- `attach.py`, `img_fix.py`, `files_slash.py` — recover attachments/images, including the `/files/` slash-strip cases (handle `src=` and `href=`)
+- `replace-oldblog.py` — repoint old personal-blog links to `/blog/tags/life/`
+- `broken_scan.py` — audit all posts for broken links/assets, writes `broken-links.md`
 
 ## Build & Config Notes
 
