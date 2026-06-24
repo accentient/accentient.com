@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 email: form.email.value.trim(),
                 subject: form.subject.value.trim(),
                 message: form.message.value.trim(),
+                website: form.website.value, // honeypot: must stay empty
                 recaptchaToken: token // make sure your Worker uses this key
               }),
             });

@@ -757,3 +757,13 @@ body.blog-searching .blog-pagination {
     margin-top: 8rem; /* Push it further down */
   }
 }
+/* Contact form honeypot: visually hidden but still in the DOM so bots fill it.
+   Positioned offscreen rather than display:none, which some bots skip. */
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

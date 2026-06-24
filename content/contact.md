@@ -26,6 +26,12 @@ Prefer a different way to get in touch? Feel free to use the contact form below 
   <label>Message *</label><br>
   <textarea name="message" rows="5" required style="width:100%; padding:8px;"></textarea><br><br>
 
+  <!-- Honeypot: hidden from humans, tempting to bots. Leave it empty. -->
+  <div class="hp-field" aria-hidden="true">
+    <label>Website</label>
+    <input type="text" name="website" tabindex="-1" autocomplete="off">
+  </div>
+
   <button type="submit" style="padding:10px 20px; background-color:#007bff; color:white; border:none;">Submit</button>
 </form>
 

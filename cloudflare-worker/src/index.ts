@@ -52,7 +52,20 @@ export default {
         email?: string;
         subject?: string;
         message?: string;
+        website?: string;
       };
+
+      // Honeypot: `website` is a hidden field no human ever sees or fills. Bots
+      // that auto-fill every input will populate it. Silently drop the
+      // submission and return a success-looking response so the bot gets no
+      // signal that it was caught (no email is sent).
+      if (formData.website && formData.website.trim() !== "") {
+        return new Response("Contact form submitted successfully!", {
+          status: 200,
+          headers,
+        });
+      }
+
       const recaptchaToken = formData.recaptchaToken;
 
       if (!recaptchaToken) {

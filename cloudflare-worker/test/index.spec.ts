@@ -129,6 +129,26 @@ describe('CAPTCHA verification', () => {
 	});
 });
 
+describe('Honeypot', () => {
+	it('silently drops the submission when the honeypot field is filled', async () => {
+		const mock = stubFetch({});
+		const res = await run(post({ ...validPayload, website: 'http://spam.example' }));
+		// Looks like success to the bot, but no email goes out.
+		expect(res.status).toBe(200);
+		expect(await res.text()).toBe('Contact form submitted successfully!');
+		expect(mock.mock.calls.find(([url]) => String(url).includes('resend.com'))).toBeUndefined();
+		// The honeypot short-circuits before reCAPTCHA, so Google is never called.
+		expect(mock.mock.calls.find(([url]) => String(url).includes('siteverify'))).toBeUndefined();
+	});
+
+	it('ignores an empty/whitespace honeypot value and proceeds normally', async () => {
+		const mock = stubFetch({});
+		const res = await run(post({ ...validPayload, website: '   ' }));
+		expect(res.status).toBe(200);
+		expect(mock.mock.calls.find(([url]) => String(url).includes('resend.com'))).toBeDefined();
+	});
+});
+
 describe('Happy path and email delivery', () => {
 	it('returns 200 and calls Resend when everything passes', async () => {
 		const mock = stubFetch({});
