@@ -8,4 +8,4 @@ tags: ["Life", "SQL Server"]
 ---
 
 <p>Thanks everyone who attended. If you have any questions, please ping me at <a href="mailto:delphi@delphi.org">delphi@delphi.org</a> or <a href="mailto:v-richh@microsoft.com">v-richh@microsoft.com</a></p>
-<p>Here's the <a href="filessmo.zip">slides, code, and output</a> from my presentation.</p>
+<p>Here's the <a href="SMO.zip">slides, code, and output</a> from my presentation.</p>

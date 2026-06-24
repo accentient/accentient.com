@@ -11,6 +11,6 @@ tags: ["Life"]
 <p><font face="Courier New">namespace Hundhausen<br />{<br />&nbsp;public class Foo<br />&nbsp;{<br />&nbsp;&nbsp;public void Bar(ref string s) {}<br />&nbsp;&nbsp;public void Bar(string s) {}<br />&nbsp;}<br />}</font></p>
 <p>When you consume this class from Visual Basic .NET and call it like this:</p>
 <p><font face="Courier New">Dim f As New Hundhausen.Foo<br />f.Bar("Hello World")</font></p>
-<p>It gives this message:</p><img src="filesnotmostspecific.jpg">
+<p>It gives this message:</p><img src="NotMostSpecific.jpg">
 <p>Interesting behavior, isn't it? The solution is to always compile your C# code with CLSCompliant attribute set to true and then this nonsense won't occur.</p>
-<p>Here's the <a href="filesnotmostspecificproject.zip">project</a>, if you want to play with it.<br /></p>
+<p>Here's the <a href="NotMostSpecificProject.zip">project</a>, if you want to play with it.<br /></p>

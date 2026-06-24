@@ -7,4 +7,4 @@ draft: false
 tags: ["Life"]
 ---
 
-<p>Not sure if I should be proud or be ashamed of this:</p><img src="filesplatinum.jpg" border=1>
+<p>Not sure if I should be proud or be ashamed of this:</p><img src="platinum.jpg" border=1>

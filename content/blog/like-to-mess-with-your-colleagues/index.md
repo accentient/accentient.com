@@ -7,4 +7,4 @@ draft: false
 tags: ["Microsoft"]
 ---
 
-<p>Had somebody show me this the other day. It's a <a href="http://www.flickr.com/photos/w00kie/sets/180637/" target="none" rel="noopener">collection of brilliant Windows backgrounds</a> that look like "transparent screens". Here's an example ...<br /><br />&nbsp;<img src="filestransparentscreen.jpg"><br /></p>
+<p>Had somebody show me this the other day. It's a <a href="http://www.flickr.com/photos/w00kie/sets/180637/" target="none" rel="noopener">collection of brilliant Windows backgrounds</a> that look like "transparent screens". Here's an example ...<br /><br />&nbsp;<img src="transparentscreen.jpg"><br /></p>

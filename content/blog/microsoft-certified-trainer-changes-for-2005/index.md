@@ -12,14 +12,14 @@ tags: ["Life", "Azure Test Plans"]
 <ul>
 <li>Trainers will be identified by their areas of expertise (MCAD, MCSD/VB6, MCSD/.NET, MCSA, MCSE, MCDBA, MCDST, MSF, MOF, etc.) and this will determine which courses may be delivered; some courses may be delivered by trainers from different competencies; some courses may require more than one competency; the final list will be published in the months ahead
 <li>Mandatory certification upgrades are gone; for example,&nbsp;MCSD/VB6 will&nbsp;only be allowed to teach those relevant courses; this a way of rewarding early adopters
-<li>Here is a list of the competencies:<br /><br /><img src="filesmctcompetencies.jpg"></li></ul>
+<li>Here is a list of the competencies:<br /><br /><img src="MCTCompetencies.jpg"></li></ul>
 <p><strong>#2 - Stronger Trainer Quality</strong></p>
 <ul>
 <li>All MCTs will be required to use the Metrics-That-Matter (MTM) Website to track their classes and evaluations
 <li>MCT must have 10 MTM evaluations in previous two&nbsp;quarters
 <li>Quarterly auditing of MCTs' scores will be performed automatically, looking at the % of Very Satisfied (VSAT 8-9) as well as the % of the Dissatisfied (DSAT 1-4)
 <li>Get bad scores in a quarter and you'll get a warning; get bad scores in two quarters, and you'll get decertified
-<li>A new MCP portal will allow MCTs to pulish their transcripts and, optionally, their performance metrics (VSAT, DSAT, # of times taught, # of students taught)&nbsp;to those they choose (by giving out an access code)<br /><br /><a HREF="filesnewtranscript.jpg" target="_none" rel="noopener"><img src="filestranscript_small.jpg"></a></li></ul>
+<li>A new MCP portal will allow MCTs to pulish their transcripts and, optionally, their performance metrics (VSAT, DSAT, # of times taught, # of students taught)&nbsp;to those they choose (by giving out an access code)<br /><br /><a HREF="NewTranscript.jpg" target="_none" rel="noopener"><img src="transcript_small.jpg"></a></li></ul>
 <p><strong>#3 - No inactive status in 2005</strong></p>
 <ul>
 <li>All MCT history will be retained, so if you drop out for a couple of years, then rejoin the program, your transcript will just show a gap.

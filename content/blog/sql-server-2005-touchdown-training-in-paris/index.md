@@ -7,4 +7,4 @@ draft: false
 tags: ["Microsoft", "SQL Server"]
 ---
 
-<p>Our Train-The-Trainer (TTT) event has come to a close, and what a great class it was! We had 26 students, from Saudi Arabia, Egypt, Kuwait, Denmark, Italy, the Russian Federation, Finland, Belgium, Macedonia, Greece, Poland, Lithuania, and France.</p><a href="filesparistpreplarge.jpg" title=" Click to enlarge " target="none" rel="noopener"><img src="filesparistprepsmall.jpg" border=0></a>
+<p>Our Train-The-Trainer (TTT) event has come to a close, and what a great class it was! We had 26 students, from Saudi Arabia, Egypt, Kuwait, Denmark, Italy, the Russian Federation, Finland, Belgium, Macedonia, Greece, Poland, Lithuania, and France.</p><a href="ParisTPrepLarge.jpg" title=" Click to enlarge " target="none" rel="noopener"><img src="ParisTPrepSmall.jpg" border=0></a>

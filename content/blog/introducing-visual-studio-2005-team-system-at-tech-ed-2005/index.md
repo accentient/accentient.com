@@ -7,4 +7,4 @@ draft: false
 tags: ["Visual Studio", "ALM"]
 ---
 
-<br />Wanted to post a few photos of the book and my buddies.<br /><a href="filesvstsbookteched.jpg" target="none" rel="noopener"><img src="vstsbook_thumb.jpg" border=0></a>&nbsp;<a href="filesvstsbuddies.jpg" target="none" rel="noopener"><img src="vstsbuddies_thumb.jpg" border=0></a>&nbsp;<a href="filesvstsboxes.jpg" target="none" rel="noopener"><img src="vstsboxes_thumb.jpg" border=0></a><br />
+<br />Wanted to post a few photos of the book and my buddies.<br /><a href="vstsbookteched.jpg" target="none" rel="noopener"><img src="vstsbook_thumb.jpg" border=0></a>&nbsp;<a href="vstsbuddies.jpg" target="none" rel="noopener"><img src="vstsbuddies_thumb.jpg" border=0></a>&nbsp;<a href="vstsboxes.jpg" target="none" rel="noopener"><img src="vstsboxes_thumb.jpg" border=0></a><br />

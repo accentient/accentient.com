@@ -8,4 +8,4 @@ tags: ["Life", "SQL Server"]
 ---
 
 <p>I downloaded and installed (into VPC naturally) the December Community Technical Preview (CTP) for SQL Server 2005 today. Let me tell you that it looks good, and appears quite stable. Of course, I have not run through an exhaustive set of activities. I'll be sure to blog and big changes or gripes as I run into them.</p>
-<img src="filesyukonb3.jpg">
+<img src="yukonb3.jpg">

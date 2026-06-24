@@ -8,4 +8,4 @@ tags: ["Life"]
 ---
 
 <p>Must've happend overnight. If you're a subscriber, check it out ... but give me about a 4 hour headstart! :-)</p>
-<img src="filesbeta2.jpg">
+<img src="beta2.jpg">

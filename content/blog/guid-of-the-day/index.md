@@ -8,5 +8,5 @@ tags: ["Life", "SQL Server"]
 ---
 
 <p>It's amazing what you can do with the results of SQL Server's <em>SELECT NewID() ...</em></p>
-<img src="filesguid.jpg">
+<img src="guid.jpg">
 <p>I'm just feeling &#8220;Globally Unique&#8221; today, I guess.</p>

@@ -7,4 +7,4 @@ draft: false
 tags: ["Misc", "Testing"]
 ---
 
-Rich, my business partner and coblogger (his personal blog is <a href="http://blog.hundhausen.com">here</a>), is presenting a full day on Visual Studio Team System at the Wintellect Devscovery seminar at Microsoft.&nbsp; Great presentation that follows a development lifecycle all the way from Project Manager creation, to Architecture design, to Development and Testing.&nbsp; All the major roles and technologies are covered.&nbsp; Fun stuff!&nbsp;
+Rich, my business partner and coblogger (his personal blog is <a href="/blog/tags/life/">here</a>), is presenting a full day on Visual Studio Team System at the Wintellect Devscovery seminar at Microsoft.&nbsp; Great presentation that follows a development lifecycle all the way from Project Manager creation, to Architecture design, to Development and Testing.&nbsp; All the major roles and technologies are covered.&nbsp; Fun stuff!&nbsp;

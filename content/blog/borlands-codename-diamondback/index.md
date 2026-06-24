@@ -7,4 +7,4 @@ draft: false
 tags: ["Life"]
 ---
 
-<p>Otherwise known as the next version of Delphi. It'll do Delphi Win32, Delphi .NET, and C# projects all under one IDE. There's support for refactoring and ASP.NET as well. Here's a quick screenshot:</p><a href="filesdiamondback.jpg" target="_none" rel="noopener"><img src="filesdiamondback_small.jpg"></a>
+<p>Otherwise known as the next version of Delphi. It'll do Delphi Win32, Delphi .NET, and C# projects all under one IDE. There's support for refactoring and ASP.NET as well. Here's a quick screenshot:</p><a href="diamondback.jpg" target="_none" rel="noopener"><img src="diamondback_small.jpg"></a>

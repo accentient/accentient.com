@@ -8,5 +8,5 @@ tags: ["Life"]
 ---
 
 <p>Now I know that XML Web Services have had a profound effect on other distributed programming models ...</p>
-<img src="filescorba.jpg">
+<img src="corba.jpg">
 <p>(I snapped this photo last year, while teaching a Commerce Server class in Carnegie, PA.)</p>

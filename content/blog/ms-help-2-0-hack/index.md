@@ -10,7 +10,7 @@ tags: ["Life"]
 <p>Maybe this has been blogged before, but I couldn't find it.</p>
 <p>If you're like me, you miss the simplicity of .HLP and .CHM files, where&nbsp;a simple&nbsp;double-click opens the help file. As you know, Microsoft has been deploying any help that relates to Visual Studio .NET in the <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/htmlhelp/html/hwmscextendingnethelp.asp" target="none" rel="noopener">MS Help 2.0 format</a>, which is not so friendly.</p>
 <p>Ok, so here's my problem, if you obtain help files, like from the <a href="http://www.gotdotnet.com/workspaces/workspace.aspx?id=8d122e04-c968-4b56-976a-59b9ed394404" target="none" rel="noopener">Visual Studio Team System prerelease documentation</a>, and you want to just read through it, you can't just double-click on any of the files:</p>
-<p><img src="filesvstshelpfiles.jpg"></p>
+<p><img src="VSTSHelpFiles.jpg"></p>
 <p>So my hack goes like this: (you must be on a Visual Studio .NET/2005 machine)</p>
 <ol>
 <li>Open the .vrg file with notepad (<em>_VsEnt80_reg.vrg in the above example</em>).

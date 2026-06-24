@@ -7,4 +7,4 @@ draft: false
 tags: ["Life"]
 ---
 
-<p>So my dad sends me this&nbsp;photo of his solitaire game last night. Do you see the bug?</p><img src="filessolitaire.jpg">
+<p>So my dad sends me this&nbsp;photo of his solitaire game last night. Do you see the bug?</p><img src="Solitaire.jpg">

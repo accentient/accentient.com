@@ -7,4 +7,4 @@ draft: false
 tags: ["Life"]
 ---
 
-<p>This has been going around the 'Net and I thought it was pretty unique.</p><img src="fileswalkingasciidude.gif">
+<p>This has been going around the 'Net and I thought it was pretty unique.</p><img src="WalkingASCIIdude.gif">

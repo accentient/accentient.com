@@ -7,4 +7,4 @@ draft: false
 tags: ["Conferences", "SQL Server"]
 ---
 
-<br />I hope you enjoyed the presentation today. If you have any questions, feel free to contact me. Here are the <a href="filesIcelandPresentation.zip">files</a> from today.<br />
+<br />I hope you enjoyed the presentation today. If you have any questions, feel free to contact me. Here are the <a href="IcelandPresentation.zip">files</a> from today.<br />

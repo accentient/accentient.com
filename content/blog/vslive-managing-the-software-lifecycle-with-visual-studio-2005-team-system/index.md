@@ -8,4 +8,4 @@ tags: ["Life"]
 ---
 
 <p>Sorry I didn't post them here, but please download my notes.</p>
-<a href="filesTeam System Notes and Thoughts.doc">Notes.doc</a>
+<a href="Team System Notes and Thoughts.doc">Notes.doc</a>

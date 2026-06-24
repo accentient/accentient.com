@@ -7,4 +7,4 @@ draft: false
 tags: ["Conferences"]
 ---
 
-<p><a href="http://blog.hundhausen.com/">Rich Hundhausen</a>, <a href="http://blog.coryisakson.com/">Cory Isakson </a>and myself (Steven Borg) just arrived in San Francisco for the VSLive 2005 conference.&nbsp; We'll all be speaking on various topics.&nbsp; </p>
+<p><a href="/blog/tags/life/">Rich Hundhausen</a>, <a href="http://blog.coryisakson.com/">Cory Isakson </a>and myself (Steven Borg) just arrived in San Francisco for the VSLive 2005 conference.&nbsp; We'll all be speaking on various topics.&nbsp; </p>

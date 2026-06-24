@@ -7,4 +7,4 @@ draft: false
 tags: ["Conferences"]
 ---
 
-<p>I just attended the presentation by <a href="http://blog.hundhausen.com">Richard Hundhausen</a>, covering ADO.NET in ASP.NET 2.0.&nbsp; Packed room.&nbsp; I brought in a few more chairs, but it was a losing battle as more people trickled in throughout the presentation.&nbsp; To download the demo code and presentation, visit his <a href="http://blog.hundhausen.com">blog</a>.</p>
+<p>I just attended the presentation by <a href="/blog/tags/life/">Richard Hundhausen</a>, covering ADO.NET in ASP.NET 2.0.&nbsp; Packed room.&nbsp; I brought in a few more chairs, but it was a losing battle as more people trickled in throughout the presentation.&nbsp; To download the demo code and presentation, visit his <a href="/blog/tags/life/">blog</a>.</p>

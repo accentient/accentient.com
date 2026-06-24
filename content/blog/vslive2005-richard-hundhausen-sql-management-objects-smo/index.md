@@ -7,7 +7,7 @@ draft: false
 tags: ["Conferences", "Development", "SQL Server"]
 ---
 
-<a href="http://blog.hundhausen.com">Richard Hundhausen</a> is talking about SQL Management Objects (SMO).  Started on a high note.  Good jokes.  Got the audience interested.
+<a href="/blog/tags/life/">Richard Hundhausen</a> is talking about SQL Management Objects (SMO).  Started on a high note.  Good jokes.  Got the audience interested.
 
 &nbsp;
 

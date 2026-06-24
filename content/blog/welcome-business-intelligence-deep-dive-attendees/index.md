@@ -7,7 +7,7 @@ draft: false
 tags: ["Conferences", "Development"]
 ---
 
-<a href="http://blog.hundhausen.com">Rich Hundhausen</a>, my copresenter, has put together some great tidbits of information and downloads.  They are available at his <a href="http://blog.hundhausen.com">blog</a>.
+<a href="/blog/tags/life/">Rich Hundhausen</a>, my copresenter, has put together some great tidbits of information and downloads.  They are available at his <a href="/blog/tags/life/">blog</a>.
 
 &nbsp;
 
