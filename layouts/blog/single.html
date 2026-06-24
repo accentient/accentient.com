@@ -5,13 +5,13 @@
     <p>
     <small>
       {{ .Date.Format "January 2, 2006" }}
-      • {{ range $i, $a := .Params.authors }}{{ if $i }}, {{ end }}<a href="{{ "/authors/" | relLangURL }}{{ $a | urlize }}">{{ $a }}</a>{{ end }}
+      • {{ range $i, $a := .Params.authors }}{{ if $i }}, {{ end }}<a href="{{ "/blog/authors/" | relLangURL }}{{ $a | urlize }}">{{ $a }}</a>{{ end }}
 
       {{ with .Params.tags }}
         • 
         {{ range $index, $tag := . }}
           {{ if $index }} • {{ end }}
-          <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}">{{ $tag }}</a>
+          <a href="{{ "/blog/tags/" | relLangURL }}{{ $tag | urlize }}">{{ $tag }}</a>
         {{ end }}
       {{ end }}
     </small>

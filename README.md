@@ -28,3 +28,14 @@ Accentient.com's website — A Hugo-based site showcasing expert training and co
 - Updated README.md with project overview and links to development resources
 - Enhanced .gitignore for VS Code and Hugo development
 - Updated .gitattributes with cross-platform line ending controls
+
+**2026-06-23**: Blog buildout + hardening
+- Imported ~990 posts from the old WordPress/dasBlog archive (~1,090 total) into `content/blog/`
+- Enabled the `tags` taxonomy and populated `authors` (list front matter); added tag + author filter dropdowns and `/tags/`, `/authors/` pages
+- Added Pagefind full-text search (build-time index, generated in CI)
+- Localized ~840 post images/files into page bundles; framed content images (border + shadow)
+- Bulk tag cleanup and consolidation (Visual Studio/TFS/Azure DevOps/Testing/etc.)
+- Hardened the contact-form Worker (CORS allow-list, reCAPTCHA action/hostname checks) and added a real vitest suite
+- Combined CI into one `ci.yml` (test → deploy), with a Pagefind step and a 25 MiB Cloudflare file-size guard
+- Footer version now auto-stamps the build date; added `[minify] disableJS` so legacy inline scripts don't break `hugo --minify`
+- See CLAUDE.md "Blog System", "Build & Config Notes", and "Local Dev Gotchas" for details

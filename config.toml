@@ -9,6 +9,15 @@ title = " Accentient"
   category = "categories"
   author = "authors"
 
+# Nest the blog-only taxonomies under /blog/ (default Hugo puts them at the root).
+[permalinks]
+  [permalinks.term]
+    tags = "/blog/tags/:slug/"
+    authors = "/blog/authors/:slug/"
+  [permalinks.taxonomy]
+    tags = "/blog/tags/"
+    authors = "/blog/authors/"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

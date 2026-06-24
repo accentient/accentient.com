@@ -9,7 +9,7 @@
         {{ .Date.Format "Jan 2, 2006" }}
         &nbsp;&bull;&nbsp; {{ .ReadingTime }} min read
         {{ with .Params.authors }}
-        &nbsp;&bull;&nbsp; {{ range $i, $a := . }}{{ if $i }}, {{ end }}<a class="author-link" href="{{ "/authors/" | relLangURL }}{{ $a | urlize }}">{{ $a }}</a>{{ end }}
+        &nbsp;&bull;&nbsp; {{ range $i, $a := . }}{{ if $i }}, {{ end }}<a class="author-link" href="{{ "/blog/authors/" | relLangURL }}{{ $a | urlize }}">{{ $a }}</a>{{ end }}
         {{ end }}
       </p>
       <div class="content">
@@ -19,7 +19,7 @@
       {{ with .Params.tags }}
       <p class="blog-card-tags">
         {{ range . }}
-        <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        <a class="tag" href="{{ "/blog/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
         {{ end }}
       </p>
       {{ end }}
