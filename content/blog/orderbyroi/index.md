@@ -4,7 +4,7 @@ date: 2016-08-15T14:28:08Z
 authors: ["Richard Hundhausen"]
 slug: "orderbyroi"
 draft: false
-tags: ["Azure DevOps", "Scrum", "TFS"]
+tags: ["Scrum", "TFS", "Azure Boards"]
 ---
 
 ---

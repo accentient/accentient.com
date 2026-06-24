@@ -4,7 +4,7 @@ date: 2005-02-06T04:08:30Z
 authors: ["Richard Hundhausen"]
 slug: "vsts-chat-transcript-experts-team-architect-february-2-2005"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards", "SQL Server", "Testing"]
 ---
 
 <p class=MsoNormal style="MARGIN: 0in 0in 0pt"><font face="Times New Roman"><span class=usernamedisplayclass><span style="FONT-SIZE: 9pt; mso-bidi-font-size: 8.5pt"><font color=#000000>Ed_H_MS</font></span></span><span style="FONT-SIZE: 9pt; mso-bidi-font-size: 8.5pt"><font color=#000000> </font><span style="COLOR: #000099">(Moderator)</span><font color=#000000>: Welcome to today’s chat with Team Architect. We'll be answering questions and discussing our suite of designers for designing service oriented systems as well as logical datacenters, deployment, and extensibility.<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></font></span></font></p>

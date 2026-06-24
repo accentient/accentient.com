@@ -4,7 +4,7 @@ date: 2011-03-17T10:27:09Z
 authors: ["Richard Hundhausen"]
 slug: "awesome-sharepoint-training-deal-at-mindsharps-customer-appreciation-event"
 draft: false
-tags: ["SharePoint"]
+tags: ["Microsoft"]
 ---
 
 ---

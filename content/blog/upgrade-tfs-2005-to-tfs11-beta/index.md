@@ -4,7 +4,7 @@ date: 2012-03-20T06:51:05Z
 authors: ["Simon Reindl"]
 slug: "upgrade-tfs-2005-to-tfs11-beta"
 draft: false
-tags: ["Preferred Practice", "TFS", "Visual Studio"]
+tags: ["Preferred Practice", "TFS", "Visual Studio", "SQL Server"]
 ---
 
 ---

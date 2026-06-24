@@ -4,7 +4,7 @@ date: 2005-10-18T00:01:33Z
 authors: ["Richard Hundhausen"]
 slug: "upcoming-msdn-chat-developer-and-tester-tools"
 draft: false
-tags: ["Tools", "Microsoft", "Visual Studio", "ALM"]
+tags: ["Tools", "Microsoft", "Visual Studio", "ALM", "Testing"]
 ---
 
 <p class=MsoNormal><font face=Arial size=2><span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"><?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></span></font></p>

@@ -4,7 +4,7 @@ date: 2008-11-20T17:59:36Z
 authors: ["Richard Hundhausen"]
 slug: "vsts-things-i-learned-last-week"
 draft: false
-tags: ["TFS", "Visual Studio"]
+tags: ["TFS", "Visual Studio", "SQL Server"]
 ---
 
 I taught another week long class on Team System last week and as always, I learned a lot. It's a definite truth that if you want to learn about something, teach a class on it.

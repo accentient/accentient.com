@@ -4,7 +4,7 @@ date: 2006-06-01T20:19:56Z
 authors: ["Richard Hundhausen"]
 slug: "time-that-work-item-task"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards"]
 ---
 
 <p>Wow, I'm honored! One of my sharper students at a recent talk in Reston, VA was actually paying attention to my discussion of extensibility and customization and has built a VSTS Check-In Policy to help track&nbsp;time working on team projects.</p>

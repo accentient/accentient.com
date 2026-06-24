@@ -4,7 +4,7 @@ date: 2005-05-16T21:02:46Z
 authors: ["Richard Hundhausen"]
 slug: "is-your-test-project-missing-its-test-run-configuration"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Testing"]
 ---
 
 <p>This has happened to us a few times, so I'm sure we're not alone ...</p>

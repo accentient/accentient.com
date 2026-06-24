@@ -4,7 +4,7 @@ date: 2005-08-07T00:39:11Z
 authors: ["Richard Hundhausen"]
 slug: "installing-july-ctp-of-team-system"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "SQL Server"]
 ---
 
 <p>Since I have nothing else going on in my life (ya - right), I thought I would start installing the July CTP of TFS and VSTS. This CTP requires a dual-installation, because you have to use the June CTP of SQL Server 2005 which uses a different build of the .NET Framework than VSTS July CTP. Anyway, I've run into some problems, which I will share with you ...</p>

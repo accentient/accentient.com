@@ -4,7 +4,7 @@ date: 2006-05-31T10:56:40Z
 authors: ["Richard Hundhausen"]
 slug: "what-am-i-doing-at-tech-ed"
 draft: false
-tags: ["Conferences", "Microsoft"]
+tags: ["Conferences", "Microsoft", "SQL Server"]
 ---
 
 <p>Besides giving a couple of talks on Team System and SQL Server 2005, I plan on hitting a few <a href="http://www.msteched.com/content/specialevents.aspx" target="none" rel="noopener">parties</a> and other interesting sessions.</p>

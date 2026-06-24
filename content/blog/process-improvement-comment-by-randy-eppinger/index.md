@@ -4,7 +4,7 @@ date: 2007-06-03T04:26:31Z
 authors: ["Richard Hundhausen"]
 slug: "process-improvement-comment-by-randy-eppinger"
 draft: false
-tags: ["Preferred Practice", "Visual Studio", "ALM"]
+tags: ["Preferred Practice", "Visual Studio", "ALM", "Testing"]
 ---
 
 In the process improvement goal setting post a few days back, I stressed the importance of making your goals specific (and thus measurable).&nbsp; Randy Eppinger made a good comment, and I felt to make it a bit more public, I'd copy that comment to a new post.<br /><br />

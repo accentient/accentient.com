@@ -4,7 +4,7 @@ date: 2005-05-14T22:38:40Z
 authors: ["Richard Hundhausen"]
 slug: "visual-studio-2005-team-system-bugs-and-annoyances-v-with-some-fixes"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Testing"]
 ---
 
 <p>And the start of another list.</p>

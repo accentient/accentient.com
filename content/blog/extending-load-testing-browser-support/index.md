@@ -4,7 +4,7 @@ date: 2007-05-24T20:44:13Z
 authors: ["Richard Hundhausen"]
 slug: "extending-load-testing-browser-support"
 draft: false
-tags: ["Visual Studio", "Development", "ALM"]
+tags: ["Visual Studio", "Development", "ALM", "Testing"]
 ---
 
 <p>The browser support out-of-the-box for Team Edition for Testers is pretty minimal. But, you can extend this support by adding your own browsers (common ones you'll probably want to add are IE7, Firefox and Opera and there are others you can probably think of). The files which provide the configuration for the browser types are stored in the C:Program FilesMicrosoft Visual Studio 8Common7IDETemplatesLoadTestBrowsers. You will several files which end in the extension ".browser". These files simply contain the header information a browser sends with a request. The IE6.browser file looks like the following:</p>

@@ -4,7 +4,7 @@ date: 2008-03-26T21:18:31Z
 authors: ["David Starr"]
 slug: "tfs-global-lists-cant-be-deleted"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards"]
 ---
 
 Seriously. They can't.

@@ -4,7 +4,7 @@ date: 2005-02-08T02:00:39Z
 authors: ["Richard Hundhausen"]
 slug: "vslive2005-eric-lee-vsts-enterprise-development-and-testing-tools"
 draft: false
-tags: ["Conferences", "Visual Studio", "ALM"]
+tags: ["Conferences", "Visual Studio", "ALM", "SQL Server", "Testing"]
 ---
 
 <p>Eric Lee gives a presentation on Enterprise Dev and Testing Tools in VS2005 Team System.</p>

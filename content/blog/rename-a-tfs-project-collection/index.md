@@ -4,7 +4,7 @@ date: 2013-03-14T09:00:53Z
 authors: ["Simon Reindl"]
 slug: "rename-a-tfs-project-collection"
 draft: false
-tags: ["TFS"]
+tags: ["TFS", "SQL Server"]
 ---
 
 ---

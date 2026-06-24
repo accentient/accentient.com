@@ -4,7 +4,7 @@ date: 2008-11-29T04:01:00Z
 authors: ["Richard Hundhausen"]
 slug: "my-first-vsto-application-besure"
 draft: false
-tags: ["Development"]
+tags: ["Development", "Testing"]
 ---
 
 If you exchange email with me on a regular basis, you know that I am the king of email faux pas. I regularly do things like this:

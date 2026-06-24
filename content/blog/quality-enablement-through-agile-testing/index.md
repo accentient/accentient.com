@@ -4,7 +4,7 @@ date: 2013-11-06T16:49:29Z
 authors: ["Richard Hundhausen"]
 slug: "quality-enablement-through-agile-testing"
 draft: false
-tags: ["TFS", "Visual Studio"]
+tags: ["TFS", "Visual Studio", "Testing"]
 ---
 
 ---

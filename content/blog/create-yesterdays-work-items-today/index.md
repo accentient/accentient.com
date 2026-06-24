@@ -4,7 +4,7 @@ date: 2012-04-08T20:51:48Z
 authors: ["Richard Hundhausen"]
 slug: "create-yesterdays-work-items-today"
 draft: false
-tags: ["TFS", "Visual Studio"]
+tags: ["TFS", "Visual Studio", "Azure Boards", "Azure Test Plans", "Testing"]
 ---
 
 ---

@@ -4,7 +4,7 @@ date: 2014-02-13T12:32:12Z
 authors: ["Richard Hundhausen"]
 slug: "unconfiguring-team-foundation-server-2013"
 draft: false
-tags: ["TFS"]
+tags: ["TFS", "SQL Server"]
 ---
 
 ---

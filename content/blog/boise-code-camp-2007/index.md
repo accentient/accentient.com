@@ -4,7 +4,7 @@ date: 2007-02-11T15:08:29Z
 authors: ["Richard Hundhausen"]
 slug: "boise-code-camp-2007"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>Wow, what a great 'camp! We had over 200 attendees (207 was the last number I heard) and many, many great sessions. Thanks to all of you who attended, helped coordinate, and SPOKE at the event!</p>

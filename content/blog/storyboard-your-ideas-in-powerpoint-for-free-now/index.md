@@ -4,7 +4,7 @@ date: 2015-12-15T10:01:47Z
 authors: ["Richard Hundhausen"]
 slug: "storyboard-your-ideas-in-powerpoint-for-free-now"
 draft: false
-tags: ["Azure DevOps", "TFS", "Visual Studio"]
+tags: ["TFS", "Visual Studio"]
 ---
 
 ---

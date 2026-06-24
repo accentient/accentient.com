@@ -4,7 +4,7 @@ date: 2017-09-28T20:16:49Z
 authors: ["Richard Hundhausen"]
 slug: "which-tests-are-my-regression-tests"
 draft: false
-tags: ["Azure DevOps", "Scrum", "TFS"]
+tags: ["Scrum", "TFS", "Azure Boards", "Azure Test Plans", "Testing"]
 ---
 
 ---

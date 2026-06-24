@@ -4,7 +4,7 @@ date: 2010-08-19T13:40:35Z
 authors: ["Richard Hundhausen"]
 slug: "managing-projects-using-microsoft-visual-studio-scrum-1-0-part-2"
 draft: false
-tags: ["Scrum", "TFS", "Visual Studio", "Webcast"]
+tags: ["Scrum", "TFS", "Visual Studio", "Webcast", "Azure Boards"]
 ---
 
 ---

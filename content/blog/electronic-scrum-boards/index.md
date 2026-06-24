@@ -4,7 +4,7 @@ date: 2008-06-27T02:44:32Z
 authors: ["Martin Danner"]
 slug: "electronic-scrum-boards"
 draft: false
-tags: ["Scrum", "Visual Studio", "ALM"]
+tags: ["Scrum", "Visual Studio", "ALM", "Azure Boards"]
 ---
 
 <p>While at TechEd 2008 earlier this month I attended a presentation by <a href="http://blogs.conchango.com/colinbird/" target="_blank" rel="noopener">Colin Bird</a> where, among other things, he presented the next generation of the <a href="http://www.scrumforteamsystem.com/" target="_blank" rel="noopener">Conchango Scrum For Team System</a> process template. According to Colin, Conchango will continue to offer a free version of their scrum process template. But, they will also be offering for the first time an "enterprise" version that they will sell for a yet-to-be-determined fee. This enterprise version will contain an exciting new feature: and Electronic Scrum Board. This WPF application simulates the cork board and index cards that many scrum teams use to track the progress of their sprint. Each row represents a Product Backlog Item (also called a User Story)&nbsp;that describes a specific feature to be implemented, while each card represents a Sprint Backlog Item that describes a specific task. The columns on the board represent the various states for a Sprint Backlog Item. </p>

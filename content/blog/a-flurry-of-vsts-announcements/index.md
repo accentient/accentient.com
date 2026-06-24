@@ -4,7 +4,7 @@ date: 2007-03-28T11:46:39Z
 authors: ["Richard Hundhausen"]
 slug: "a-flurry-of-vsts-announcements"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards", "SQL Server", "Testing"]
 ---
 
 <p>I've been in Orlando this week, speaking at SQL Connections and have been derelict in my blogging duties, especially with regard to VSTS.</p>

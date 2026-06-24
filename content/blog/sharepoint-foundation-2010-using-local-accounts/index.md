@@ -4,7 +4,7 @@ date: 2012-03-12T03:49:45Z
 authors: ["Richard Hundhausen"]
 slug: "sharepoint-foundation-2010-using-local-accounts"
 draft: false
-tags: ["SharePoint", "TFS"]
+tags: ["TFS", "Microsoft"]
 ---
 
 ---

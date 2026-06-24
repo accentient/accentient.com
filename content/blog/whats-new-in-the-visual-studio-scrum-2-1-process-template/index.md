@@ -4,7 +4,7 @@ date: 2012-11-28T16:01:22Z
 authors: ["Richard Hundhausen"]
 slug: "whats-new-in-the-visual-studio-scrum-2-1-process-template"
 draft: false
-tags: ["Azure DevOps", "Scrum", "TFS"]
+tags: ["Scrum", "TFS", "Azure Boards"]
 ---
 
 ---

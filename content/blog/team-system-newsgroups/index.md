@@ -4,7 +4,7 @@ date: 2004-12-23T05:49:46Z
 authors: ["Richard Hundhausen"]
 slug: "team-system-newsgroups"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "SQL Server"]
 ---
 
 <p>Thanks to <a href="http://dotnetjunkies.com/WebLog/christopherbowen/archive/2004/12/22/38259.aspx">Christopher Bowen </a>for reminding me to use the Visual Studio 2005 newgroups!&nbsp; There's finally a reasonable amount of traffic there, and its a great place to get your questions answered!&nbsp; If a Google search doesn't get you a satisfying answer, the newsgroups should!&nbsp; Plus, it's a great place for Microsoft to get feedback to improve the product.&nbsp; </p>

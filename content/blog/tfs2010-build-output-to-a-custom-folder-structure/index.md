@@ -4,7 +4,7 @@ date: 2012-02-29T10:38:03Z
 authors: ["Simon Reindl"]
 slug: "tfs2010-build-output-to-a-custom-folder-structure"
 draft: false
-tags: ["TFS", "Visual Studio", "ALM"]
+tags: ["TFS", "Visual Studio", "ALM", "Azure Boards"]
 ---
 
 ---

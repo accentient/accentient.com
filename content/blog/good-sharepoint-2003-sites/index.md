@@ -4,7 +4,7 @@ date: 2006-09-22T22:17:57Z
 authors: ["Richard Hundhausen"]
 slug: "good-sharepoint-2003-sites"
 draft: false
-tags: ["SharePoint", "Development"]
+tags: ["Development", "Microsoft"]
 ---
 
 <p>Here are a couple of good sites for learning about Sharepoint 2003 customization:</p>

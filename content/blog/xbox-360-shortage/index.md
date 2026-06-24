@@ -4,7 +4,7 @@ date: 2005-11-23T09:52:06Z
 authors: ["Richard Hundhausen"]
 slug: "xbox-360-shortage"
 draft: false
-tags: ["Conferences", "Microsoft"]
+tags: ["Conferences", "Microsoft", "SQL Server"]
 ---
 
 <p>Say it isn't so! According to this <a href="http://msnbc.msn.com/id/10092388/" target="none" rel="noopener">article</a> in the Seattle Post Intelligencer, stock might be slim and lines might be long.</p>

@@ -4,7 +4,7 @@ date: 2010-11-12T22:17:00Z
 authors: ["Simon Reindl"]
 slug: "upgrading-tfs-to-2010"
 draft: false
-tags: ["Microsoft", "Preferred Practice", "TFS", "Visual Studio", "ALM"]
+tags: ["Microsoft", "Preferred Practice", "TFS", "Visual Studio", "ALM", "Azure Boards", "SQL Server"]
 ---
 
 ---

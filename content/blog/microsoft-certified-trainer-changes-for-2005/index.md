@@ -4,7 +4,7 @@ date: 2004-05-22T23:58:53Z
 authors: ["Richard Hundhausen"]
 slug: "microsoft-certified-trainer-changes-for-2005"
 draft: false
-tags: ["Life"]
+tags: ["Life", "Azure Test Plans"]
 ---
 
 <p>This morning, Ken Rosen, MCT Worldwide Program Manager, showed how Microsoft is raising the bar for 2005. Keeping in mind that the 2005 MCT program guide hasn't been finalized, he delivered to us the following bits of good news:</p>

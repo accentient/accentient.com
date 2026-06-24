@@ -4,7 +4,7 @@ date: 2008-11-29T07:02:48Z
 authors: ["Richard Hundhausen"]
 slug: "team-foundation-build-and-finalbuilder"
 draft: false
-tags: ["TFS", "Visual Studio", "Tools"]
+tags: ["TFS", "Visual Studio", "Tools", "Testing"]
 ---
 
 When looking at <a href="http://www.finalbuilder.com/finalbuilder.aspx" target="_blank" rel="noopener noreferrer">FinalBuilder</a> and <a href="http://www.finalbuilder.com/finalbuilder.aspx" target="_blank" rel="noopener noreferrer">Team Foundation Build</a> side by side, the obvious breakdown in features and advantages looks like this.

@@ -4,7 +4,7 @@ date: 2006-12-16T00:47:45Z
 authors: ["Richard Hundhausen"]
 slug: "visual-studio-2005-sp1-now-available"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Testing"]
 ---
 
 <p>Some of you have been beta testing it and, thanks in part to your hard work, it's ready for prime-time ... before the holidays!</p>

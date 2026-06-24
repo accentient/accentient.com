@@ -4,7 +4,7 @@ date: 2008-11-26T19:19:02Z
 authors: ["David Starr"]
 slug: "yet-another-use-of-a-unit-test-framework"
 draft: false
-tags: ["Community", "Development"]
+tags: ["Community", "Development", "Azure Test Plans", "Testing"]
 ---
 
 Believe me, I understand TDD. I grok it. It is in my soul.

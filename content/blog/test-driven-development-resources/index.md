@@ -4,7 +4,7 @@ date: 2004-10-04T04:07:06Z
 authors: ["Richard Hundhausen"]
 slug: "test-driven-development-resources"
 draft: false
-tags: ["Life"]
+tags: ["Life", "Testing"]
 ---
 
 <p>Been doing some coding this weekend and, in keeping with good TDD practice, I've been writing my tests, albeit paper-based exercises for the users, as I'm writing the code.</p>

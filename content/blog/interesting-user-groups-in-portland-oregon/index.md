@@ -4,7 +4,7 @@ date: 2006-12-16T00:36:54Z
 authors: ["Richard Hundhausen"]
 slug: "interesting-user-groups-in-portland-oregon"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>As I write this, I'm spending some time at <a href="http://www.powells.com/technicalbooks" target="none" rel="noopener">Powell's Technical Book Store </a>in downtown Portland. You could call it my "happy place". If only there were a Starbucks and a&nbsp;<a href="http://www.frys.com/" target="none" rel="noopener">Fry's Electronics</a> connected to the same building, I'd be truly happy.</p>

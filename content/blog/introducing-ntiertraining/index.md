@@ -4,7 +4,7 @@ date: 2007-01-12T17:02:41Z
 authors: ["Richard Hundhausen"]
 slug: "introducing-ntiertraining"
 draft: false
-tags: ["Life"]
+tags: ["Life", "Testing"]
 ---
 
 <p>My friend <a href="http://www.ntiertraining.com/people.html#ed" target="none" rel="noopener">Ed Lance</a> has started up a new training company: <a href="http://www.ntiertraining.com" target="none" rel="noopener">nTierTraining</a>.</p>

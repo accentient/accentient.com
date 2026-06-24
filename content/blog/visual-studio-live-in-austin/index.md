@@ -4,7 +4,7 @@ date: 2015-06-03T22:07:03Z
 authors: ["Richard Hundhausen"]
 slug: "visual-studio-live-in-austin"
 draft: false
-tags: ["Conferences", "Scrum", "Visual Studio"]
+tags: ["Conferences", "Scrum", "Visual Studio", "Azure Boards"]
 ---
 
 ---

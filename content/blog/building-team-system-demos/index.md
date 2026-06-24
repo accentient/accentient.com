@@ -4,7 +4,7 @@ date: 2005-09-29T23:39:40Z
 authors: ["Richard Hundhausen"]
 slug: "building-team-system-demos"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Testing"]
 ---
 
 <p>I've been frantically working for the past few days on an important Team System demo using the latest bits.&nbsp; </p>

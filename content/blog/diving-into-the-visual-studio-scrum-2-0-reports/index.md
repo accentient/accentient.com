@@ -4,7 +4,7 @@ date: 2012-03-12T22:01:40Z
 authors: ["Richard Hundhausen"]
 slug: "diving-into-the-visual-studio-scrum-2-0-reports"
 draft: false
-tags: ["Scrum", "TFS"]
+tags: ["Scrum", "TFS", "SQL Server"]
 ---
 
 ---

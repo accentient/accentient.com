@@ -4,7 +4,7 @@ date: 2005-05-06T21:55:54Z
 authors: ["Richard Hundhausen"]
 slug: "vs2005-beta-2-team-system-bugs-and-annoyances-updated-ii"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards", "Testing"]
 ---
 
 <p>Just a small list of some bugs I've run across, and fixes where applicable.&nbsp; (Right now all of the fixes seem to involve shutting down and restarting VS2005 -- Clicking Refresh anywhere doesn't seem to work.)&nbsp; <font color=#ff6600>Rob Carron has responded to a few of these in the comments.&nbsp; I've copied them here in red.</font></p>

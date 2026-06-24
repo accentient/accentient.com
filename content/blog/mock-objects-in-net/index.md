@@ -4,7 +4,7 @@ date: 2007-02-10T20:48:18Z
 authors: ["Richard Hundhausen"]
 slug: "mock-objects-in-net"
 draft: false
-tags: ["Life"]
+tags: ["Life", "Testing"]
 ---
 
 <p>I'm sitting through a good&nbsp;<a href="http://tshak.net/cs/blogs/tshak/archive/2007/01/29/14.aspx" target="none" rel="noopener">presentation</a> on mock objects in .NET presented by Tim Shakarian (<a href="http://tshak.net/cs/blogs/tshak/default.aspx" target="none" rel="noopener">TSHAK</a>). Tim gave a great overview of why we should care, and how mock objects it can simplify our TDD lives.</p>

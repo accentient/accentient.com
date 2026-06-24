@@ -4,7 +4,7 @@ date: 2008-04-10T04:24:07Z
 authors: ["Richard Hundhausen"]
 slug: "tfs-team-project-permissions-relief"
 draft: false
-tags: ["TFS"]
+tags: ["TFS", "SQL Server"]
 ---
 
 When creating a new Team Project in your Team Foundation Server, everything is nice and smooth right up until you get to the permissions of groups and individuals. This can be a real PITA because permissions must be set up in 3 separate places.

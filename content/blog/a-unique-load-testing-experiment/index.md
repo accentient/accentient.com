@@ -4,7 +4,7 @@ date: 2014-10-21T16:26:13Z
 authors: ["Richard Hundhausen"]
 slug: "a-unique-load-testing-experiment"
 draft: false
-tags: ["Conferences", "Development", "Visual Studio"]
+tags: ["Conferences", "Development", "Visual Studio", "Testing"]
 ---
 
 ---

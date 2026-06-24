@@ -4,7 +4,7 @@ date: 2008-09-16T16:16:41Z
 authors: ["Richard Hundhausen"]
 slug: "what-to-do-with-left-over-stories"
 draft: false
-tags: ["Scrum"]
+tags: ["Scrum", "Azure Boards"]
 ---
 
 You get to the end of your sprint and there is that are 2 incomplete stories left on the sprint backlog. Story A is judged to be 80% done, Story B was never even started. What do we do with these stories?

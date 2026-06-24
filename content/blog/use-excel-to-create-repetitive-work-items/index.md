@@ -4,7 +4,7 @@ date: 2015-02-24T10:27:15Z
 authors: ["Richard Hundhausen"]
 slug: "use-excel-to-create-repetitive-work-items"
 draft: false
-tags: ["TFS", "Visual Studio", "ALM"]
+tags: ["TFS", "Visual Studio", "ALM", "Azure Boards"]
 ---
 
 ---

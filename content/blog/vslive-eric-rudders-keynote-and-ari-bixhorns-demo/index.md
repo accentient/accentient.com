@@ -4,7 +4,7 @@ date: 2005-02-08T17:58:22Z
 authors: ["Richard Hundhausen"]
 slug: "vslive-eric-rudders-keynote-and-ari-bixhorns-demo"
 draft: false
-tags: ["Conferences"]
+tags: ["Conferences", "SQL Server"]
 ---
 
 <p>Eric's speaking on lots of overview stuff, with just enough technical info to keep it interesting and enough business information to get my juices flowing.</p>

@@ -4,7 +4,7 @@ date: 2004-06-05T21:13:37Z
 authors: ["Richard Hundhausen"]
 slug: "ado-net-changes-in-whidbey-may-2004-ctp"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p><a href="http://danagonistes.blogspot.com" target="none" rel="noopener">Dan Fox</a> of <a href="http://www.quilogy.com" target="nont" rel="noopener">Quilogy</a> presented this topic</p>

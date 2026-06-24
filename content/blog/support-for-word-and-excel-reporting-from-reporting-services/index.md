@@ -4,7 +4,7 @@ date: 2006-09-20T07:52:49Z
 authors: ["Richard Hundhausen"]
 slug: "support-for-word-and-excel-reporting-from-reporting-services"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "SQL Server"]
 ---
 
 <p>Reporting in Team System is handled by SQL Server 2005 Reporting Services. As such, team members get to enjoy (and are restricted-by) the built-in report <a href="http://msdn2.microsoft.com/en-us/library/ms154606.aspx" target="none" rel="noopener">rendering extensions</a>&nbsp;(CSV, Excel, HTML, Image, MHTML, PDF, and XML). What's missing from this list is the Microsoft Word DOC format and a richer Microsoft Excel XLS format.</p>

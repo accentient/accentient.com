@@ -4,7 +4,7 @@ date: 2005-07-25T17:07:17Z
 authors: ["Richard Hundhausen"]
 slug: "portland-code-camp-1-0-presentations"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "SQL Server"]
 ---
 
 <p>Thanks for attending&nbsp;Steve and/or my&nbsp;talks (if you did). Here are links to the presentations on SQL Server 2005 and Team System.</p>

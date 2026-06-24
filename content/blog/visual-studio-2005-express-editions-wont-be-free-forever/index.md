@@ -4,7 +4,7 @@ date: 2006-02-06T15:40:57Z
 authors: ["Richard Hundhausen"]
 slug: "visual-studio-2005-express-editions-wont-be-free-forever"
 draft: false
-tags: ["Visual Studio"]
+tags: ["Visual Studio", "SQL Server"]
 ---
 
 <p>A student pointed this out in class today. The free editions of Visual Studio 2005 Express won't be free forever -&nbsp;only until November 7th, 2006, which is one year from the launch. After that, it's assumed that the Express editions will be $49 each. You can find this information on the FAQ under <a href="http://msdn.microsoft.com/vstudio/express/support/faq/default.aspx#pricing" target="none" rel="noopener">pricing</a>.</p>

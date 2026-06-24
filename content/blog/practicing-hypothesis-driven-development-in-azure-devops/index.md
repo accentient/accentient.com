@@ -4,7 +4,7 @@ date: 2024-04-02T14:09:26Z
 authors: ["Richard Hundhausen"]
 slug: "practicing-hypothesis-driven-development-in-azure-devops"
 draft: false
-tags: ["Scrum", "Development", "Azure Boards"]
+tags: ["Scrum", "Development", "Azure Boards", "Testing", "Azure DevOps"]
 ---
 
 <p>I like to think of Scrum Product Owners as mini-CEOs of their product. As such, they should be empowered to drive value in any direction that they desire. This often requires a Product Owner to hypothesize about an outcome and then run an experiment to prove or disprove it. Rather than just building features blindly, a Professional Product Owner bases their decisions on data.</p>

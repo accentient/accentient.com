@@ -4,7 +4,7 @@ date: 2007-05-25T12:00:32Z
 authors: ["Richard Hundhausen"]
 slug: "microsoft-pdc-2007-rescheduled"
 draft: false
-tags: ["Conferences", "Microsoft"]
+tags: ["Conferences", "Microsoft", "SQL Server"]
 ---
 
 <p>Microsoft (and <a href="http://blog.hundhausen.com/PDC2007Announced.aspx" target="none" rel="noopener">others</a>) had announed that its Fall Professional Developer's Conference (PDC) would be October 2-5, in Los Angeles. Yesterday, they canceled the event and are in the process of rescheduling it.</p>

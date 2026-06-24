@@ -4,7 +4,7 @@ date: 2005-03-07T22:28:49Z
 authors: ["Richard Hundhausen"]
 slug: "links-from-raleighs-sql-bi-presentation"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>Thanks to all of you of you who attended today's presentation in Raleigh.</p>

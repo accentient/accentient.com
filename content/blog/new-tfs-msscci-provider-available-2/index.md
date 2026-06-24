@@ -4,7 +4,7 @@ date: 2006-12-23T00:18:30Z
 authors: ["Richard Hundhausen"]
 slug: "new-tfs-msscci-provider-available-2"
 draft: false
-tags: ["Visual Studio", "Microsoft", "ALM"]
+tags: ["Visual Studio", "Microsoft", "ALM", "Azure Boards", "SQL Server"]
 ---
 
 <p>Thanks to <a href="http://blogs.msdn.com/bharry" target="none" rel="noopener">Brian Harry</a> and team for <a href="http://blogs.msdn.com/bharry/archive/2006/12/20/new-tfs-tools-available.aspx" target="none" rel="noopener">releasing</a> the latest version of the provider.</p>

@@ -4,7 +4,7 @@ date: 2005-03-26T17:34:54Z
 authors: ["Richard Hundhausen"]
 slug: "what-is-the-office-business-scorecards-accelerator"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>This has come up at a couple of my SQL Server 2005 BI events, so let me summarize:</p>

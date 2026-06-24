@@ -4,7 +4,7 @@ date: 2008-11-29T04:46:32Z
 authors: ["Richard Hundhausen"]
 slug: "microsoft-firestarter-events"
 draft: false
-tags: ["Conferences", "Community"]
+tags: ["Conferences", "Community", "SQL Server"]
 ---
 
 Microsoft has certainly been ratcheting up the community involvement over the last few years. In a down economy like this one, free training opportunities suddenly take on even more significance. Local user groups, Code Camps, product release events, and occasional "just because" events all provide opportunities to get together with local developers and maybe add a tool or two to your toolbox. One such initiative is the Fire Starter Event series.

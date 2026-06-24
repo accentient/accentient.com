@@ -16,13 +16,25 @@
       resetStyles: false,
       translations: { placeholder: "Search all posts…" },
     });
+    var box = document.getElementById("blog-search");
+    var input = box.querySelector("input");
     // Warm the WASM + base index on first focus so the first keystroke is instant.
-    var input = document.querySelector("#blog-search input");
     if (input) {
       input.addEventListener("focus", function warm() {
         if (window.pagefind && window.pagefind.preload) window.pagefind.preload("");
         input.removeEventListener("focus", warm);
       });
     }
+    // Enter "searching" mode while there's query text: hides the filters + cards
+    // (via body.blog-searching CSS) so only the Pagefind results show. Clearing
+    // the box (delete text or the Clear button) restores the default view.
+    function syncSearchState() {
+      var inp = box.querySelector("input");
+      var active = !!(inp && inp.value.trim().length);
+      document.body.classList.toggle("blog-searching", active);
+    }
+    box.addEventListener("input", syncSearchState);
+    box.addEventListener("keyup", syncSearchState);
+    box.addEventListener("click", function () { setTimeout(syncSearchState, 30); }); // catches the Clear button
   });
 </script>

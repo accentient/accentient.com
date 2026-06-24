@@ -4,7 +4,7 @@ date: 2011-09-14T12:55:20Z
 authors: ["Richard Hundhausen"]
 slug: "microsoft-launches-team-foundation-service-preview"
 draft: false
-tags: ["Azure DevOps", "Conferences"]
+tags: ["Conferences", "TFS"]
 ---
 
 ---

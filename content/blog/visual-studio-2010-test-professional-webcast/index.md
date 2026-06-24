@@ -4,7 +4,7 @@ date: 2010-12-16T14:29:36Z
 authors: ["Richard Hundhausen"]
 slug: "visual-studio-2010-test-professional-webcast"
 draft: false
-tags: ["Visual Studio", "Webcast"]
+tags: ["Visual Studio", "Webcast", "Azure Test Plans", "Testing"]
 ---
 
 ---

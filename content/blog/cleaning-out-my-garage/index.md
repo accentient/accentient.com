@@ -4,7 +4,7 @@ date: 2006-09-19T16:04:57Z
 authors: ["Richard Hundhausen"]
 slug: "cleaning-out-my-garage"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>Ok, this sounds like one of those useless blog posts about what I had for breakfast this morning or can you guess what I have stuck to the bottom of my shoe? Well, maybe it will be a post like that, I guess it depends on your perspective.</p>

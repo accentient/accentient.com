@@ -4,7 +4,7 @@ date: 2008-03-17T22:38:13Z
 authors: ["Martin Danner"]
 slug: "design-for-operations"
 draft: false
-tags: ["Development", "Visual Studio", "ALM"]
+tags: ["Development", "Visual Studio", "ALM", "Testing"]
 ---
 
 Have you ever had a production application in the data center act up, and you spend countless hours hunting down the source of the problem? If so, then then you might be interested in a new project on CodePlex called <a href="http://www.codeplex.com/dfo" target="_blank" rel="noopener noreferrer">Design for Operations</a> (DFO).

@@ -4,7 +4,7 @@ date: 2012-03-16T06:46:18Z
 authors: ["Richard Hundhausen"]
 slug: "opening-sharepoint-documents-in-visual-studio-11"
 draft: false
-tags: ["SharePoint", "TFS"]
+tags: ["TFS", "Microsoft"]
 ---
 
 ---

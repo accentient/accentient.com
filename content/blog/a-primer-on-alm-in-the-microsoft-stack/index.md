@@ -4,7 +4,7 @@ date: 2008-10-17T05:58:46Z
 authors: ["Richard Hundhausen"]
 slug: "a-primer-on-alm-in-the-microsoft-stack"
 draft: false
-tags: ["Microsoft", "Development", "Visual Studio", "ALM"]
+tags: ["Microsoft", "Development", "Visual Studio", "ALM", "Testing"]
 ---
 
 By now I you've likely heard the term ALM. For the uninitiated, here is the latest <a href="http://en.wikipedia.org/wiki/Application_Lifecycle_Management" target="_blank" rel="noopener">from Wikipedia</a>.

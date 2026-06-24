@@ -4,7 +4,7 @@ date: 2018-09-17T05:42:11Z
 authors: ["Richard Hundhausen"]
 slug: "scrum-in-a-nutshell"
 draft: false
-tags: ["Scrum"]
+tags: ["Scrum", "Azure Boards"]
 ---
 
 ---

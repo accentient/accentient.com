@@ -4,7 +4,7 @@ date: 2005-03-26T17:23:48Z
 authors: ["Richard Hundhausen"]
 slug: "where-to-download-the-office-excel-add-in-for-sql-server-analysis-services"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>For those of you attending my seminars, I've been showing a cool add-in for Excel, which allows you to access and analyze multidimensional data and create interactive structured and free-form reports in Microsoft Office Excel.</p>

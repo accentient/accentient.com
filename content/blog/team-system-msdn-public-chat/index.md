@@ -4,7 +4,7 @@ date: 2006-01-18T04:08:58Z
 authors: ["Richard Hundhausen"]
 slug: "team-system-msdn-public-chat"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Testing"]
 ---
 
 <p class=MsoNormal><span style="FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: navy"><font color=#000000 size=2>Don't miss these chats!&nbsp; They're great for finding out what the latest info is, and how to solve some of your knotties problems!</font></span></p>

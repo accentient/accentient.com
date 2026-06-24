@@ -435,6 +435,7 @@ table th {
 }
 .blog-card .tag,
 .blog-card .author-tag,
+.blog-card .author-link,
 .blog-card-tags {
   position: relative;
   z-index: 2;
@@ -488,6 +489,26 @@ table th {
 .blog-filter-label {
   font-weight: 600;
   margin-right: 0.25rem;
+}
+
+/* Lay the tag + author filters side by side to conserve space */
+.blog-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.75rem;
+  margin: 1rem 0 0.75rem;
+}
+.blog-filters .blog-filter {
+  margin: 0;
+}
+
+/* While searching, hide the filters + cards + pagination so the Pagefind
+   results take over. Toggled by body.blog-searching from blog-search.html. */
+body.blog-searching .blog-filters,
+body.blog-searching .blog-card-section,
+body.blog-searching .blog-pagination {
+  display: none !important;
 }
 
 /* Tag cloud on the /tags/ index */

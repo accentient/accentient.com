@@ -4,7 +4,7 @@ date: 2008-10-27T23:32:54Z
 authors: ["Richard Hundhausen"]
 slug: "2010-feature-preview-for-tfs-vsts-2010"
 draft: false
-tags: ["Visual Studio", "ALM", "TFS"]
+tags: ["Visual Studio", "ALM", "TFS", "Azure Boards", "Azure Test Plans", "Testing"]
 ---
 
 I am in the TFS 2010 cool features talk at PDC with Brian Harry. I'll stream notes into this post, but please be aware that this discussion focuses on Team Foundation Server, not the full compliment of tools that make up Team Suite.

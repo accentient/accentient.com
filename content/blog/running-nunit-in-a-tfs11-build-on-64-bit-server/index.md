@@ -4,7 +4,7 @@ date: 2012-04-30T07:40:39Z
 authors: ["Simon Reindl"]
 slug: "running-nunit-in-a-tfs11-build-on-64-bit-server"
 draft: false
-tags: ["Development", "TFS", "Visual Studio", "ALM"]
+tags: ["Development", "TFS", "Visual Studio", "ALM", "Azure Test Plans", "Testing"]
 ---
 
 ---

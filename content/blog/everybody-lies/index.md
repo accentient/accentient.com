@@ -4,7 +4,7 @@ date: 2009-10-16T14:18:22Z
 authors: ["Richard Hundhausen"]
 slug: "everybody-lies"
 draft: false
-tags: ["TFS", "Visual Studio", "SharePoint"]
+tags: ["TFS", "Visual Studio", "Microsoft"]
 ---
 
 I was at a client site last month where they have TFS2008SP1 installed and running on Windows Server 2008 SP1. Everything <em>was</em> working fine. We created several team projects. No problems.

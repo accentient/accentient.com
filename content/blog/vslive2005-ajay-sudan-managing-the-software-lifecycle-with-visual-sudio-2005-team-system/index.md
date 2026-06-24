@@ -4,7 +4,7 @@ date: 2005-02-08T00:55:46Z
 authors: ["Richard Hundhausen"]
 slug: "vslive2005-ajay-sudan-managing-the-software-lifecycle-with-visual-sudio-2005-team-system"
 draft: false
-tags: ["Conferences", "Visual Studio", "ALM"]
+tags: ["Conferences", "Visual Studio", "ALM", "Azure Boards", "Testing"]
 ---
 
 <p>Ajay Sudan is presenting an overview of&nbsp;Team System&nbsp;at VSLive2005.&nbsp; He's giving an excellent overview of the entire topic.&nbsp; To be cleaned&nbsp;up later...</p>

@@ -4,7 +4,7 @@ date: 2010-12-10T19:00:00Z
 authors: ["Simon Reindl"]
 slug: "top-5-reasons-to-use-vs-database-projects"
 draft: false
-tags: ["Development", "SQL Server", "Tools", "Visual Studio", "ALM"]
+tags: ["Development", "SQL Server", "Tools", "Visual Studio", "ALM", "Azure Boards", "Azure Test Plans", "Testing"]
 ---
 
 ---

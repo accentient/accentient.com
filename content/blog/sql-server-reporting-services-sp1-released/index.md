@@ -4,7 +4,7 @@ date: 2004-06-23T13:23:49Z
 authors: ["Richard Hundhausen"]
 slug: "sql-server-reporting-services-sp1-released"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>SP1 includes a variety of improvements to the inital release!</p>

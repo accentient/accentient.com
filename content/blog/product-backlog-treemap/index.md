@@ -4,7 +4,7 @@ date: 2019-05-02T13:28:43Z
 authors: ["Richard Hundhausen"]
 slug: "product-backlog-treemap"
 draft: false
-tags: ["Azure Boards", "Scrum"]
+tags: ["Azure Boards", "Scrum", "Azure Test Plans", "Testing", "Azure DevOps"]
 ---
 
 ---

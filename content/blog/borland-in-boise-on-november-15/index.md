@@ -4,7 +4,7 @@ date: 2006-10-30T00:09:35Z
 authors: ["Richard Hundhausen"]
 slug: "borland-in-boise-on-november-15"
 draft: false
-tags: ["Conferences"]
+tags: ["Conferences", "Testing"]
 ---
 
 <p>Join Borland for a free educational breakfast seminar on Wednesday, November 15th, 2006 to learn more about their Software Delivery Optimization (SDO) – A Vision for Software Development. Borland has been slowly evolving into a company that&nbsp;provides&nbsp;Application Lifecycle Management tools, as well as a process consulting.</p>

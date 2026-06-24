@@ -4,7 +4,7 @@ date: 2008-09-16T16:05:32Z
 authors: ["Richard Hundhausen"]
 slug: "shelving-is-the-june-cleaver-of-tfs-source-control"
 draft: false
-tags: ["TFS", "Visual Studio", "ALM"]
+tags: ["TFS", "Visual Studio", "ALM", "Testing"]
 ---
 
 <div class="zemanta-img"><img src="http://upload.wikimedia.org/wikipedia/en/thumb/b/bb/B_barb02.JPG/202px-B_barb02.JPG" alt="June Cleaver" align="right" /></div>

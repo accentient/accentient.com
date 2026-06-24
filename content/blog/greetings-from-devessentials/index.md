@@ -4,7 +4,7 @@ date: 2004-06-05T01:02:28Z
 authors: ["Richard Hundhausen"]
 slug: "greetings-from-devessentials"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>This years <a href="http://www.devessentials.com" target="none" rel="noopener">conference</a> looks to be really good. This is the 3rd year, and there are many Fox, .NET, and SQL folks here at the Westin Crown Plaza in Kansas City, MO.</p>

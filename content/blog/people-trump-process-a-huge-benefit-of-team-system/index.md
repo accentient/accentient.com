@@ -4,7 +4,7 @@ date: 2005-12-16T15:53:14Z
 authors: ["Richard Hundhausen"]
 slug: "people-trump-process-a-huge-benefit-of-team-system"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Testing"]
 ---
 
 <p>While driving yesterday, I was listening to a Podcast by Alistair Cockburn (pronounced, I learned, like Coburn, not like an uncomfortable genital condition).&nbsp; He was discussing Agile development, something I'm very interested in.&nbsp; One of the things he's learned over the years is that "People trump process".&nbsp; Basically, if a process is too confining, restrictive or proscriptive, people will always find a way around the process.&nbsp; In addition, if the process is too chaotic, people will spontaneously create something to add a light structure to their development process.</p>

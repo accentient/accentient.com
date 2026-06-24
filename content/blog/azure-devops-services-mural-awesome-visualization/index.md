@@ -4,7 +4,7 @@ date: 2024-04-25T14:48:43Z
 authors: ["Richard Hundhausen"]
 slug: "azure-devops-services-mural-awesome-visualization"
 draft: false
-tags: ["Scrum", "Azure Boards"]
+tags: ["Scrum", "Azure Boards", "Azure DevOps"]
 ---
 
 <p>I'm a fan of Mural and a super fan of Azure DevOps. Turns out they work pretty well together. Using Mural as a front-end to Azure DevOps offers an alternative approach to planning, visualizing, and managing work with creativity and flexibility. Mural's visual collaboration platform transforms the traditional, linear task management experience found in Azure DevOps into an interactive, digital workspace. Teams can easily create visual roadmaps, story maps, and Sprint plans, as well as collect freeform feedback during Sprint Reviews and Sprint Retrospectives.</p>

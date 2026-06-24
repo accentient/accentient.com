@@ -4,7 +4,7 @@ date: 2012-03-15T07:26:24Z
 authors: ["Simon Reindl"]
 slug: "sql-2012-powered-by-visual-studio"
 draft: false
-tags: ["Misc", "Visual Studio"]
+tags: ["Misc", "Visual Studio", "SQL Server"]
 ---
 
 ---

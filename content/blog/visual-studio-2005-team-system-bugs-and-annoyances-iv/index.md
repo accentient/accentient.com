@@ -4,7 +4,7 @@ date: 2005-05-11T05:49:36Z
 authors: ["Richard Hundhausen"]
 slug: "visual-studio-2005-team-system-bugs-and-annoyances-iv"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "SQL Server", "Testing"]
 ---
 
 <p>And a few more bugs and annoyances.</p>

@@ -4,7 +4,7 @@ date: 2004-06-17T08:26:44Z
 authors: ["Richard Hundhausen"]
 slug: "portals-for-mere-mortals"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>Was thinking today of all of the portal options avaiable and decided that there were too many to remember (rule of 7), so I thought I'd enumerate them, with hyperlinks, for future recall.</p>

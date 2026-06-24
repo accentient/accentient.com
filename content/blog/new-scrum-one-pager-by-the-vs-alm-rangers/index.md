@@ -4,7 +4,7 @@ date: 2010-05-05T20:47:35Z
 authors: ["Simon Reindl"]
 slug: "new-scrum-one-pager-by-the-vs-alm-rangers"
 draft: false
-tags: ["Scrum", "Preferred Practice", "Visual Studio", "Development"]
+tags: ["Scrum", "Preferred Practice", "Visual Studio", "Development", "Testing"]
 ---
 
 The Rangers have published an update to the quick reference stack, and one of my favourites is the Scrum chart. Download the full pack <a title="VS ALM Rangers Quick Ref" href="http://vs2010quickref.codeplex.com/" target="_blank" rel="noopener noreferrer">here</a>.

@@ -4,7 +4,7 @@ date: 2011-01-21T08:26:17Z
 authors: ["Richard Hundhausen"]
 slug: "unconfiguring-team-foundation-server-2010"
 draft: false
-tags: ["TFS", "Visual Studio"]
+tags: ["TFS", "Visual Studio", "SQL Server"]
 ---
 
 ---

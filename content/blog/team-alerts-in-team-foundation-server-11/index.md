@@ -4,7 +4,7 @@ date: 2012-02-10T11:01:16Z
 authors: ["Richard Hundhausen"]
 slug: "team-alerts-in-team-foundation-server-11"
 draft: false
-tags: ["Azure DevOps", "TFS"]
+tags: ["TFS", "Azure Boards"]
 ---
 
 ---

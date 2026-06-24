@@ -4,7 +4,7 @@ date: 2012-04-11T19:37:44Z
 authors: ["Simon Reindl"]
 slug: "reporting-waste-with-tfs"
 draft: false
-tags: ["Misc", "Preferred Practice", "Scrum", "TFS", "Visual Studio"]
+tags: ["Misc", "Preferred Practice", "Scrum", "TFS", "Visual Studio", "Azure Boards"]
 ---
 
 ---

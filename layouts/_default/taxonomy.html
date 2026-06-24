@@ -11,13 +11,12 @@
     {{/* A single term, e.g. /tags/scrum/ -> list the matching posts as cards. */}}
     <h1 class="title">{{ .Data.Singular | title }}: {{ .Title }}</h1>
 
-    {{ partial "tag-filter.html" . }}
-    {{ partial "author-filter.html" . }}
+    <div class="blog-filters">
+      {{ partial "tag-filter.html" . }}
+      {{ partial "author-filter.html" . }}
+    </div>
 
     {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
-    <p class="blog-result-count">
-      {{ .Paginator.TotalNumberOfElements }} post{{ if ne .Paginator.TotalNumberOfElements 1 }}s{{ end }}
-    </p>
 
     <div class="columns is-multiline blog-card-section">
       {{ range $paginator.Pages }}

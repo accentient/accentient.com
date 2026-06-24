@@ -4,7 +4,7 @@ date: 2008-12-29T07:23:08Z
 authors: ["Martin Danner"]
 slug: "using-64-bit-windows-server-2008-as-a-workstation-os-part-3"
 draft: false
-tags: ["Windows"]
+tags: ["Windows", "Testing"]
 ---
 
 This article lists the steps I used to setup Windows Server 2008 (WS2008) Standard Edition as a workstation operating system on two different laptops.

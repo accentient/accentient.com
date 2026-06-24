@@ -4,7 +4,7 @@ date: 2018-05-23T07:41:51Z
 authors: ["Richard Hundhausen"]
 slug: "whats-our-sprint-goal"
 draft: false
-tags: ["Azure DevOps", "Scrum", "TFS"]
+tags: ["Scrum", "TFS", "Azure Boards"]
 ---
 
 ---

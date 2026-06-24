@@ -4,7 +4,7 @@ date: 2013-10-07T12:17:16Z
 authors: ["Richard Hundhausen"]
 slug: "the-one-work-item-check-in-policy"
 draft: false
-tags: ["TFS", "Visual Studio", "ALM"]
+tags: ["TFS", "Visual Studio", "ALM", "Azure Boards"]
 ---
 
 ---

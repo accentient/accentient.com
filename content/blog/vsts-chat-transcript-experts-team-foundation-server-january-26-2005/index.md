@@ -4,7 +4,7 @@ date: 2005-01-27T02:33:24Z
 authors: ["Richard Hundhausen"]
 slug: "vsts-chat-transcript-experts-team-foundation-server-january-26-2005"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards", "Azure Test Plans", "SQL Server", "Testing"]
 ---
 
 <div class=messageClass><b>Current chat room activity:</b><br /><br /></div>

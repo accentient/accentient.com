@@ -4,7 +4,7 @@ date: 2019-10-09T16:47:39Z
 authors: ["Richard Hundhausen"]
 slug: "custom-ssdt-test-condition"
 draft: false
-tags: ["SQL Server", "Visual Studio"]
+tags: ["SQL Server", "Visual Studio", "Testing"]
 ---
 
 ---

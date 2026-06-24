@@ -4,7 +4,7 @@ date: 2004-12-23T11:52:35Z
 authors: ["Richard Hundhausen"]
 slug: "vsts-chat-guest-chat"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards", "Azure Test Plans", "SQL Server", "Testing"]
 ---
 
 <div class=messageClass>Welcome to the India MSDN Chat Room. The chat room will be used for both peer-to-peer, as well as, event chats. Please abide by the Chat Code of Conduct, located in the Help file. If you would like to volunteer to be a chat expert, please register here: <a class="url" href="http://www.microsoft.com/india/communities/chat/register.aspx" target="_blank" rel="noopener">http://www.microsoft.com/india/communities/chat/register.aspx</a>. To view a list of our upcoming chats, please visit: <a class="url" href="http://www.microsoft.com/india/msdn/chat" target="_blank" rel="noopener">http://www.microsoft.com/india/msdn/chat</a>/<br /><br /></div>

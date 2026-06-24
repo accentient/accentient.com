@@ -4,7 +4,7 @@ date: 2012-09-19T20:57:22Z
 authors: ["Simon Reindl"]
 slug: "useful-tfs-links"
 draft: false
-tags: ["Preferred Practice", "TFS", "Visual Studio", "ALM"]
+tags: ["Preferred Practice", "TFS", "Visual Studio", "ALM", "Testing"]
 ---
 
 ---

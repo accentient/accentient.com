@@ -4,7 +4,7 @@ date: 2014-11-17T12:02:25Z
 authors: ["Richard Hundhausen"]
 slug: "team-members-in-the-readers-group-can-create-work-items"
 draft: false
-tags: ["Azure DevOps", "Scrum", "TFS"]
+tags: ["Scrum", "TFS", "Azure Boards"]
 ---
 
 ---

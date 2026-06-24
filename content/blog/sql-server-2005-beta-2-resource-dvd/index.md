@@ -4,7 +4,7 @@ date: 2004-08-08T20:35:04Z
 authors: ["Richard Hundhausen"]
 slug: "sql-server-2005-beta-2-resource-dvd"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <div class=ItemData>

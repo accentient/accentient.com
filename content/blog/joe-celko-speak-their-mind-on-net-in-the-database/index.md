@@ -4,7 +4,7 @@ date: 2005-04-03T20:09:58Z
 authors: ["Richard Hundhausen"]
 slug: "joe-celko-speak-their-mind-on-net-in-the-database"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>As you can imagine, the debate has been lively, as to whether hosting CLR sprocs, triggers, etc. in a SQL Server 2005 should be a best practice for an organization. You all know my feeling on the subject - go for it, in moderation!</p>

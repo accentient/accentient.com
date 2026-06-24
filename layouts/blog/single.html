@@ -5,7 +5,7 @@
     <p>
     <small>
       {{ .Date.Format "January 2, 2006" }}
-      • {{ delimit .Params.authors ", " }}
+      • {{ range $i, $a := .Params.authors }}{{ if $i }}, {{ end }}<a href="{{ "/authors/" | relLangURL }}{{ $a | urlize }}">{{ $a }}</a>{{ end }}
 
       {{ with .Params.tags }}
         • 

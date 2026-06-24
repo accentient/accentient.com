@@ -4,7 +4,7 @@ date: 2006-06-01T14:37:14Z
 authors: ["Richard Hundhausen"]
 slug: "visual-studio-2005-team-edition-for-database-professionals"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Testing"]
 ---
 
 <p>The secret is out! I can finally breathe a sigh of relief and not have to look over both shoulders before saying the words "Data Dude" or "K2".</p>

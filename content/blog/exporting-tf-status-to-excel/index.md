@@ -4,7 +4,7 @@ date: 2012-12-14T10:15:18Z
 authors: ["Richard Hundhausen"]
 slug: "exporting-tf-status-to-excel"
 draft: false
-tags: ["TFS"]
+tags: ["TFS", "SQL Server"]
 ---
 
 ---

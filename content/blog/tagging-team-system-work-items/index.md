@@ -4,7 +4,7 @@ date: 2008-04-21T17:11:07Z
 authors: ["Richard Hundhausen"]
 slug: "tagging-team-system-work-items"
 draft: false
-tags: ["TFS"]
+tags: ["TFS", "Azure Boards"]
 ---
 
 I expect some people to see this and say, "Hey, that's clever." I know that others will read this and think, "What a hack."

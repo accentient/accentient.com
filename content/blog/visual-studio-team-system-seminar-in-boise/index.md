@@ -4,7 +4,7 @@ date: 2007-03-18T17:05:48Z
 authors: ["Richard Hundhausen"]
 slug: "visual-studio-team-system-seminar-in-boise"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards", "Testing"]
 ---
 
 <p>Next week there will be a&nbsp;two-day seminar on Visual Studio Team System (VSTS). Unfortunately, I won't be delivering the event.</p>

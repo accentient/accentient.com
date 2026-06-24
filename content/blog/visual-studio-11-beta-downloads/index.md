@@ -4,7 +4,7 @@ date: 2012-02-29T22:53:20Z
 authors: ["Richard Hundhausen"]
 slug: "visual-studio-11-beta-downloads"
 draft: false
-tags: ["TFS", "Visual Studio"]
+tags: ["TFS", "Visual Studio", "Azure Test Plans"]
 ---
 
 ---

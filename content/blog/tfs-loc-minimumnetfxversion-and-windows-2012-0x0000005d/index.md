@@ -4,7 +4,7 @@ date: 2012-07-03T20:40:50Z
 authors: ["Simon Reindl"]
 slug: "tfs-loc-minimumnetfxversion-and-windows-2012-0x0000005d"
 draft: false
-tags: ["Misc", "TFS", "Windows"]
+tags: ["Misc", "TFS", "Windows", "SQL Server"]
 ---
 
 ---

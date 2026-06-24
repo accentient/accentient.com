@@ -4,7 +4,7 @@ date: 2005-11-23T10:04:45Z
 authors: ["Richard Hundhausen"]
 slug: "thank-you-for-attending-the-dubai-sql-server-2005-launch"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>I enjoyed very much visiting your country, meeting you, and presenting my favorite developer topics on SQL Server 2005.</p>

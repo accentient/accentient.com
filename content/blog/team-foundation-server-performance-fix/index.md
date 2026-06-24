@@ -4,7 +4,7 @@ date: 2005-05-12T00:00:17Z
 authors: ["Richard Hundhausen"]
 slug: "team-foundation-server-performance-fix"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "SQL Server"]
 ---
 
 <p>You've gotta see this <a href="http://blogs.msdn.com/buckh/archive/2005/04/19/409886.aspx">post</a>&nbsp;by Buck Hodges!&nbsp; There is VERY heavy load on TFS, and it's because in Beta 2 the refresh rate for Analysis Services was set to 2 minutes instead of the normal 60 minutes!&nbsp; It's a major Team Foundation Server performance problem when it's installed directly out of the box.&nbsp; Here's a cut from the Buck's blog entry.</p>

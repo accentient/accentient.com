@@ -4,7 +4,7 @@ date: 2005-01-27T02:36:53Z
 authors: ["Richard Hundhausen"]
 slug: "vsts-chat-transcript-group-chat-team-foundation-server-january-26-2005"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards", "Azure Test Plans", "SQL Server", "Testing"]
 ---
 
 <div class=messageClass>Welcome to the MSDN Chat Room. This chat room will be used for both event, as well as, peer-to-peer chats. Please abide by the Chat Code of Conduct, located in the Help file. To view a list of our upcoming event chats, please visit <a class="url" href="http://msdn.microsoft.com/chats" target="_blank" rel="noopener">http://msdn.microsoft.com/chats</a>/.<br /></div>

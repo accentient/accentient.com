@@ -4,7 +4,7 @@ date: 2007-04-12T22:35:16Z
 authors: ["Richard Hundhausen"]
 slug: "shipping-unit-tests-with-your-shrinkwrapped-software"
 draft: false
-tags: ["Preferred Practice", "Tools", "Visual Studio", "ALM"]
+tags: ["Preferred Practice", "Tools", "Visual Studio", "ALM", "Azure Test Plans", "Testing"]
 ---
 
 Last year, at PDC, I sat down with <a href="http://www.ssw.com.au/ssw/employees/employeesprofile.aspx?EmpID=AC">Adam Cogan</a>, of <a href="http://www.ssw.com.au/ssw/">SSW</a>, during an MSDN magazine party.&nbsp; Feeling the guilty pleasure of totally geeking out while a decent party was going on, Adam led a group of geeks through some of his very cool software tools.&nbsp; Somewhere during the discussion, he mentioned that he deploys his unit test, along with a test runner, with his shrinkwrapped application.&nbsp; That got my attention, since I'd never thought of them like that.&nbsp; I called him on it, and he explained.&nbsp; Now, there seems to be a visceral reaction from folks against the idea.&nbsp; Here's WHY it makes sense to deploy unit tests and a test runner with you application:<br />

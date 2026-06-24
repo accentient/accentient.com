@@ -4,7 +4,7 @@ date: 2005-07-17T17:53:14Z
 authors: ["Richard Hundhausen"]
 slug: "microsoft-to-announce-new-mcp-details-in-september"
 draft: false
-tags: ["Microsoft"]
+tags: ["Microsoft", "SQL Server"]
 ---
 
 <p><br />Looks like some changes are coming to the certification program, especially for SQL Server and Visual Studio. Read <a href="http://mcpmag.com/news/article.asp?EditorialsID=821" target="none" rel="noopener">this article</a> for all the details, but essentially they are planning three tiers:</p>

@@ -4,7 +4,7 @@ date: 2005-08-21T20:30:56Z
 authors: ["Richard Hundhausen"]
 slug: "attend-free-visual-studio-2005-team-system-training-in-boise-8-september-2005"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards", "Testing"]
 ---
 
 <strong>When

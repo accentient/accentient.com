@@ -4,7 +4,7 @@ date: 2011-05-18T13:33:12Z
 authors: ["Richard Hundhausen"]
 slug: "debugging-a-dysfunctional-team"
 draft: false
-tags: ["Conferences", "Microsoft", "Scrum"]
+tags: ["Conferences", "Microsoft", "Scrum", "Azure Boards"]
 ---
 
 ---

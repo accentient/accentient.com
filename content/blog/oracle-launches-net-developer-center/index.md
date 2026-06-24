@@ -4,7 +4,7 @@ date: 2005-01-15T14:36:22Z
 authors: ["Richard Hundhausen"]
 slug: "oracle-launches-net-developer-center"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server", "Testing"]
 ---
 
 <p>The Oracle Technology Network (OTN) has launched a new developer center&nbsp;to help programmers build .NET applications&nbsp;for Oracle.&nbsp;&nbsp;This site contains .NET code&nbsp;samples, articles, and news that will help developers build database applications more productively.</p>

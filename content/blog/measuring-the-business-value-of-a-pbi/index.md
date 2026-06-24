@@ -4,7 +4,7 @@ date: 2013-10-04T16:18:43Z
 authors: ["Richard Hundhausen"]
 slug: "measuring-the-business-value-of-a-pbi"
 draft: false
-tags: ["Scrum", "Visual Studio"]
+tags: ["Scrum", "Visual Studio", "Azure Boards"]
 ---
 
 ---

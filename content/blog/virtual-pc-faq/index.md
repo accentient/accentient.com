@@ -4,7 +4,7 @@ date: 2004-12-24T01:37:00Z
 authors: ["Richard Hundhausen"]
 slug: "virtual-pc-faq"
 draft: false
-tags: ["Life"]
+tags: ["Life", "Testing"]
 ---
 
 <p>Testing Team System really puts Virtual PC to the test and, naturally, I've had some performance questions come up.</p>

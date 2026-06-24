@@ -4,7 +4,7 @@ date: 2004-02-19T16:43:28Z
 authors: ["Richard Hundhausen"]
 slug: "scalable-development-inc"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>I just wanted to throw out a quick plug for&nbsp;my buddy Wally McClure and his <a href="http://www.scalabledevelopment.com" target="none" rel="noopener">company</a>. I've known Wally for a couple of years now and respect him as an author, .NET/SQL wonk, and a consultant with that entrepeneur spirit.</p>

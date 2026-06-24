@@ -4,7 +4,7 @@ date: 2005-02-14T04:46:39Z
 authors: ["Richard Hundhausen"]
 slug: "sql-server-2005-and-visual-studio-2005-isv-community-tour-begins"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>Well, I'm off again, touring the country, and delivering the message to folks in a number of cities over the next two months.</p>

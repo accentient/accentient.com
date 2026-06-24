@@ -4,7 +4,7 @@ date: 2005-02-08T17:54:58Z
 authors: ["Richard Hundhausen"]
 slug: "vslive-eric-rudders-migrating-to-indigo"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p><strong>ASMX to Indigo</strong></p>

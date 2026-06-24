@@ -4,7 +4,7 @@ date: 2012-03-05T18:25:03Z
 authors: ["Simon Reindl"]
 slug: "installing-the-tfs11-beta"
 draft: false
-tags: ["SharePoint", "TFS"]
+tags: ["TFS", "Microsoft", "SQL Server"]
 ---
 
 ---

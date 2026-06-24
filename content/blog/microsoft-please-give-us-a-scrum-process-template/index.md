@@ -4,7 +4,7 @@ date: 2015-11-04T16:11:00Z
 authors: ["Richard Hundhausen"]
 slug: "microsoft-please-give-us-a-scrum-process-template"
 draft: false
-tags: ["Azure DevOps", "Microsoft", "Scrum", "TFS"]
+tags: ["Microsoft", "Scrum", "TFS", "Azure Boards", "Testing"]
 ---
 
 ---

@@ -4,7 +4,7 @@ date: 2009-08-28T21:18:20Z
 authors: ["Richard Hundhausen"]
 slug: "eclipse-teamprise-faq"
 draft: false
-tags: ["TFS"]
+tags: ["TFS", "Azure Boards", "Testing"]
 ---
 
 I spent this morning working with a client who will be using <a href="http://www.eclipse.org" target="_blank" rel="noopener noreferrer">Eclipse</a> and <a href="http://www.teamprise.com" target="_blank" rel="noopener noreferrer">Teamprise</a> client to support their ongoing Java break/fix work while they migrate their application to .NET. Both teams want to use (the same) Team Foundation Server so that work items, version control, and automated builds are shared between all.

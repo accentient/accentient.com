@@ -4,7 +4,7 @@ date: 2009-03-10T00:02:51Z
 authors: ["Martin Danner"]
 slug: "team-foundation-adapters-project"
 draft: false
-tags: ["TFS", "Community"]
+tags: ["TFS", "Community", "Testing"]
 ---
 
 I'm pleased to announce that the <a href="http://tfsadapters.codeplex.com/">Team Foundation Adapters</a> project is up and running on CodePlex. The project description is as follows:

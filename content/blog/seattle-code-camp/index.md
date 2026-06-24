@@ -4,7 +4,7 @@ date: 2008-11-17T20:12:28Z
 authors: ["Richard Hundhausen"]
 slug: "seattle-code-camp"
 draft: false
-tags: ["Conferences", "Community", "Development"]
+tags: ["Conferences", "Community", "Development", "Testing"]
 ---
 
 I attended Seattle Code Camp 2008 in Redmond this weekend and it was a fantastic experience! I will definitely be back next year.

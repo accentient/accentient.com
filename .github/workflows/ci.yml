@@ -76,6 +76,18 @@ jobs:
       - name: Generate search index (Pagefind)
         run: npx -y pagefind@latest --site public
 
+      # Cloudflare Pages rejects any single file over 25 MiB. Catch it here with a
+      # clear message instead of a cryptic wrangler error mid-upload.
+      - name: Check for oversized files (Cloudflare 25 MiB limit)
+        run: |
+          big=$(find public -type f -size +26214400c -printf '%p\t%s\n')
+          if [ -n "$big" ]; then
+            echo "$big" | awk -F'\t' '{ printf "::error::%s is %.1f MiB, over Cloudflare Pages 25 MiB per-file limit\n", $1, $2/1048576 }'
+            echo "Deploy aborted. Remove the file(s) above, or host them externally (R2, Stream, YouTube)."
+            exit 1
+          fi
+          echo "All files are within the 25 MiB limit."
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
         with:

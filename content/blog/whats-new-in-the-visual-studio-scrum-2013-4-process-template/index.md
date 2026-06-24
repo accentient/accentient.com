@@ -4,7 +4,7 @@ date: 2014-11-14T07:28:20Z
 authors: ["Richard Hundhausen"]
 slug: "whats-new-in-the-visual-studio-scrum-2013-4-process-template"
 draft: false
-tags: ["Scrum", "TFS"]
+tags: ["Scrum", "TFS", "Azure Boards", "Azure Test Plans", "SQL Server", "Testing"]
 ---
 
 ---

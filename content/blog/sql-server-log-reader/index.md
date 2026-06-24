@@ -4,7 +4,7 @@ date: 2005-03-05T07:11:06Z
 authors: ["Richard Hundhausen"]
 slug: "sql-server-log-reader"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 An ISV asked me today about reading the SQL Server log for troubleshooting transactions. When I got back to my inbox, I saw this announcement from <a href="http://www.red-gate.com/sql/sql_log_rescue.htm" target="none" rel="noopener">Red Gate</a>.<br /><br />

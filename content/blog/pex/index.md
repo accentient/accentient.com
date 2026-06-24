@@ -4,7 +4,7 @@ date: 2007-03-28T12:42:12Z
 authors: ["Richard Hundhausen"]
 slug: "pex"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Testing"]
 ---
 
 <p>PEX = Program EXploration (a Microsoft Research <a href="http://research.microsoft.com/Pex/" target="none" rel="noopener">project</a>). I'm not really&nbsp;sure what this is, but a fellow RD, <a href="http://www.ObjectSharp.com/Barry" target="none" rel="noopener">Barry Gervin</a>, pointed it out to some of us MVPs recently after he visited a Microsoft Research "science fair".</p>

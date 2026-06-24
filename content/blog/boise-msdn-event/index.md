@@ -4,7 +4,7 @@ date: 2008-10-23T23:05:55Z
 authors: ["Richard Hundhausen"]
 slug: "boise-msdn-event"
 draft: false
-tags: ["Community", "Development"]
+tags: ["Community", "Development", "SQL Server"]
 ---
 
 Boise area .NET folks have no shortage of community events these days and November is shaping up with some particularly good gems. These events are free to attend and you get to mingle with same jovial crew you know and love from your favorite user group meeting (ok, that was a stretch).

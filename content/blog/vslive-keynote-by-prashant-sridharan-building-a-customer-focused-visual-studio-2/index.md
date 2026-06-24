@@ -4,7 +4,7 @@ date: 2005-05-09T23:29:12Z
 authors: ["Richard Hundhausen"]
 slug: "vslive-keynote-by-prashant-sridharan-building-a-customer-focused-visual-studio-2"
 draft: false
-tags: ["Microsoft", "Visual Studio", "ALM"]
+tags: ["Microsoft", "Visual Studio", "ALM", "Azure Test Plans", "Testing"]
 ---
 
 <p>Visual Studio 2005 will be the most customer-focused suite of development tools ever released by Microsoft. This was the message delivered this morning by Prashant Sridharan, senior product manager of Visual Studio 2005. Prashant has been doing a lot of traveling and speaking lately. His schedule has taken him all over the world, including many stops recently in Europe, where he regularly delivered the message of Visual Studio 2005 and Team System to groups of 1500 or more people. We were glad he could stop by VSLive! Las Vegas to update us on Visual Studio 2005’s progress and features.</p>

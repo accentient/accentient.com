@@ -9,8 +9,10 @@
 
     {{ partial "blog-search.html" . }}
 
-    {{ partial "tag-filter.html" . }}
-    {{ partial "author-filter.html" . }}
+    <div class="blog-filters">
+      {{ partial "tag-filter.html" . }}
+      {{ partial "author-filter.html" . }}
+    </div>
 
     {{ $paginator := .Paginate (.RegularPages.ByDate.Reverse) }}
     <div class="columns is-multiline blog-card-section">

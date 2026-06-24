@@ -4,7 +4,7 @@ date: 2006-09-26T16:15:58Z
 authors: ["Richard Hundhausen"]
 slug: "team-foundation-server-sp1-beta-launched-today"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards"]
 ---
 
 <p>TFS SP1 is out!&nbsp; it takes a while to get on the list, and to start the downloads, but it's worth it!&nbsp; There are lots of improvements in SP1 and I'll be running a few tests against it myself.&nbsp; Remember, it is Beta, so unless you have a very compelling reason, keep it off your production servers.&nbsp; But get in there to play with some of the new features!&nbsp; Especially the ability to host your own WIT controls, so you'll be able to more easily add functionality to the Work Item viewer!</p>

@@ -4,7 +4,7 @@ date: 2015-01-29T11:27:29Z
 authors: ["Richard Hundhausen"]
 slug: "promoting-a-pbi-to-a-feature"
 draft: false
-tags: ["Scrum", "TFS"]
+tags: ["Scrum", "TFS", "Azure Boards"]
 ---
 
 ---

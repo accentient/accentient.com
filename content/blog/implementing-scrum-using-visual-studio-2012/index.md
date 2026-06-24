@@ -4,7 +4,7 @@ date: 2012-06-11T06:52:25Z
 authors: ["Richard Hundhausen"]
 slug: "implementing-scrum-using-visual-studio-2012"
 draft: false
-tags: ["Conferences", "Scrum", "TFS", "Visual Studio"]
+tags: ["Conferences", "Scrum", "TFS", "Visual Studio", "Azure Boards"]
 ---
 
 ---

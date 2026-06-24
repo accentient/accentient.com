@@ -4,7 +4,7 @@ date: 2004-12-23T11:50:15Z
 authors: ["Richard Hundhausen"]
 slug: "vsts-chat-expert-answers"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards", "SQL Server", "Testing"]
 ---
 
 <div class=messageClass><span class=UserNameDisplayClass oncontextmenu="return fnSelectUser(23091,2, false,'divExpertPanel');" onclick="fnSelectUser(23091,2, true);">Gkhanna_MS</span> <font color=#000099>(Moderator)</font>: Welcome to all - the Visual Studio Team System chat will be starting @ 4pm IST.<br /></div>

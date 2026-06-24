@@ -4,7 +4,7 @@ date: 2016-09-30T13:05:47Z
 authors: ["Richard Hundhausen"]
 slug: "wassup-team-room"
 draft: false
-tags: ["Azure DevOps", "TFS", "Visual Studio", "ALM"]
+tags: ["TFS", "Visual Studio", "ALM", "Azure Boards"]
 ---
 
 ---

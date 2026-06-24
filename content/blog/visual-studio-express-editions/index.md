@@ -4,7 +4,7 @@ date: 2004-06-29T20:55:54Z
 authors: ["Richard Hundhausen"]
 slug: "visual-studio-express-editions"
 draft: false
-tags: ["Life"]
+tags: ["Life", "SQL Server"]
 ---
 
 <p>As of today, we are allowed to finally talk about the <a href="http://lab.msdn.microsoft.com/express" target="none" rel="noopener">Visual Studio Express Editions</a>.</p>

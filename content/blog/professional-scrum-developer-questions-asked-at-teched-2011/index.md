@@ -4,7 +4,7 @@ date: 2011-05-18T20:57:25Z
 authors: ["Richard Hundhausen"]
 slug: "professional-scrum-developer-questions-asked-at-teched-2011"
 draft: false
-tags: ["Conferences", "Scrum", "Visual Studio"]
+tags: ["Conferences", "Scrum", "Visual Studio", "Azure Boards"]
 ---
 
 ---

@@ -4,7 +4,7 @@ date: 2007-02-22T09:22:04Z
 authors: ["Richard Hundhausen"]
 slug: "laser-fed-3m-post-it-notes"
 draft: false
-tags: ["Visual Studio", "ALM"]
+tags: ["Visual Studio", "ALM", "Azure Boards"]
 ---
 
 <p>As you know, Visual Studio Team System tracks many different work item types, such as requirements, tasks, and bugs. Many agile teams like to use "sticky notes" to post on the wall to organize their backlog of requirements and tasks and plan their iterations. Even Joel on Software's company is <a href="http://discuss.techinterview.org/default.asp?joel.3.315882.2" target="none" rel="noopener">doing this</a>.</p>
