@@ -9,7 +9,7 @@
   --shadow:0 16px 34px rgba(15,23,42,.10);
   --shadow-sm:0 2px 6px rgba(15,23,42,.08);
   --nav-bg:rgba(255,255,255,.85);
-  --logo-filter:brightness(0) opacity(.5);
+  --logo-band-bg:#ffffff; --logo-band-border:#e7ecf3;
 }
 [data-theme="dark"]{
   --bg:#0a0e1a; --bg-soft:#0f1525; --ink:#e6edf6; --muted:#94a3b8;
@@ -21,7 +21,7 @@
   --shadow:0 18px 40px rgba(0,0,0,.5);
   --shadow-sm:0 2px 10px rgba(0,0,0,.4);
   --nav-bg:rgba(10,14,26,.78);
-  --logo-filter:brightness(0) invert(1) opacity(.62);
+  --logo-band-bg:#f4f6fb; --logo-band-border:#e2e8f1;
 }
 html, body{ background:var(--bg); color:var(--ink);
   transition:background .25s ease, color .25s ease; }
@@ -675,25 +675,29 @@ body.home .footer{border-top:0;margin-top:0;}
 .customers{padding:48px 0 12px;}
 .customers-eyebrow{text-align:center;color:var(--muted);font-weight:600;
   font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:26px;}
-.logo-marquee{overflow:hidden;
-  -webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);
-  mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);}
+/* Logos sit on a light card in BOTH themes so detail-preserving grayscale reads
+   everywhere. (A pure brightness(0) silhouette flattened filled logos like
+   Starbucks/Epic into gray blobs.) Hover restores full color. */
+.logo-marquee{position:relative;overflow:hidden;background:var(--logo-band-bg);
+  border:1px solid var(--logo-band-border);border-radius:16px;padding:30px 0;}
+.logo-marquee::before,.logo-marquee::after{content:"";position:absolute;top:0;bottom:0;
+  width:80px;z-index:2;pointer-events:none;}
+.logo-marquee::before{left:0;background:linear-gradient(90deg,var(--logo-band-bg),transparent);}
+.logo-marquee::after{right:0;background:linear-gradient(270deg,var(--logo-band-bg),transparent);}
 .logo-track{display:flex;align-items:center;width:max-content;
-  animation:logo-scroll 70s linear infinite;}
+  animation:logo-scroll 140s linear infinite;}
 .logo-marquee:hover .logo-track{animation-play-state:paused;}
 /* Fixed trailing margin (not flex gap) so the duplicated half loops seamlessly
-   at translateX(-50%). Logos are normalized to a single height and monochromed
-   via --logo-filter; hover reveals the original color. */
-.logo-track img{height:30px;width:auto;margin-right:62px;flex:0 0 auto;
-  filter:var(--logo-filter);transition:filter .25s ease;}
-.logo-track img:hover{filter:none;}
+   at translateX(-50%). */
+.logo-track img{height:45px;width:auto;margin-right:72px;flex:0 0 auto;
+  filter:grayscale(1);opacity:.62;transition:filter .25s ease,opacity .25s ease;}
+.logo-track img:hover{filter:grayscale(0);opacity:1;}
 @keyframes logo-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
 @media (prefers-reduced-motion:reduce){
-  .logo-track{animation:none;flex-wrap:wrap;justify-content:center;width:auto;
-    row-gap:28px;}
+  .logo-track{animation:none;flex-wrap:wrap;justify-content:center;width:auto;row-gap:28px;}
 }
 @media(max-width:860px){
-  .logo-track img{height:24px;margin-right:44px;}
+  .logo-track img{height:34px;margin-right:52px;}
 }
 /* ===== END CUSTOMER MARQUEE ===== */
 
