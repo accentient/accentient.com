@@ -207,6 +207,8 @@ Target **latest evergreen desktop browsers** (Chrome, Firefox, Safari, Edge from
 
 This approach means recommending modern web standards without legacy workarounds, avoiding polyfills or compatibility hacks, and optimizing for current device capabilities rather than historical support.
 
+**Mobile is a hard requirement, not an afterthought.** Every page and every interactive element MUST be verified at phone width (iPhone 12, ~390px) before it is considered done - this explicitly includes the navigation (burger menu), the light/dark theme toggle, hero, cards, and any new component. Test by narrowing the browser or using DevTools device emulation (F12, then Ctrl+Shift+M). A feature that only works on desktop is not finished.
+
 ## Writing Style
 
 - Do NOT use em-dashes (—). Use hyphens (-), spaces with hyphens, or rephrase sentences instead.
