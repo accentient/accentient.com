@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
   <head>
+    <script>
+      // Set theme before paint to avoid a flash. Default = light.
+      (function(){try{var t=localStorage.getItem('acc-theme')||'light';
+      document.documentElement.setAttribute('data-theme',t);}catch(e){
+      document.documentElement.setAttribute('data-theme','light');}})();
+    </script>
     {{ partial "meta.html" . }}
     <title>
       {{ block "title" . }}

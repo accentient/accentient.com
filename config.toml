@@ -33,6 +33,10 @@ title = " Accentient"
 openGraph = true
 Description = "Experts in AI, GitHub, Azure DevOps, Scrum and everything in between"
 
+[params.font]
+name = "Inter"
+sizes = [400, 500, 600, 700, 800]
+
 [params.hero]
 enabled = true
 title = "Experts in AI, GitHub, Azure DevOps, Scrum and everything in between"
