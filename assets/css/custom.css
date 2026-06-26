@@ -85,27 +85,27 @@ h1, h2, h3 {
 footer.footer,
 .footer.footer-light,
 .footer.footer-dark {
-  background-color: #fff !important;
-  color: #000 !important;
+  background: var(--bg);
+  color: var(--ink);
 }
 
 .footer.footer-dark a {
-  color: #000 !important;
+  color: var(--ink);
 }
 
 .footer.footer-dark a:hover {
-  color: red !important; /* or whatever hover color you want */
+  color: var(--accent);
 }
 
 .footer-bottom-links a {
   margin: 0 0.5rem;
-  color: #000;
+  color: var(--ink);
   font-size: 1.2rem;
   text-decoration: none;
 }
 
 .footer-bottom-links a:hover {
-  color: #0077b5; /* Adjust hover color if desired */
+  color: var(--accent);
 }
 
 table th{ color:var(--ink); }
@@ -560,6 +560,9 @@ body.blog-searching .blog-pagination {
   height: 1px;
   overflow: hidden;
 }
+
+.footer{border-top:1px solid var(--line);}
+.footer hr{background:var(--line);}
 
 /* ===== UNIFIED NAVBAR ===== */
 .site-nav{position:sticky;top:0;z-index:60;background:var(--nav-bg);

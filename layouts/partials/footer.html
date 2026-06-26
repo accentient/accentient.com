@@ -16,7 +16,8 @@
       {{- if $logo }}
       <div class="footer-logo mb-4">
         <a href="{{ "/" | relURL }}">
-          <img src="{{ $logo | relURL }}" alt="Accentient Logo" style="max-height: 80px;">
+          <img class="logo-light" src="{{ "images/logo-150.png" | relURL }}" alt="Accentient Logo" style="max-height: 80px;">
+          <img class="logo-dark" src="{{ "images/logo-150-dark.png" | relURL }}" alt="Accentient Logo" style="max-height: 80px;">
         </a>
       </div>
       {{- end }}
