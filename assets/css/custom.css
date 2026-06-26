@@ -318,13 +318,16 @@ table th{ color:var(--ink); }
   text-decoration: underline;
 }
 
-/* Framed look (thin border + drop shadow) for content images/screenshots on every
-   page. Excludes the UI icon set and courseware cover thumbnails, which are small
-   chrome that shouldn't be framed. Inline styles on a post still win, so images
-   already framed inline are unchanged. */
-.content img:not([src^="/images/icons/"]):not([src^="/images/courseware/"]) {
+/* Responsive sizing for all content images (no frame). Width only, so grid
+   images like .scrum-grid img keep their fixed height. */
+.content img{ max-width:100%; }
+
+/* Framed look (thin border + drop shadow) for BLOG POST screenshots only.
+   Other pages (courses, scrum, about, etc.) show images unframed by design.
+   Excludes the UI icon set and courseware cover thumbnails. Inline styles on a
+   post still win, so images already framed inline are unchanged. */
+.blog-single .content img:not([src^="/images/icons/"]):not([src^="/images/courseware/"]) {
   display: block;
-  max-width: 100%;
   height: auto;
   margin: 1.25rem 0 1rem;   /* top gap before each image, like a blank line */
   border:1px solid var(--line);
@@ -562,7 +565,6 @@ body.blog-searching .blog-pagination {
 }
 
 .footer{border-top:1px solid var(--line);}
-.footer hr{background:var(--line);}
 
 /* ===== UNIFIED NAVBAR ===== */
 .site-nav{position:sticky;top:0;z-index:60;background:var(--nav-bg);
@@ -570,17 +572,23 @@ body.blog-searching .blog-pagination {
 .site-nav__inner{max-width:1180px;margin:0 auto;padding:0 24px;display:flex;
   align-items:center;gap:26px;min-height:72px;}
 .site-nav__brand img{display:block;height:auto;max-height:54px;width:auto;}
-.logo-dark{display:none;}
-[data-theme="dark"] .logo-light{display:none;}
-[data-theme="dark"] .logo-dark{display:block;}
+/* Logo light/dark swap. Scoped to the brand + footer containers so it
+   out-specifies the generic `.site-nav__brand img{display:block}` rule
+   (otherwise both logos render, one faintly under the other, in light mode). */
+.site-nav__brand .logo-dark, .footer-logo .logo-dark{display:none;}
+.site-nav__brand .logo-light, .footer-logo .logo-light{display:block;}
+[data-theme="dark"] .site-nav__brand .logo-light,
+[data-theme="dark"] .footer-logo .logo-light{display:none;}
+[data-theme="dark"] .site-nav__brand .logo-dark,
+[data-theme="dark"] .footer-logo .logo-dark{display:block;}
 .site-nav__links{display:flex;gap:20px;margin-left:auto;font-weight:500;font-size:.92rem;}
 .site-nav__links a{color:var(--muted);text-decoration:none;}
 .site-nav__links a:hover{color:var(--accent);}
 .theme-switch{display:inline-flex;align-items:center;background:var(--bg-soft);
   border:1px solid var(--line);border-radius:var(--pill);padding:3px;gap:2px;}
-.theme-switch button{border:0;background:transparent;cursor:pointer;width:34px;height:30px;
+.theme-switch button{border:0;background:transparent;cursor:pointer;width:27px;height:24px;
   border-radius:var(--pill);display:flex;align-items:center;justify-content:center;color:var(--muted);}
-.theme-switch button svg{width:17px;height:17px;}
+.theme-switch button svg{width:14px;height:14px;}
 .theme-switch button.active{background:var(--accent);color:var(--accent-ink);}
 .theme-switch button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
 .site-nav__burger{display:none;border:0;background:transparent;color:var(--ink);
@@ -611,7 +619,7 @@ body.blog-searching .blog-pagination {
   background:color-mix(in srgb, var(--accent) 10%, transparent);
   border:1px solid color-mix(in srgb, var(--accent) 22%, transparent);
   padding:6px 14px;border-radius:var(--pill);margin-bottom:20px;}
-.sec-head{text-align:center;max-width:60ch;margin:0 auto 42px;}
+.sec-head{text-align:center;max-width:min(92vw,820px);margin:0 auto 42px;}
 .sec-head h2{font-size:clamp(1.8rem,3vw,2.4rem);font-weight:800;letter-spacing:-.02em;margin:0 0 10px;color:var(--ink);}
 .sec-head p{color:var(--muted);font-size:1.1rem;margin:0;}
 
@@ -661,8 +669,10 @@ body.blog-searching .blog-pagination {
 .content thead th{background:var(--bg-soft);}
 .content blockquote{border-left:4px solid var(--accent);background:var(--bg-soft);
   padding:.75rem 1rem;color:var(--muted);border-radius:0 8px 8px 0;}
-.section-title{color:var(--ink);}
+.section-title{color:var(--ink);text-align:left;white-space:normal;}
 .subtitle{color:var(--muted) !important;}
+/* Page header: title, subtitle and divider all flush-left and aligned. */
+.page-header{text-align:left;}
 .divider{height:1px;background:var(--line);border:0;margin:1rem 0 1.5rem;}
 /* ===== END CONTENT PAGES ===== */
 
@@ -671,7 +681,7 @@ body.blog-searching .blog-pagination {
    content image on a light matte so it reads as an intentional card rather
    than a glaring rectangle. Excludes UI icon sets and courseware thumbs,
    matching the existing .content img framing rule. */
-[data-theme="dark"] .content img:not([src^="/images/icons/"]):not([src^="/images/courseware/"]){
+[data-theme="dark"] .blog-single .content img:not([src^="/images/icons/"]):not([src^="/images/courseware/"]){
   background:var(--shot-mat);
   padding:8px;
   border:1px solid var(--line);
