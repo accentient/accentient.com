@@ -6,8 +6,8 @@
 
   function paint() {
     var t = root.getAttribute('data-theme');
-    if (bL) bL.classList.toggle('active', t === 'light');
-    if (bD) bD.classList.toggle('active', t === 'dark');
+    if (bL) { bL.classList.toggle('active', t === 'light'); bL.setAttribute('aria-pressed', t === 'light' ? 'true' : 'false'); }
+    if (bD) { bD.classList.toggle('active', t === 'dark'); bD.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false'); }
   }
   function setTheme(t) {
     root.setAttribute('data-theme', t);

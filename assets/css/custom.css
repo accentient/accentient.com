@@ -187,13 +187,13 @@ table th{ color:var(--ink); }
   width: 100%;
   height: auto;
   border:1px solid var(--line);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* subtle drop shadow */
+  box-shadow: var(--shadow-sm);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .courseware-grid img:hover {
   transform: scale(1.02); /* slight zoom on hover (optional) */
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow);
 }
 
 .contact-form {
