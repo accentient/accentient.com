@@ -590,7 +590,7 @@ body.home .footer{border-top:0;margin-top:0;}
 [data-theme="dark"] .footer-logo .logo-light{display:none;}
 [data-theme="dark"] .site-nav__brand .logo-dark,
 [data-theme="dark"] .footer-logo .logo-dark{display:block;}
-.site-nav__links{display:flex;gap:20px;margin-left:auto;font-weight:500;font-size:.92rem;}
+.site-nav__links{display:flex;align-items:center;gap:20px;margin-left:auto;font-weight:500;font-size:.92rem;}
 .site-nav__links a{color:var(--muted);text-decoration:none;}
 .site-nav__links a:hover{color:var(--accent);}
 .theme-switch{display:inline-flex;align-items:center;background:var(--bg-soft);
@@ -610,8 +610,9 @@ body.home .footer{border-top:0;margin-top:0;}
 @media(max-width:860px){
   .site-nav__inner{flex-wrap:wrap;gap:12px;min-height:0;padding-top:12px;padding-bottom:12px;}
   .site-nav__burger{display:flex;order:4;margin-left:auto;}
-  .theme-switch{order:3;}
   .site-nav__brand{order:1;}
+  /* On mobile the toggle is inside the collapsed menu, shown as a menu item. */
+  .site-nav__links .theme-switch{align-self:flex-start;margin:12px 2px 4px;}
   .site-nav__links{order:9;flex-basis:100%;flex-direction:column;gap:0;margin-left:0;
     display:none;border-top:1px solid var(--line);padding-top:6px;}
   .site-nav__links.open{display:flex;}
@@ -655,6 +656,11 @@ body.home .footer{border-top:0;margin-top:0;}
   background:color-mix(in srgb, var(--accent) 12%, transparent);
   border:1px solid color-mix(in srgb, var(--accent) 20%, transparent);}
 .topic-ic svg{width:24px;height:24px;}
+/* Mask-based icon: shape comes from a PNG alpha mask, color from the accent
+   (currentColor), so it themes and inverts like the inline-SVG icons. */
+.topic-ic .ic-img{display:block;width:26px;height:26px;background:currentColor;
+  -webkit-mask:var(--ic) center/contain no-repeat;mask:var(--ic) center/contain no-repeat;}
+.ic-scrum{--ic:url("/images/icons/scrum-sprint.png");}
 .topic-card h3{margin:0 0 6px;font-size:1.15rem;font-weight:700;}
 .topic-card p{margin:0;color:var(--muted);font-size:.95rem;}
 .home-stats{background:var(--band);padding:56px 0;}
@@ -736,6 +742,13 @@ body.home .footer{border-top:0;margin-top:0;}
    disappear on a dark background, so invert it to read light. Colored brand icons
    are untouched. */
 [data-theme="dark"] img[src$="/images/icons/class.png"]{ filter:invert(1) brightness(1.15); }
+
+/* Dark mode: these brand marks are dark/black on transparent and disappear on a
+   dark background. Invert them to read light. Lives in the footer (Scrum.org) and
+   on topic-page headers (GitHub cat, ChatGPT), so the rule covers every page. */
+[data-theme="dark"] img[src$="/images/icons/github.png"],
+[data-theme="dark"] img[src$="/images/icons/chatgpt.png"],
+[data-theme="dark"] img[src$="/images/scrum-org-logo.png"]{ filter:invert(1) brightness(1.25); }
 
 .blog-single{padding-top:5rem;}
 .blog-single .title{color:var(--ink);}

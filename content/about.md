@@ -7,6 +7,14 @@ layout: "about"
 For 25 years, Accentient has been a trusted leader in developer enablement, from ALM and DevOps to modern software practices. Now, as AI reshapes software development, Accentient is pioneering AI leadership and training, helping teams adopt agentic AI to accelerate delivery. From shaping Microsoft's earliest ALM initiatives to guiding enterprise transformations worldwide, Accentient continues to set the pace in hands-on training, expert courseware, and cutting-edge practices.
 
 <section class="timeline">
+  <div class="timeline-item right">
+    <div class="timeline-content">
+      <h3>2026</h3>
+      <p>Launches the
+      <a href="https://whoownsthecode.com" target="_blank" rel="noopener noreferrer">Who Owns The Code</a>
+      website to raise awareness of AI copyright issues.</p>
+    </div>
+  </div>
   <div class="timeline-item left">
     <div class="timeline-content">
       <h3>2025</h3>
