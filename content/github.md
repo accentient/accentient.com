@@ -23,7 +23,7 @@ GitHub Actions is a powerful CI/CD and automation platform that lets developers 
 ### GitHub Projects
 GitHub Projects is a built-in planning and project management tool that helps teams organize work with customizable views such as boards and tables. It supports task automation and links issues and pull requests for seamless tracking. Designed with developers in mind, it brings project planning closer to the code.
 
-<img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Managing Projects Using GitHub (1 day)](/mpg/)<br/>
+<img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Managing Projects in GitHub (1 day)](/mpg/)<br/>
 
 ### Integrating with Azure DevOps
 GitHub and Azure DevOps work seamlessly together. Connect your GitHub repositories to Azure Boards to track work with linked commits and pull requests. Use Azure Pipelines for builds and deployments triggered directly from GitHub, keeping code, tasks, and releases in sync without leaving your tools.

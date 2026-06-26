@@ -5,9 +5,12 @@
   var bD = document.getElementById('theme-dark');
 
   function paint() {
+    // The visual active state is handled in CSS, keyed off <html data-theme> which
+    // the inline head script sets before first paint (so no flicker on navigation).
+    // Here we only sync the accessibility state.
     var t = root.getAttribute('data-theme');
-    if (bL) { bL.classList.toggle('active', t === 'light'); bL.setAttribute('aria-pressed', t === 'light' ? 'true' : 'false'); }
-    if (bD) { bD.classList.toggle('active', t === 'dark'); bD.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false'); }
+    if (bL) bL.setAttribute('aria-pressed', t === 'light' ? 'true' : 'false');
+    if (bD) bD.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false');
   }
   function setTheme(t) {
     root.setAttribute('data-theme', t);
