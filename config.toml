@@ -85,12 +85,12 @@ title = "Courseware"
 url = "/courseware/"
 
 [[params.navbar]]
-title = "Blog"
-url = "/blog/"
-
-[[params.navbar]]
 title = "About"
 url = "/about/"
+
+[[params.navbar]]
+title = "Blog"
+url = "/blog/"
 
 [[params.navbar]]
 title = "Contact"

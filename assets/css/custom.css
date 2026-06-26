@@ -466,7 +466,7 @@ body.blog-searching .blog-pagination {
 
   .footer,
   .footer.footer-dark {
-    margin-top: 0;
+    margin-top: 1.75rem;
     padding-top: 1rem;
   }
 
@@ -564,7 +564,11 @@ body.blog-searching .blog-pagination {
   overflow: hidden;
 }
 
-.footer{border-top:1px solid var(--line);}
+.footer{border-top:1px solid var(--line);margin-top:2.75rem;}
+/* Center the footer logo over the link row. The swap rules force the visible
+   logo to display:block, so center it with auto side margins inside a block link. */
+.footer-logo a{display:block;}
+.footer-logo .logo-light, .footer-logo .logo-dark{margin-left:auto;margin-right:auto;}
 
 /* ===== UNIFIED NAVBAR ===== */
 .site-nav{position:sticky;top:0;z-index:60;background:var(--nav-bg);
@@ -586,9 +590,9 @@ body.blog-searching .blog-pagination {
 .site-nav__links a:hover{color:var(--accent);}
 .theme-switch{display:inline-flex;align-items:center;background:var(--bg-soft);
   border:1px solid var(--line);border-radius:var(--pill);padding:3px;gap:2px;}
-.theme-switch button{border:0;background:transparent;cursor:pointer;width:27px;height:24px;
+.theme-switch button{border:0;background:transparent;cursor:pointer;width:26px;height:22px;
   border-radius:var(--pill);display:flex;align-items:center;justify-content:center;color:var(--muted);}
-.theme-switch button svg{width:14px;height:14px;}
+.theme-switch button svg{width:13px;height:13px;}
 .theme-switch button.active{background:var(--accent);color:var(--accent-ink);}
 .theme-switch button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
 .site-nav__burger{display:none;border:0;background:transparent;color:var(--ink);
@@ -645,7 +649,7 @@ body.blog-searching .blog-pagination {
 .topic-card h3{margin:0 0 6px;font-size:1.15rem;font-weight:700;}
 .topic-card p{margin:0;color:var(--muted);font-size:.95rem;}
 .home-stats{background:var(--band);padding:56px 0;}
-.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center;}
+.stat-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;text-align:center;}
 .stat-n{font-size:2.6rem;font-weight:800;letter-spacing:-.02em;
   background:linear-gradient(90deg,var(--accent),#a78bfa);
   -webkit-background-clip:text;background-clip:text;color:transparent;}
