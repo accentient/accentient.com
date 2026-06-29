@@ -243,3 +243,40 @@ Repo secrets: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`.
 - **TypeScript**: Type checking for Worker code
 - **Vitest**: Test runner for Worker tests
 - **@cloudflare/vitest-pool-workers**: Vitest integration for Cloudflare Workers testing
+
+## Design System & Theme (2026 redesign)
+
+The site was reskinned with a CSS design-token system and a light/dark theme toggle. Design spec + plan live in `docs/superpowers/specs/2026-06-26-site-redesign-design.md` and `docs/superpowers/plans/2026-06-26-site-redesign.md`.
+
+### Tokens & theme
+- **Tokens** live at the top of `assets/css/custom.css` as `[data-theme="light"]` / `[data-theme="dark"]` custom-property blocks. ALL components reference tokens (`var(--accent)`, `--bg`, `--ink`, `--line`, `--card`, `--muted`, `--shadow`, etc.), never raw hex. Brand accent: light `#0078D7` (the logo's Microsoft/Azure blue), dark `#4ea6ff`.
+- **Font:** Inter, set via `[params.font]` in `config.toml` (do not edit `css.html`).
+- **Theme toggle:** light is the default. A no-flash inline script in `baseof.html` `<head>` sets `<html data-theme>` from `localStorage` key `acc-theme` BEFORE paint. `static/js/theme.js` flips the theme + syncs `aria-pressed`. The toggle's active state is driven purely by CSS (`[data-theme="light"] #theme-light{...}`), NOT a JS-added class - this avoids a per-navigation flicker. Don't reintroduce a JS `.active` class for the toggle.
+
+### Navbar (unified)
+- ONE `<header class="site-nav">` is rendered once from `baseof.html` via `partials/navbar.html`. The old triple-navbar setup (inline header + `navbar.html` + `navbar-clone.html`) was removed; `navbar-clone.html` is deleted. Do not re-add per-page navbar includes.
+- The theme toggle markup sits INSIDE `<nav id="nav-links">` so that on mobile (<=860px) it collapses into the hamburger menu; on desktop it shows inline at the right.
+
+### Homepage
+- `layouts/index.html` includes `partials/home/`: `hero.html`, `topics.html`, `customers.html`, `stats.html`. The old autoplay video + student photo are gone.
+- **Stats band** (`home/stats.html`) still has PLACEHOLDER numbers marked `TODO real number` (25+ years, 30+ courses). "2,000+ Teams trained" and "500+ Companies trained" are owner-confirmed. `static/js/stats-counter.js` count-up-animates them on scroll (honors reduced-motion).
+- **Topic-card icons** are inline SVG using `currentColor` (so they theme + invert), EXCEPT the Scrum card, which uses a PNG alpha mask: `.ic-scrum{--ic:url("/images/icons/scrum-sprint.png")}` painted with `background:currentColor` via CSS `mask`. GitHub = official Octicons mark; Azure DevOps = official mark; AI = starburst.
+
+### Customer logo marquee
+- `partials/home/customers.html` holds a Hugo `slice` of `{f: slug, n: "Display Name"}` rendered TWICE (second copy `aria-hidden`) so the `translateX(-50%)` loops seamlessly. Files live in `static/images/customers/` (600x240 transparent PNG tiles).
+- **Order = most-recognizable first** (a phone only shows a few). When adding logos: copy with `cp -n` (skip dupes), splice into the slice by popularity, and VERIFY the rotation matches disk (referenced slugs == files in `static/images/customers/`, no dupes/missing). Bump the `.logo-track` `animation` duration proportionally to logo count so per-logo speed stays constant (~226s for 152 logos).
+- Logos are monochromed via `filter:grayscale(1)` on a light `--logo-band-bg` card (works in both themes), full color on hover. (A `brightness(0)` silhouette was rejected - it flattened detailed logos like Starbucks into blobs.)
+
+### Dark-mode icons & logo
+- Dark monochrome brand marks that vanish on a dark bg are inverted in dark mode via `[data-theme="dark"] img[src$="/images/.../x.png"]{filter:invert(1) brightness(1.25)}` rules in `custom.css` (covers `class.png`, `github.png`, `chatgpt.png`, `scrum-org-logo.png`). New dark monochrome icons need the same treatment or a light variant.
+- The brand wordmark has a light variant `static/images/logo-150-dark.png`; nav + footer swap `.logo-light`/`.logo-dark` by theme.
+
+### Image framing scoped to blog
+- The bordered/drop-shadow frame (and the dark-mode light "matte") apply ONLY to blog post images: `.blog-single .content img:not([icons]):not([courseware])`. Other content pages (courses, scrum, about) show images unframed. Don't widen this back to all `.content img`.
+
+### Blog extras
+- **RSS:** `layouts/blog/rss.xml` is a custom feed template that sets the channel `<title>` to "Accentient" (the Hugo default was "Blog on Accentient"). Autodiscovery `<link>` is in `meta.html`; footer has an RSS icon.
+- **Color blog art:** 36 book-derived posts had B&W figures; they were replaced with color versions from `C:\Blog\... \Professional Scrum Development with Azure DevOps\Content\Images` (matched by perceptual hashing, downscaled to ~1400px). If a post's figure looks wrong, re-match that one.
+
+### Workflow note
+- Per owner preference, work directly on `main` for this repo (no feature branches). Still verify (worker tests, clean `hugo --minify`, no file >25 MiB) and confirm before pushing, since pushing `main` deploys to production.
