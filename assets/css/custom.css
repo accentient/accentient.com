@@ -691,7 +691,7 @@ body.home .footer{border-top:0;margin-top:0;}
 .logo-marquee::before{left:0;background:linear-gradient(90deg,var(--logo-band-bg),transparent);}
 .logo-marquee::after{right:0;background:linear-gradient(270deg,var(--logo-band-bg),transparent);}
 .logo-track{display:flex;align-items:center;width:max-content;
-  animation:logo-scroll 210s linear infinite;}
+  animation:logo-scroll 226s linear infinite;}
 .logo-marquee:hover .logo-track{animation-play-state:paused;}
 /* Fixed trailing margin (not flex gap) so the duplicated half loops seamlessly
    at translateX(-50%). */
