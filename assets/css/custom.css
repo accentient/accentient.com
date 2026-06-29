@@ -658,7 +658,7 @@ body.home .footer{border-top:0;margin-top:0;}
 .topic-ic svg{width:24px;height:24px;}
 /* Mask-based icon: shape comes from a PNG alpha mask, color from the accent
    (currentColor), so it themes and inverts like the inline-SVG icons. */
-.topic-ic .ic-img{display:block;width:26px;height:26px;background:currentColor;
+.topic-ic .ic-img{display:block;width:39px;height:39px;background:currentColor;
   -webkit-mask:var(--ic) center/contain no-repeat;mask:var(--ic) center/contain no-repeat;}
 .ic-scrum{--ic:url("/images/icons/scrum-sprint.png");}
 .topic-card h3{margin:0 0 6px;font-size:1.15rem;font-weight:700;}
