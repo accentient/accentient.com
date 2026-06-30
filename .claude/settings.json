@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "deny": [
+      "Bash(git push *)"
+    ],
+    "allow": [
+      "Bash(hugo)",
+      "Bash(hugo *)",
+      "Bash(npx pagefind *)",
+      "Bash(curl -s -o /dev/null *)"
+    ]
+  }
+}

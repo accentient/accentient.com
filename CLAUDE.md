@@ -11,6 +11,15 @@ Accentient.com is a Hugo-based static website with a Cloudflare Worker backend. 
 - **Content**: Markdown-based content files organized by section (courses, blog posts, pages)
 - **Theme**: Custom layouts and shortcodes extending hugo-fresh base theme
 
+## Permissions (agentic setup)
+
+This repo is configured to run with minimal interruptions, because it is git-protected and the owner works solo on `main`.
+
+- **`.claude/settings.json`** sets `permissions.defaultMode = "bypassPermissions"` with one guardrail: `deny: ["Bash(git push *)"]`. So file edits, builds, scripts, git commits, and file operations run WITHOUT a Y/N prompt. The only prompt that should ever appear is before `git push`, because pushing `main` deploys to production.
+- **`defaultMode` is read at session START.** It does NOT apply to an already-running session, and Claude cannot flip a running session's mode. If prompts are appearing, the session predates the setting: the user must press `Shift+Tab` until the indicator reads "bypass permissions", or restart Claude Code.
+- **`.claude/` is NOT tracked in git** (both `settings.json` and `settings.local.json` are local-only). The setup therefore lives per-machine, not in the repo. Do not assume a fresh clone has it.
+- **Command hygiene to avoid prompts when NOT in bypass mode:** run build/verify commands in plain form (e.g. `hugo --minify --quiet --renderToMemory`). Do NOT wrap them as `cd "..." && hugo ... | tail; echo "${PIPESTATUS[0]}"`. Shell expansions like `${...}`/`$(...)` trigger a "Contains expansion" prompt no allowlist can bypass, and a compound starting with `cd ...` never matches a prefix pattern like `Bash(hugo *)`. The Bash tool already runs in the project root and reports exit status, so the `cd`, pipe, and expansion are unnecessary.
+
 ## Directory Structure
 
 - `config.toml` — Hugo site configuration (navigation, hero, footer params)

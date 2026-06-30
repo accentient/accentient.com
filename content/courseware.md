@@ -19,7 +19,7 @@ Our courseware is created by experts who know how to keep students engaged and l
 - Cloud-hosted labs  
 - Trainer evaluation/prep discount
 
-### Some of our titles
+### Some of our licensable titles
 
 <div class="courseware-grid">
   <a href="/ads/"><img src="/images/courseware/ads2022.cover.jpg" alt="ADS"></a>

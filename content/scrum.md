@@ -115,7 +115,7 @@ Discover excellence in Agile with our Scrum.org Scrum Training. Elevate your ski
 
   <figure>
     <a href="https://www.scrum.org/courses/professional-scrum-master-ai-essentials-training" target="_blank">
-      <img src="/images/scrum/psm-ai.png" alt="PSM-AI" title="Professional Scrum Master Applied AI">
+      <img src="/images/scrum/PSM-AI.png" alt="PSM-AI" title="Professional Scrum Master Applied AI">
       <figcaption>Professional Scrum Master<br>Applied AI</figcaption>
     </a>
   </figure>
@@ -172,7 +172,7 @@ While Accentient is proud to deliver official Scrum.org-certified training, we a
 <img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Scrum for Executives (1 or ½ day)](/s4e/)<br/>
 <img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Scrum for Product Owners (1 day)](/s4po/)<br/>
 <img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Scrum for Stakeholders (1 day)](/s4s/)<br/>
-<img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Delivering Products with Azure DevOps and Scrum (3 days)](/dpads/)<br/>
+<img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Delivering Products Using Azure DevOps and Scrum (3 days)](/dpads/)<br/>
 <img src="/images/icons/class.png" alt="Class" title="Training Class">&nbsp; [Dysfunction Mapping Practitioner Workshop (1 day)](/dmp/)
 
 These courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.

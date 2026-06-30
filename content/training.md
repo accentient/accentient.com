@@ -58,7 +58,7 @@ Our training is crafted by experienced practitioners, for modern software teams.
 |                         | [Scrum for Executives](/s4e/)                                                         | ½ or 1 day | Executives, Directors, Leaders      |
 |                         | [Scrum for Product Owners](/s4po/)                                                    | 1 day      | Product Owners                      |
 |                         | [Scrum for Stakeholders](/s4s/)                                                       | 1 day      | Stakeholders                        |
-|                         | [Delivering Products with Azure DevOps and Scrum](/dpads/)                            | 3 days     | Team                                |
+|                         | [Delivering Products Using Azure DevOps and Scrum](/dpads/)                            | 3 days     | Team                                |
 |                         | [Dysfunction Mapping Practitioner Workshop](/dmp/)                                    | 1 day      | Scrum Masters, Coaches, Leaders     |
      
 All of these courses can be delivered on-site or remotely and customized to align with your team’s tools, structure, and delivery goals.
