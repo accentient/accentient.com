@@ -16,6 +16,9 @@
 # Node.js dependencies (if using npm/yarn for asset pipelines)
 node_modules/
 
+# Private local notes / personal to-do (never publish)
+/.notes/
+
 # OS / Editor files
 .DS_Store
 Thumbs.db
