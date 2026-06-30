@@ -29,13 +29,21 @@ html, body{ background:var(--bg); color:var(--ink);
 /* ===== END TOKENS ===== */
 
 html, body {
-  height: 100%;
   margin: 0;
   padding: 0;
 }
 
+/* html keeps a fixed full height so body's min-height:100% resolves; body uses
+   min-height (NOT height:100%) so it grows with content. A fixed body height
+   caps its box at one viewport, which breaks position:sticky on the navbar -
+   the header would scroll out of view after the first screenful on mobile. */
 html {
+  height: 100%;
   overflow-y: scroll;
+}
+
+body {
+  min-height: 100%;
 }
 
 h1, h2, h3 {
