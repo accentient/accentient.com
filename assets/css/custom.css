@@ -8,6 +8,7 @@
   --radius:13px; --pill:999px;
   --shadow:0 16px 34px rgba(15,23,42,.10);
   --shadow-sm:0 2px 6px rgba(15,23,42,.08);
+  --rk-low:#64748b; --rk-mod:#c98a00; --rk-high:#dd6b20; --rk-crit:#d64550;
   --nav-bg:rgba(255,255,255,.85);
   --logo-band-bg:#ffffff; --logo-band-border:#e7ecf3;
 }
@@ -20,6 +21,7 @@
   --radius:13px; --pill:999px;
   --shadow:0 18px 40px rgba(0,0,0,.5);
   --shadow-sm:0 2px 10px rgba(0,0,0,.4);
+  --rk-low:#94a3b8; --rk-mod:#e0a83a; --rk-high:#f08a4b; --rk-crit:#f76b6b;
   --nav-bg:rgba(10,14,26,.78);
   --logo-band-bg:#f4f6fb; --logo-band-border:#e2e8f1;
 }
@@ -771,3 +773,102 @@ body.home .footer{border-top:0;margin-top:0;}
 .blog-single .title{color:var(--ink);}
 .blog-single small{color:var(--muted);}
 .blog-single small a{color:var(--accent);}
+
+/* ===== RISK MATRIX (WhoOwnsTheCode persona table) =====
+   Desktop: a full table; each risk cell is a focusable segmented bar whose
+   rationale shows as a hover/focus tooltip. Mobile (<900px): the table
+   collapses to stacked persona cards with every rationale visible inline,
+   since touch devices have no hover and the wide table would overflow. */
+.risk-matrix{margin:2rem 0;--rk-off:var(--line);}
+.risk-matrix table{width:100%;border-collapse:collapse;font-size:.9rem;line-height:1.4;}
+/* .content table thead th (Bulma) outranks a plain .risk-matrix thead th, so
+   include `table` in the selector to win the specificity tie and keep the
+   header text white on the dark banner. */
+.risk-matrix table thead th{
+  text-align:left;background:var(--band);color:var(--band-ink);
+  padding:.6rem .7rem;font-weight:600;font-size:.8rem;
+  border-bottom:2px solid var(--line);vertical-align:bottom;
+}
+.risk-matrix table thead th.rk-h{text-align:center;white-space:nowrap;}
+/* column headers carrying a definition tooltip (desktop hover/focus) */
+.risk-matrix thead th.has-tip{position:relative;cursor:help;
+  text-decoration:underline dotted var(--band-muted);text-underline-offset:3px;}
+.risk-matrix thead th.has-tip::after{
+  content:attr(data-tip);
+  position:absolute;left:50%;top:calc(100% + 9px);transform:translateX(-50%);
+  width:min(250px,70vw);padding:.55rem .7rem;border-radius:9px;
+  background:var(--ink);color:var(--bg);font-size:.76rem;font-weight:400;line-height:1.4;
+  text-align:left;white-space:normal;box-shadow:var(--shadow);z-index:30;
+  opacity:0;visibility:hidden;transition:opacity .12s ease;pointer-events:none;
+}
+.risk-matrix thead th.has-tip::before{
+  content:"";position:absolute;left:50%;top:calc(100% + 3px);transform:translateX(-50%);
+  border:6px solid transparent;border-bottom-color:var(--ink);
+  opacity:0;visibility:hidden;transition:opacity .12s ease;z-index:30;
+}
+.risk-matrix thead th.has-tip:hover::after,.risk-matrix thead th.has-tip:focus::after,
+.risk-matrix thead th.has-tip:hover::before,.risk-matrix thead th.has-tip:focus::before{opacity:1;visibility:visible;}
+.risk-matrix tbody td{padding:.6rem .7rem;border-bottom:1px solid var(--line);vertical-align:top;}
+.risk-matrix tbody tr:nth-child(even){background:var(--bg-soft);}
+.risk-matrix td.num{color:var(--muted);font-variant-numeric:tabular-nums;}
+.risk-matrix td.who{white-space:nowrap;}
+.risk-matrix td.rk-cell{text-align:center;}
+
+/* severity token scale (count of filled segments doubles as color) */
+.rk-1{--rk-on:var(--rk-low);}
+.rk-2{--rk-on:var(--rk-mod);}
+.rk-3{--rk-on:var(--rk-high);}
+.rk-4{--rk-on:var(--rk-crit);}
+
+.rk{position:relative;display:inline-flex;flex-direction:column;align-items:center;gap:3px;outline:none;cursor:help;}
+.rk:focus-visible{box-shadow:0 0 0 2px var(--accent);border-radius:6px;}
+.rk-bars{display:inline-flex;gap:2px;}
+.rk-bars i{width:7px;height:13px;border-radius:2px;background:var(--rk-off);}
+.rk-1 .rk-bars i:nth-child(-n+1),
+.rk-2 .rk-bars i:nth-child(-n+2),
+.rk-3 .rk-bars i:nth-child(-n+3),
+.rk-4 .rk-bars i:nth-child(-n+4){background:var(--rk-on);}
+.rk-word{font-size:.7rem;color:var(--muted);letter-spacing:.02em;}
+
+.rk::after{
+  content:attr(data-tip);
+  position:absolute;left:50%;bottom:calc(100% + 9px);transform:translateX(-50%);
+  width:min(250px,60vw);padding:.55rem .7rem;border-radius:9px;
+  background:var(--ink);color:var(--bg);font-size:.76rem;font-weight:400;line-height:1.4;
+  text-align:left;box-shadow:var(--shadow);z-index:30;
+  opacity:0;visibility:hidden;transition:opacity .12s ease;pointer-events:none;
+}
+.rk::before{
+  content:"";position:absolute;left:50%;bottom:calc(100% + 3px);transform:translateX(-50%);
+  border:6px solid transparent;border-top-color:var(--ink);
+  opacity:0;visibility:hidden;transition:opacity .12s ease;z-index:30;
+}
+.rk:hover::after,.rk:focus::after,.rk:hover::before,.rk:focus::before{opacity:1;visibility:visible;}
+
+.risk-legend{margin:1rem 0 0;font-size:.82rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;align-items:center;}
+.risk-legend .swatch{display:inline-flex;gap:2px;margin-right:.4rem;vertical-align:middle;}
+.risk-legend .swatch i{width:7px;height:13px;border-radius:2px;background:var(--rk-off);}
+.risk-legend .rk-1 i:nth-child(-n+1),
+.risk-legend .rk-2 i:nth-child(-n+2),
+.risk-legend .rk-3 i:nth-child(-n+3),
+.risk-legend .rk-4 i:nth-child(-n+4){background:var(--rk-on);}
+
+@media (max-width:899px){
+  .risk-matrix table,.risk-matrix tbody,.risk-matrix tr,.risk-matrix td{display:block;width:100%;}
+  .risk-matrix thead{display:none;}
+  .risk-matrix tbody tr{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    margin:0 0 1rem;padding:.4rem .95rem;box-shadow:var(--shadow-sm);}
+  .risk-matrix tbody tr:nth-child(even){background:var(--card);}
+  .risk-matrix tbody td{border:0;border-bottom:1px solid var(--line);padding:.5rem 0;display:flex;gap:.8rem;text-align:left;}
+  .risk-matrix tbody td:last-child{border-bottom:0;}
+  .risk-matrix td::before{content:attr(data-label);flex:0 0 7.5rem;font-weight:600;color:var(--muted);}
+  .risk-matrix td.num{display:none;}
+  .risk-matrix td.who{white-space:normal;font-size:1.05rem;border-bottom:2px solid var(--line);}
+  .risk-matrix td.who::before{display:none;}
+  .risk-matrix td.rk-cell{text-align:left;}
+  .rk{flex-direction:row;align-items:center;gap:.5rem;cursor:default;flex-wrap:wrap;}
+  .rk::after{position:static;opacity:1;visibility:visible;transform:none;width:100%;flex-basis:100%;
+    background:transparent;color:var(--muted);box-shadow:none;padding:.2rem 0 0;font-size:.82rem;text-align:left;}
+  .rk::before{display:none;}
+}
+/* ===== END RISK MATRIX ===== */
