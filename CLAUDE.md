@@ -286,6 +286,11 @@ The site was reskinned with a CSS design-token system and a light/dark theme tog
 ### Blog extras
 - **RSS:** `layouts/blog/rss.xml` is a custom feed template that sets the channel `<title>` to "Accentient" (the Hugo default was "Blog on Accentient"). Autodiscovery `<link>` is in `meta.html`; footer has an RSS icon.
 - **Color blog art:** 36 book-derived posts had B&W figures; they were replaced with color versions from `C:\Blog\... \Professional Scrum Development with Azure DevOps\Content\Images` (matched by perceptual hashing, downscaled to ~1400px). If a post's figure looks wrong, re-match that one.
+- **Risk-matrix table** (the `.risk-matrix` block at the end of `custom.css`, ~100 lines): a reusable severity-rating table introduced by the `ai-code-ownership-by-persona` post (part of the `WhoOwnsTheCode` tag series). It is authored as raw HTML inside the Markdown, not a shortcode. Conventions to reuse it on another post:
+  - Each rating cell is a `<span class="rk rk-N">` where the class `rk-0`..`rk-4` sets BOTH the fill color and the number of filled segments (0 = None, all bars off; 1 Low, 2 Moderate, 3 High, 4 Critical). Severity colors are the `--rk-low/--rk-mod/--rk-high/--rk-crit` tokens defined per theme at the top of `custom.css`.
+  - Rationale text lives in `data-tip`; on desktop it shows as a hover/focus CSS tooltip (`.rk::after`), and column-header definitions use `thead th.has-tip[data-tip]`. Cells and tipped headers carry `tabindex="0"` so keyboard/focus reveals the tip too.
+  - Mobile (`<=899px`): the table collapses to stacked persona cards via `display:block` + `td::before{content:attr(data-label)}`, and every `data-tip` renders inline (touch has no hover), so each `<td>` needs a `data-label` and each `.rk` its `data-tip`.
+  - The `.risk-matrix table thead th` selector intentionally includes `table` to out-specify Bulma's `.content table thead th`; don't drop it.
 
 ### Workflow note
 - Per owner preference, work directly on `main` for this repo (no feature branches). Still verify (worker tests, clean `hugo --minify`, no file >25 MiB) and confirm before pushing, since pushing `main` deploys to production.
