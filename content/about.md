@@ -12,7 +12,9 @@ For 25 years, Accentient has been a trusted leader in developer enablement, from
       <h3>2026</h3>
       <p>Launches the
       <a href="https://whoownsthecode.com" target="_blank" rel="noopener noreferrer">Who Owns The Code</a>
-      website to raise awareness of AI copyright issues.</p>
+      website to raise awareness of AI copyright issues. Accentient's founder is again named a Microsoft
+      <a href="https://mvp.microsoft.com/en-us/mvp" target="_blank" rel="noopener noreferrer">MVP</a>
+      in DevOps.</p>
     </div>
   </div>
   <div class="timeline-item left">
@@ -179,11 +181,12 @@ For 25 years, Accentient has been a trusted leader in developer enablement, from
 ### About Richard Hundhausen
 
 <div style="overflow: hidden;">
-  <img src="/images/teaching.jpg" alt="Richard teaching" style="float: left; margin: 0 20px 10px 0; max-width: 405px;">
-  <p>Richard Hundhausen is an AI leader helping software development teams adopt agentic AI and accelerate delivery. With over 30 years of experience as a developer, consultant, and trainer, he combines deep expertise in Scrum, DevOps, and modern AI practices to enable teams to work smarter, deliver faster, and continuously improve.</p>
-  
-  <p>He is a Professional Scrum Trainer, the author of <em>Professional Scrum Development with Azure DevOps</em> (Microsoft Press), and was the first Microsoft MVP for Visual Studio Team System. As a co-creator of the Nexus Scaled Scrum framework and a founding contributor to Scrum.org, Richard has trained and coached hundreds of teams worldwide, helping them apply Scrum in real-world, high-stakes environments.</p>
-  
-  <p>You can see the books he has written <a href="https://www.goodreads.com/author/list/286621.Richard_Hundhausen" target="_blank" rel="noopener noreferrer">here</a> and learn more about the #WhoOwnsTheCode initiative <a href="https://whoownsthecode.com" target="_blank" rel="noopener noreferrer">here</a>.</p></p>
-  <blockquote class=”quote”>”Software is built and delivered by people, not by process or tools.” – Richard Hundhausen</blockquote>
+  <img class="bio-photo" src="/images/hundhausen.jpg" alt="Richard Hundhausen">
+  <p>Richard Hundhausen helps software development teams adopt agentic AI and accelerate delivery without losing the discipline that makes them a team. With over 30 years as a developer, consultant, and trainer, he combines deep expertise in Scrum, DevOps, and modern AI practices to help teams work smarter, deliver faster, and continuously improve.</p>
+
+  <p>He is a Professional Scrum Trainer, a Microsoft MVP in DevOps, and the author of <em>Professional Scrum Development with Azure DevOps</em> (Microsoft Press), which has been translated into Japanese, Polish, and Chinese. He received the very first MVP award for Visual Studio Team System back in 2005. As a co-creator of the Nexus Scaled Scrum framework and a founding contributor to Scrum.org, Richard has trained and coached hundreds of teams worldwide, helping them apply Scrum in real-world, high-stakes environments.</p>
+
+  <p>Today he writes and speaks on agentic AI, delivers the Claude Code course series, and leads the #WhoOwnsTheCode initiative, which helps organizations understand who actually owns the code their AI tools write. You can see the books he has written <a href="https://www.goodreads.com/author/list/286621.Richard_Hundhausen" target="_blank" rel="noopener noreferrer">here</a> and learn more about #WhoOwnsTheCode <a href="https://whoownsthecode.com" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+  <blockquote class="quote">"Software is built and delivered by people, not by process or tools." - Richard Hundhausen</blockquote>
 </div>

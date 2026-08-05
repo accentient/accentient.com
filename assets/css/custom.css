@@ -872,3 +872,11 @@ body.home .footer{border-top:0;margin-top:0;}
   .rk::before{display:none;}
 }
 /* ===== END RISK MATRIX ===== */
+
+/* ===== ABOUT PAGE BIO PHOTO ===== */
+/* Square headshot floated beside the bio; stacks and centers on phones so the
+   text column never gets squeezed into a sliver. */
+.bio-photo{float:left;width:260px;max-width:40%;margin:0 1.5rem .75rem 0;border-radius:8px;}
+@media (max-width:600px){
+  .bio-photo{float:none;display:block;width:200px;max-width:60%;margin:0 auto 1rem;}
+}
