@@ -293,4 +293,5 @@ The site was reskinned with a CSS design-token system and a light/dark theme tog
   - The `.risk-matrix table thead th` selector intentionally includes `table` to out-specify Bulma's `.content table thead th`; don't drop it.
 
 ### Workflow note
-- Per owner preference, work directly on `main` for this repo (no feature branches). Still verify (worker tests, clean `hugo --minify`, no file >25 MiB) and confirm before pushing, since pushing `main` deploys to production.
+- Per owner preference, work directly on `main` for this repo (no feature branches).
+- Do NOT commit or push. Leave all changes uncommitted in the working tree; the owner reviews, commits, and pushes. Still verify before handing off (worker tests, clean `hugo --minify`, no file >25 MiB), since pushing `main` deploys to production.
